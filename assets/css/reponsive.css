@@ -534,7 +534,7 @@ a.mission-btn {
   }
   .team-img img {
     width: 200px;
-    height: 121px;
+    height: 181px;
   }
   section.team-sec::after {
     height: 45%;
@@ -949,6 +949,18 @@ a.mission-btn {
 }
 
 @media (max-width: 767px) {
+  .welcom-text h1 span {
+    font-size: 40px;
+    line-height: 60px;
+  }
+    .welcom-text h1 {
+        font-size: 31px;
+    line-height: 40px;
+    }
+    .welcom-text h1 span {
+        font-size: 31px;
+    line-height: 40px;
+    }
   .convention-sec .mission-text {
     margin-top: 70px;
     padding: 0;
@@ -960,8 +972,16 @@ a.mission-btn {
     margin-bottom: 0 !important;
   }
   .primary-sec-rotate {
-    padding: 50px 20px 0 !important;
+    padding: 50px 20px 50px !important;
   }
+  h1.rotate-ourteam {
+    transform: unset;
+    left: 0;
+}
+
+.team-rotate-box {
+    min-height: 42vh;
+}
   .mission-text.mt-set-mb {
     margin-top: 0 !important;
   }

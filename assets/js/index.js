@@ -62,6 +62,20 @@ $(".remove-ok").click(function () {
 });
 
 
+   // Function to remove the cookies area
+   function removeCookiesArea() {
+    document.getElementById('cookies-area').remove();
+    localStorage.setItem('cookiesAccepted', 'true');
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    const cookiesAccepted = localStorage.getItem('cookiesAccepted');
+    if (cookiesAccepted === 'true') {
+        document.getElementById('cookies-area').remove();
+    }
+});
+
+
 // Stop Dropdown
 // const links = document.querySelectorAll(".set-links-loop.dropdown-content a");
 // const yesLink = document.getElementById("yes-link");
