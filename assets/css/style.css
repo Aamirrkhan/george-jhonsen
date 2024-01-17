@@ -1712,7 +1712,7 @@ ul.current-issue-list li {
 .logos-text-magazine {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 50px;
   gap: 14px;
   flex-wrap: wrap;
@@ -2677,7 +2677,7 @@ section.mission-orginiz::after {
 }
 .mission-orginiz-text {
   position: relative;
-  z-index: 9;
+  z-index: 1;
   padding-top: 80px;
 }
 .team-rotate-box {
@@ -2768,6 +2768,7 @@ section.nfs-member-sec {
   padding-top: 120px;
   overflow: hidden;
   position: relative;
+  background-size: cover !IMPORTANT;
 }
 .member-text h1 {
   font-weight: 400;
@@ -2818,7 +2819,7 @@ section.nfs-member-sec {
 section.nfs-member-sec::after {
   content: "";
   width: 100%;
-  height: 82.6%;
+  height: 100%;
   background: #00000054;
   position: absolute;
   top: 0;
@@ -3267,8 +3268,8 @@ ul.list-products-columns li:nth-child(odd) .pro-inner-img {
   font-weight: 400;
   color: #111111;
   line-height: 25px;
-  margin-bottom: 60px;
-  width: 73%;
+  margin-bottom: 30px;
+  width: 90%;
 }
 .place-bid-btn a {
   background: var(--primary-color);
@@ -3625,7 +3626,7 @@ ul.current-issue-list li {
 .logos-text-magazine {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 50px;
   gap: 14px;
   flex-wrap: wrap;
@@ -4367,4 +4368,42 @@ table.table tr td {
 }
 section.sign-in-sec.contact-sec {
   padding: 40px 0 230px;
+}
+section.organiz-banner.resource-banner {
+    padding: 150px 0 100px;
+    background-position: center !important;
+}
+.logo-area  .slick-track {
+    display: flex;
+    align-items: center;
+}
+section.thnks-sec {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 260px 0;
+}
+.thnk-div {
+    text-align: center;
+}
+.thnk-div p {
+    text-align: center !important;
+    width: unset;
+}
+.thnk-div .banner-hd{
+    margin-bottom: 12px;
+}
+.cont-shop-btn.button-sec{
+    margin: 0 auto;
+}
+.thnkyou-sb-title {
+    font-size: 35px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 11px;
+}
+.thnk-header .header {
+    position: unset !important;
+    background: var(--primary-color);
 }

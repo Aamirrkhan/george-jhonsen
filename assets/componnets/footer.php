@@ -9,14 +9,14 @@
                         </div>
                         <div class="footer-nav mb-5">
                             <ul class="d-flex justify-content-between">
-                                <li class="footerlist"><a href="#!">Home</a></li>
-                                <li class="footerlist"><a href="#!">About the NSE</a></li>
-                                <li class="footerlist"><a href="#!">Special Run Sales</a></li>
-                                <li class="footerlist"><a href="#!">The Vault</a></li>
-                                <li class="footerlist"><a href="#!">Conventions</a></li>
-                                <li class="footerlist"><a href="#!">Auctions & Events</a></li>
-                                <li class="footerlist"><a href="#!">The Magazine</a></li>
-                                <li class="footerlist"><a href="#!">Resources</a></li>
+                                <li class="footerlist"><a href=".">Home</a></li>
+                                <li class="footerlist"><a href="./organizational.php">About the NSE</a></li>
+                                <li class="footerlist"><a href="./special-run-sales.php">Special Run Sales</a></li>
+                                <li class="footerlist"><a href="./vault.php">The Vault</a></li>
+                                <li class="footerlist"><a href="./conventions.php">Conventions</a></li>
+                                <li class="footerlist"><a href="./auction.php">Auctions & Events</a></li>
+                                <li class="footerlist"><a href="./magazine.php">The Magazine</a></li>
+                                <li class="footerlist"><a href="./resource.php">Resources</a></li>
                             </ul>
                         </div>
                         <div class="footer-follow">
