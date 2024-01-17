@@ -86,8 +86,8 @@ include './assets/componnets/header.php';
                         <div class="col-10">
                             <h2 class="department-hd text-center">Departments Heads Contact Information</h2>
                             <div class="team-members">
-                                <div class="row">
-                                    <div class="col-md-3 col-12">
+                                <div class="row mobile-cneter-rowe">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="team-box">
                                             <div class="team-img">
                                                 <img src="assets/images/team1.png" class="img-fluid">
@@ -99,7 +99,7 @@ include './assets/componnets/header.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 col-12">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="team-box">
                                             <div class="team-img">
                                                 <img src="assets/images/team2.png" class="img-fluid">
@@ -111,7 +111,7 @@ include './assets/componnets/header.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 col-12">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="team-box">
                                             <div class="team-img">
                                                 <img src="assets/images/team3.png" class="img-fluid">
@@ -123,7 +123,7 @@ include './assets/componnets/header.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 col-12">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="team-box">
                                             <div class="team-img">
                                                 <img src="assets/images/team4.png" class="img-fluid">
@@ -180,7 +180,7 @@ include './assets/componnets/header.php';
             </div>
             <div class="col-xl-11 col-lg-12">
                 <div class="row">
-                <div class="col-md-4 col-12">
+                <div class="col-lg-4 col-md-6 col-12">
                     <div class="special-offer-text">
                         <h1>Special Offerings:</h1>
                         <p>The Special Run department of the NSE produces unique rolling stock, scenery items, and locomotives which are offered to everyone, but members get a discount. Our conventions are available to everyone, but members get a registration discount. Members are the only ones who can sell at Trovestar and participate in our Auctions. Additionally, there are unique N Scale items produced by the Special Run department that are both limited in quantity and only available to current members.</p>
@@ -189,7 +189,7 @@ include './assets/componnets/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8 col-12">
+                <div class="col-lg-8 col-md-6 col-12">
                     <div class="truck-img"><img src="assets/images/orginiz-img3.png"></div>
                 </div>
                 </div>
