@@ -1,4 +1,7 @@
 @media (max-width: 1600px) {
+    .col-lg-6.col-12.bg-gray-light {
+    padding: 22px 0 60px;
+}
   .col-lg-1.col-12.dispaynone {
     display: none;
   }
@@ -65,9 +68,7 @@
   .mission-orginiz-text {
     padding-top: 40px;
   }
-  section.nfs-member-sec::after {
-    height: 84.6%;
-  }
+
   .logos-text-magazine .border-set {
     width: 134px;
   }
@@ -156,7 +157,7 @@
     top: 4%;
   }
   section.galery-convention {
-    padding: 80px 0;
+    padding: 30px 0;
   }
 
 }
@@ -197,9 +198,7 @@
     width: 100%;
     margin-bottom: 8px;
   }
-  section.nfs-member-sec::after {
-    height: 80.6%;
-  }
+
   .special-offer-text h1 {
     font-size: 40px;
   }
@@ -234,9 +233,7 @@
   .special-offer-text p {
     margin-bottom: 18px;
   }
-  section.nfs-member-sec::after {
-    height: 84.5%;
-  }
+
   .member-text {
     margin-bottom: 35px;
   }
@@ -300,6 +297,13 @@
   }
 }
 @media (max-width: 1280px) {
+ .col-lg-6.col-12.bg-gray-light {
+    padding-bottom: 50px;
+}
+    .bg-gray-light {
+    background-color: #f3f3f3;
+    padding-bottom: 40px;
+}
   section.organiz-banner {
     padding: 150px 0;
   }
@@ -317,9 +321,7 @@
   .special-offer-text h1 {
     font-size: 37px;
   }
-  section.nfs-member-sec::after {
-    height: 81.5%;
-  }
+
   .truck-img img {
     transform: translate(10px, 20px) scale(0.9);
   }
@@ -373,7 +375,8 @@
     text-align: center;
   }
   .logo-area li img {
-    width: 60%;
+    width: auto !important;
+    margin: 0 auto;
   }
   .ba-img img {
     width: 83%;
@@ -384,8 +387,25 @@
   }
 }
 @media (max-width: 1202px) {
+  .mail-auct {
+    font-size: 23px;
+  }
+  .auc-email-area h2 {
+    font-size: 20px;
+  }
+  .overflow-table {
+    overflow-x: auto;
+    min-width: 1500px;
+  }
+  .auction-pdf-table {
+    overflow-x: auto;
+  }
+    .bg-gray-light {
+    background-color: #f3f3f3;
+    padding-bottom: 0;
+}
   .viewall-btn {
-    margin-bottom: 70px;
+    margin-bottom: 42px;
 }
 .convention p {
   width: 77% !important;
@@ -438,9 +458,7 @@ a.mission-btn {
     margin-bottom: 18px;
     font-size: 13px;
   }
-  section.nfs-member-sec::after {
-    height: 83.5%;
-  }
+
   .dropbtn {
     font-size: 11px;
   }
@@ -522,6 +540,60 @@ a.mission-btn {
   }
 }
 @media (max-width: 1024px) {
+.date-auct-area {
+    width: 50%;
+    padding: 0px 0 40px 0;
+}
+  .auc-email-area h2 {
+    padding: 20px 0 0 0px;
+  }
+  .auc-email-area {
+    display: block;
+  }
+    .mtl-auction-hd p {
+      font-size: 18px;
+  }
+  .mtl-auction-hd h3 {
+    font-size: 30px;
+  }
+    .auct-hd h2 {
+      font-size: 32px;
+      text-align: center;
+  }
+  .auct-para p {
+    font-size: 18px;
+    text-align: center;
+  }
+      .col-lg-6.col-12.bg-gray-light {
+      padding-bottom: unset;
+  }
+      .primary-sec-rotate.convention {
+      padding-top: 170px;
+  }
+  .convention h1.upcoming-hd {
+
+      margin-bottom: 70px;
+
+  }
+  section.mission-sec.convention-sec {
+      padding: 30px 0 100px 0;
+      
+  }
+      .specialfeature {
+      padding-left: 50px;
+  }
+  section.mission-orginiz::after {
+      content: unset;
+  }
+  .team-img img {
+      width: 200px;
+      height: 120px;
+  }
+.mission-orginiz-text.mission-left-pd {
+    padding-left: 60px;
+    padding-right: 0;
+    padding-top: 0;
+}
     .header .dropdown-content {
       position: unset;
     }
@@ -533,8 +605,8 @@ a.mission-btn {
     line-height: 35px;
   }
   .team-img img {
-    width: 200px;
-    height: 121px;
+    width: 200px !IMPORTANT;
+    height: 121px !important;
   }
   section.team-sec::after {
     height: 45%;
@@ -548,12 +620,11 @@ a.mission-btn {
   .special-offer-text h1 {
     font-size: 30px;
   }
-  section.nfs-member-sec::after {
-    height: 83%;
-  }
+
   .special-offer-text {
     padding-top: 0px;
-    padding-bottom: 95px;
+    padding-bottom: 55px;
+    transform: unset;
   }
   .member-text h1 {
     font-size: 49px;
@@ -634,8 +705,8 @@ a.mission-btn {
     font-size: 17px;
   }
   h1.upcoming-hd {
-    font-size: 70px;
-    margin-bottom: 10px;
+    font-size: 34px;
+    margin-bottom: 0;
   }
   .primary-sec-rotate {
     padding-top: 100px;
@@ -671,7 +742,7 @@ a.mission-btn {
     gap: 9px;
   }
   .mission-orginiz-text h1 {
-    font-size: 38px;
+    font-size: 32px;
   }
   .filteractive.active .list-filter {
     width: 100%;
@@ -705,7 +776,7 @@ a.mission-btn {
     margin-top: -12px;
   }
   .primary-sec-rotate {
-    padding-top: 150px;
+    padding-top: 0;
   }
   h2.convention-hd {
     font-size: 26px;
@@ -722,6 +793,51 @@ a.mission-btn {
   }
 }
 @media (max-width: 768px) {
+  .current-auct p {
+    font-size: 20px;
+  }
+  .current-auct a {
+    font-size: 15px;
+  }
+  .latest-auction-hds p {
+    font-size: 16px;
+}
+.latest-auct-thnk-field strong {
+  font-size: 20px;
+}
+.latest-auction-hds h2 {
+  font-size: 22px;
+}
+section.thnks-sec {
+   
+    padding: 133px 0;
+}
+    .primary-sec-rotate.convention {
+    padding: 50px 50px 0 !IMPORTANT;
+}
+    .convention h1.upcoming-hd {
+    transform: unset;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.primary-sec-rotate p {
+    width: 100% !important;
+}
+.mission-text.mt-set-mb {
+    padding-top: 0;
+}
+
+.primary-sec-rotate.convention {
+    padding-top: 60px;
+}
+section.mission-sec.convention-sec.convention-loca {
+    padding-top: 0 !important;
+}
+    .team-img img {
+    width: 200px !IMPORTANT;
+    height: 180px !important;
+}
   section.organiz-banner.resource-banner {
     padding: 200px 0 120px;
   }
@@ -733,14 +849,14 @@ a.mission-btn {
   }
 
   h1.banner-text span {
-    font-size: 54px;
+    font-size: 45px;
     line-height: 81px;
   }
   section.organiz-banner {
     padding: 150px 0 80px;
   }
   .search-input-field.active input {
-    width: 300px !important;
+    width: 250px !important;
     padding-left: 4px;
   }
   h1.banner-hd {
@@ -874,7 +990,7 @@ a.mission-btn {
     margin-bottom: 10px;
   }
   .resource-img img {
-    width: 47%;
+    width: 100%;
     float: unset;
   }
   .resource-img {
@@ -913,11 +1029,11 @@ a.mission-btn {
     text-align: center;
   }
   .primary-sec-rotate {
-    padding-top: 60px;
+    padding-top: 0;
   }
   h1.upcoming-hd {
     margin-bottom: 0;
-    font-size: 50px;
+    font-size: 38px;
   }
   .primary-sec-rotate p {
     margin: 21px 0 31px !important;
@@ -937,7 +1053,7 @@ a.mission-btn {
   }
   .convention-sec .mission-text {
     margin-top: 0;
-    padding: 0;
+    padding: 50px 0 0;
   }
   section.mission-sec.convention-sec.convention-loca .button-sec {
     margin-bottom: 50px;
@@ -949,6 +1065,53 @@ a.mission-btn {
 }
 
 @media (max-width: 767px) {
+  .mail-auct {
+    font-size: 20px;
+}
+  .latest-auction-hds {
+    padding: 20px 0 0 0;
+}
+    
+.team-box {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.team-text h6 {
+    font-size: 14px;
+    line-height: 24px;
+    width: 48%;
+    margin: 0 auto;
+}
+.team-box {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1.banner-text span {
+    font-size: 36px;
+    line-height: 60px;
+}
+h1.banner-text {
+    font-size: 34.74px;
+}
+.team-img {
+    margin: 0 auto 16px;
+}
+  .welcom-text h1 span {
+    font-size: 40px;
+    line-height: 60px;
+  }
+    .welcom-text h1 {
+        font-size: 31px;
+    line-height: 40px;
+    }
+    .welcom-text h1 span {
+        font-size: 31px;
+    line-height: 40px;
+    }
   .convention-sec .mission-text {
     margin-top: 70px;
     padding: 0;
@@ -960,8 +1123,16 @@ a.mission-btn {
     margin-bottom: 0 !important;
   }
   .primary-sec-rotate {
-    padding: 50px 20px 0 !important;
+    padding: 50px 20px 50px !important;
   }
+  h1.rotate-ourteam {
+    transform: unset;
+    left: 0;
+}
+
+.team-rotate-box {
+    min-height: 42vh;
+}
   .mission-text.mt-set-mb {
     margin-top: 0 !important;
   }
@@ -1075,7 +1246,7 @@ a.mission-btn {
     margin-bottom: 30px !important;
   }
   section.organiz-banner {
-    padding: 70px 0 12px !important;
+    padding: 90px 0 52px !important;
   }
   section.nfs-member-sec {
     padding: 80px 0 70px !important;
@@ -1213,8 +1384,45 @@ a.mission-btn {
   }
 }
 @media (max-width: 480px) {
+    .date-auct-area {
+    width: 100%;
+
+}
+  .current-auct p {
+    font-size: 17px;
+}
+.auct-pdf-excel {
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+    .search-input-field {
+    right: 0px;
+    top: 30px;
+}
+        .convention-welcome h1 {
+    font-size: 44px;
+}
+h2.convention-hd {
+    font-size: 20px;
+    line-height: 28px;
+}
+.shoplist-filter {
+    padding: 0px 0 90px;
+}
+.banner-text-div {
+    top: 60%;
+}
+.team-rotate-box {
+    min-height: 15vh;
+}
+
+    section.mission-orginiz {
+    padding: 50px 14px;
+}
   .mission-text.mt-set-mb {
-    margin-top: -50px !important;
+    /* margin-top: -50px !important; */
   }
   section.nfs-member-sec {
     padding: 60px 0 50px !important;
@@ -1243,10 +1451,7 @@ a.mission-btn {
   .primary-sec-rotate {
     padding: 50px 10px 50px;
   }
-  h2.convention-hd {
-    font-size: 30px;
-    line-height: 37px;
-  }
+
   input.input-field {
     font-size: 14px;
   }
@@ -1274,7 +1479,7 @@ a.mission-btn {
     line-height: 50px;
   }
   h1.banner-text {
-    font-size: 47.74px;
+    font-size: 42.74px;
   }
   .logos-text-magazine .border-set {
     width: 140px;
@@ -1303,12 +1508,15 @@ a.mission-btn {
     margin-top: 23px;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 430px) {
+    .search-input-field.active input {
+    width: 210px !important;
+}
   h1.banner-hd {
     font-size: 32px;
     line-height: 40px;
     margin-bottom: 24px;
-    margin-top: 50px;
+    margin-top: 16px;
   }
   .secondary-hd {
     font-size: 35px;
@@ -1399,7 +1607,8 @@ a.mission-btn {
     height: 78px;
   }
   .mission-orginiz-text h1 {
-    font-size: 34px;
+    font-size: 32px;
+    line-height: 41px;
   }
   .member-text h1 {
     font-size: 23px;
@@ -1436,6 +1645,10 @@ a.mission-btn {
   }
 }
 @media (max-width: 360px) {
+    .convention h1.upcoming-hd {
+    font-size: 40px;
+        
+    }
   .ba-img {
     position: absolute;
     left: 0;
@@ -1456,8 +1669,8 @@ a.mission-btn {
     padding: 40px 10px 50px;
   }
   h2.convention-hd {
-    font-size: 31px;
-    line-height: 42px;
+    font-size: 19px !important;
+    line-height: 29px;
   }
   .counter-vault-content h3 {
     font-size: 22px;
@@ -1495,10 +1708,10 @@ a.mission-btn {
     line-height: 40px;
   }
   h1.banner-text {
-    font-size: 39.74px;
+    font-size: 33.74px;
   }
   h1.banner-text span {
-    font-size: 46px;
+    font-size: 35px;
     line-height: 41px;
   }
   section.organiz-banner.auction-banner {

@@ -287,7 +287,30 @@ a.banner-anchor:hover {
 .specialfeature {
   padding-left: 150px;
 }
+.feature-btn {
+  position: absolute;
+  width: 97%;
+  z-index: 9;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
 
+.feature-btn button {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: none;
+  background: #a91125;
+  color: white;
+}
 /* Mission */
 
 .secondary-hd {
@@ -765,7 +788,7 @@ section.mission-orginiz::after {
 }
 .mission-orginiz-text {
   position: relative;
-  z-index: 9;
+  z-index: 1;
   padding-top: 80px;
 }
 .team-rotate-box {
@@ -774,7 +797,8 @@ section.mission-orginiz::after {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 82vh;
+  min-height: 133vh;
+  
 }
 
 h1.rotate-ourteam {
@@ -796,8 +820,9 @@ h1.rotate-ourteam {
   margin-bottom: 30px;
 }
 .team-img img {
-  width: 240px;
-  height: 290px;
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
 }
 
 .team-img {
@@ -828,16 +853,7 @@ h1.rotate-ourteam {
 section.team-sec {
   position: relative;
 }
-section.team-sec::after {
-  content: "";
-  width: 100%;
-  height: 60%;
-  background: #f3f3f3;
-  position: absolute;
-  left: 0;
-  top: 100px;
-  z-index: -9;
-}
+
 .department-bg-gray {
   padding-top: 156px;
   padding-bottom: 0;
@@ -1712,7 +1728,7 @@ ul.current-issue-list li {
 .logos-text-magazine {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 50px;
   gap: 14px;
   flex-wrap: wrap;
@@ -2677,16 +2693,8 @@ section.mission-orginiz::after {
 }
 .mission-orginiz-text {
   position: relative;
-  z-index: 9;
+  z-index: 1;
   padding-top: 80px;
-}
-.team-rotate-box {
-  background: var(--primary-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 82vh;
 }
 
 h1.rotate-ourteam {
@@ -2707,15 +2715,11 @@ h1.rotate-ourteam {
   color: #4b4c56;
   margin-bottom: 30px;
 }
-.team-img img {
-  width: 240px;
-  height: 290px;
-}
-
 .team-img {
   padding: 10px;
   border: 2px solid #707070;
   margin-bottom: 28px;
+  width: fit-content;
 }
 
 .team-text h4 {
@@ -2743,7 +2747,7 @@ section.team-sec {
 section.team-sec::after {
   content: "";
   width: 100%;
-  height: 60%;
+  height: 77%;
   background: #f3f3f3;
   position: absolute;
   left: 0;
@@ -2767,6 +2771,7 @@ section.nfs-member-sec {
   padding-top: 120px;
   overflow: hidden;
   position: relative;
+  background-size: cover !IMPORTANT;
 }
 .member-text h1 {
   font-weight: 400;
@@ -2817,7 +2822,7 @@ section.nfs-member-sec {
 section.nfs-member-sec::after {
   content: "";
   width: 100%;
-  height: 82.6%;
+  height: 100%;
   background: #00000054;
   position: absolute;
   top: 0;
@@ -3266,8 +3271,8 @@ ul.list-products-columns li:nth-child(odd) .pro-inner-img {
   font-weight: 400;
   color: #111111;
   line-height: 25px;
-  margin-bottom: 60px;
-  width: 73%;
+  margin-bottom: 30px;
+  width: 90%;
 }
 .place-bid-btn a {
   background: var(--primary-color);
@@ -3335,7 +3340,7 @@ ol.auction-list li:hover a {
 .rules-imgstar {
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 110px;
   background: white;
   border-radius: 50%;
   display: flex;
@@ -3360,7 +3365,7 @@ ol.auction-list li:hover a {
   padding: 90px 0 150px 0;
 }
 ol.auction-list {
-  margin-bottom: 50px;
+  margin-bottom: 20px !important;
 }
 section.nfs-member-sec.auction-member::after {
   height: 100%;
@@ -3624,7 +3629,7 @@ ul.current-issue-list li {
 .logos-text-magazine {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 50px;
   gap: 14px;
   flex-wrap: wrap;
@@ -3757,6 +3762,8 @@ section.sign-in-sec {
   border: 1px solid;
   margin-top: 12px;
   font-size: 12px;
+  font-family: var(--Poppins);
+  font-weight: 500;
 }
 .logoform-input label {
   color: var(--primary-color);
@@ -3772,6 +3779,7 @@ section.sign-in-sec {
   padding: 10px 6px;
   outline: none;
   border: 1px solid;
+  font-family: var(--Poppins);
 }
 
 .login-button button {
@@ -4325,8 +4333,8 @@ h3.billing-head {
   color: #a91125;
   margin-bottom: 30px;
 }
-.total.total-area.billing-total table.table tr th,
-table.table tr td {
+.cart-page-change .total.total-area.billing-total table.table tr th,
+.cart-page-change table.table tr td {
   border: 1px solid;
   color: white;
   background: #a91125;
@@ -4366,4 +4374,255 @@ table.table tr td {
 }
 section.sign-in-sec.contact-sec {
   padding: 40px 0 230px;
+}
+section.organiz-banner.resource-banner {
+    padding: 150px 0 100px;
+    background-position: center !important;
+}
+.logo-area  .slick-track {
+    display: flex;
+    align-items: center;
+}
+section.thnks-sec {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 260px 0;
+}
+.thnk-div {
+    text-align: center;
+}
+.thnk-div p {
+    text-align: center !important;
+    width: unset;
+}
+.thnk-div .banner-hd{
+    margin-bottom: 12px;
+}
+.cont-shop-btn.button-sec{
+    margin: 0 auto;
+}
+.thnkyou-sb-title {
+    font-size: 35px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 11px;
+}
+.thnk-header .header {
+    position: unset !important;
+    background: var(--primary-color);
+}
+
+.auction-rule-1 {
+  padding: 50px 0 0 0;
+}
+.auct-hd h2 {
+  padding: 20px;
+  font-size: 45px;
+  font-family: var(--alovethunder);
+  font-weight: 600;
+  text-align: center;
+  color: var(--primary-color);
+}
+.auct-para p {
+  padding: 20px;
+  font-size: 18px;
+  font-family: var(--Poppins);
+  font-weight: 400;
+  line-height: 35px;
+  text-align: center;
+}
+.auct-para p strong {
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 30px 0 0 0;
+}
+.auct-Q {
+  font-size: 30px;
+  font-family: var(--Poppins);
+}
+.auct-para {
+  padding: 30px 20px;
+}
+.auct-pdf-excel {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding: 30px 0;
+}
+.current-auct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 30px 0;
+}
+.current-auct p{
+  font-size: 25px;
+  font-family: var(--Poppins);
+}
+.current-auct a {
+  background: var(--primary-color);
+  padding: 13px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: "Poppins";
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.5s;
+  border: 1px solid var(--primary-color);
+}
+.current-auct a:hover {
+  background: transparent;
+  color: var(--primary-color);
+}
+tr.tbl-head th {
+  border: 1px solid #000;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 15px ;
+  text-align: center;
+  vertical-align: middle;
+}
+tbody.ord-pd-de td {
+  border: 1px solid #000;
+  padding: 15px ;
+  text-align: center;
+  vertical-align: middle;
+}
+.overflow-table {
+  padding: 30px 0 0 0;
+  font-family: var(--Poppins);
+}
+.active-tr a {
+ color: var(--primary-color);
+}
+.prvious-auction-data h2 {
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
+  font-family: var(--Poppins);
+
+}
+.prvious-auction-data {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+    flex-wrap:wrap;
+}
+h1.date-auct-hd {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: var(--primary-color);
+  font-family: var(--alovethunder);
+  font-weight: 600;
+}
+.mtl-auction-hd {
+  text-align: center;
+  padding: 20px 0;
+}
+.mtl-auction-hd h3 {
+  font-size: 35px;
+  padding: 0 0 15px 0;
+  font-family: var(--alovethunder);
+  color: #a91125;
+  font-weight: 600;
+}
+.mtl-auction-hd p {
+  font-size: 20px;
+  font-family: var(--Poppins);
+  line-height: 35px;
+}
+.active-tr img {
+  width: 200px;
+}
+.mtl-auct-area {
+  padding: 30px 0;
+}
+.accordion-button:focus {
+  border-color: white!important;
+  box-shadow: 1px 1px 7px 0px #fff;
+}
+.accordion-button:not(.collapsed) {
+  background: white;
+  color: #000;
+}
+button.accordion-button {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--Poppins);
+  padding: 15px 30px;
+}
+.accordion-body {
+  font-size: 16px;
+  padding: 15px 30px;
+  line-height: 28px;
+  font-family: var(--Poppins);
+}
+div#accordionExample {
+  padding: 30px;
+}
+.auct-copyright{
+  font-family: var(--Poppins);
+}
+.latest-auction-hds h2{
+  font-size: 35px;
+  font-family: var(--alovethunder);
+  color: var(--primary-color);
+  text-align: center;
+}
+.latest-auction-area{
+  padding:20px 0;
+}
+.latest-auction-hds p {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 20px 0 20px;
+  line-height: 30px;
+  font-family: var(--Poppins);
+  font-weight: 500;
+}
+.mail-auct{
+  color: black;
+  font-family: var(--Poppins);
+  font-size: 25px;
+  text-align: center;
+  display: block;
+  padding: 30px 0 0 0;
+}
+.auc-email-area{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  align-items: center;
+}
+.auc-email-area h2{
+  font-size: 25px;
+  padding: 30px 0;
+}
+.auc-email-area a{
+  padding: 30px 0;
+}
+.latest-auction-hds {
+  padding: 40px 0 0 0;
+}
+.auc-alert{
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.latest-auct-thnk-field {
+  padding: 40px 0 30px 0;
+  text-align: center;
+}
+.latest-auct-thnk-field strong {
+  font-size: 30px;
+  font-family: var(--Poppins);
+  font-weight: bolder;
+  text-align: center;
 }

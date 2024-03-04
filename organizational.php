@@ -38,7 +38,36 @@ include './assets/componnets/header.php';
         </div>
     </div>
 </section>
-
+<section class="nfs-member-sec" style="background: url(assets/images/member1.png);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-12">
+                <div class="member-text text-center">
+                    <h1>NSE Membership Benefits:</h1>
+                    <p>Members of the organization are entitled to several benefits. Chief among these are the Member Magazine, the annual Membership Car, access to auctions and sales, and discounts on products and conventions. Our annual membership cars are produced by Micro Trains Line exclusively for the NSE. The value on the secondary market has assured us that, if you choose to sell your car, your membership is pretty much free! Our member magazine comes out 5 times a year and features articles ranging from the construction of unique models, through the history of N Scale manufacturers, the latest in manufacturer releases with photos of the actual products, to many more subjects of N Scale interest. As part of our mission of sharing N Scale knowledge, members who contribute articles that are published in the magazine also receive a very unique Author Car as recognition for their efforts.</p>
+                </div>
+            </div>
+            <div class="col-xl-11 col-lg-12">
+                <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="special-offer-text">
+                        <h1>Special Offerings:</h1>
+                        <p>The Special Run department of the NSE produces unique rolling stock, scenery items, and locomotives which are offered to everyone, but members get a discount. Our conventions are available to everyone, but members get a registration discount. Members are the only ones who can sell at Trovestar and participate in our Auctions. Additionally, there are unique N Scale items produced by the Special Run department that are both limited in quantity and only available to current members.</p>
+                        <div class="mission-btn">
+                            <a class="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6 col-12">
+                    <div class="truck-img">
+                        <img src="assets/images/orginiz-img3.png">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="gray-sec">
     <div class="container">
         <div class="row">
@@ -86,8 +115,8 @@ include './assets/componnets/header.php';
                         <div class="col-10">
                             <h2 class="department-hd text-center">Departments Heads Contact Information</h2>
                             <div class="team-members">
-                                <div class="row">
-                                    <div class="col-md-3 col-12">
+                                <div class="row mobile-cneter-rowe">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="team-box">
                                             <div class="team-img">
                                                 <img src="assets/images/team1.png" class="img-fluid">
@@ -99,7 +128,7 @@ include './assets/componnets/header.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 col-12">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="team-box">
                                             <div class="team-img">
                                                 <img src="assets/images/team2.png" class="img-fluid">
@@ -111,7 +140,7 @@ include './assets/componnets/header.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 col-12">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="team-box">
                                             <div class="team-img">
                                                 <img src="assets/images/team3.png" class="img-fluid">
@@ -123,7 +152,7 @@ include './assets/componnets/header.php';
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 col-12">
+                                    <div class="col-lg-3 col-md-6 col-12">
                                         <div class="team-box">
                                             <div class="team-img">
                                                 <img src="assets/images/team4.png" class="img-fluid">
@@ -136,6 +165,95 @@ include './assets/componnets/header.php';
                                         </div>
                                     </div>
 
+                                </div>
+                                <div class="row mobile-cneter-rowe">
+                                    <div class="col-lg-3 col-md-6 col-12">
+                                        <div class="team-box">
+                                            <div class="team-img">
+                                                <img src="assets/images/Doug.jpg" class="img-fluid">
+                                            </div>
+                                            <div class="team-text">
+                                                <h5><span>Department:</span> E</h5>
+                                                <h4>Doug Hickman</h4>
+                                                <h6>Director of Auctions</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-12">
+                                        <div class="team-box">
+                                            <div class="team-img">
+                                                <img src="assets/images/Eleanor1.jpg" class="img-fluid">
+                                            </div>
+                                            <div class="team-text">
+                                            <h5><span>Department:</span> F </h5>
+                                                <h4>Eleanor Armstrong</h4>
+                                                <h6>Director of Membership</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-12">
+                                        <div class="team-box">
+                                            <div class="team-img">
+                                                <img src="assets/images/collin.jpg" class="img-fluid">
+                                            </div>
+                                            <div class="team-text">
+                                            <h5><span>Department:</span> G </h5>
+                                                <h4>Collin Reinhart</h4>
+                                                <h6>NSE Associate Editor</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-12">
+                                        <div class="team-box">
+                                            <div class="team-img">
+                                                <img src="assets/images/Eric.jpg" class="img-fluid">
+                                            </div>
+                                            <div class="team-text">
+                                            <h5><span>Department:</span> H </h5>
+                                                <h4>Eric Smith</h4>
+                                                <h6>Director/Secretary</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row mobile-cneter-rowe">
+                                    <div class="col-lg-3 col-md-6 col-12">
+                                        <div class="team-box">
+                                            <div class="team-img">
+                                                <img src="assets/images/Jon1.jpg" class="img-fluid">
+                                            </div>
+                                            <div class="team-text">
+                                                <h5><span>Department:</span> E</h5>
+                                                <h4>Jon Monsein</h4>
+                                                <h6>Director for Infrastructure Services</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-12">
+                                        <div class="team-box">
+                                            <div class="team-img">
+                                                <img src="assets/images/David.jpg" class="img-fluid">
+                                            </div>
+                                            <div class="team-text">
+                                            <h5><span>Department:</span> F </h5>
+                                                <h4>David Kaplan</h4>
+                                                <h6>NSE Director Convention Sponsor Coordinator</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-12">
+                                        <div class="team-box">
+                                            <div class="team-img">
+                                                <img src="assets/images/Skip1.jpg" class="img-fluid">
+                                            </div>
+                                            <div class="team-text">
+                                            <h5><span>Department:</span> G </h5>
+                                                <h4>Skip Hayes</h4>
+                                                <h6>NSE - NTrak Adviser</h6>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="mission-btn department">
@@ -169,34 +287,7 @@ include './assets/componnets/header.php';
         </div>
     </div>
 </section>
-<section class="nfs-member-sec" style="background: url(assets/images/member1.png);">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-12">
-                <div class="member-text text-center">
-                    <h1>NSE Membership Benefits:</h1>
-                    <p>Members of the organization are entitled to several benefits. Chief among these are the Member Magazine, the annual Membership Car, access to auctions and sales, and discounts on products and conventions. Our annual membership cars are produced by Micro Trains Line exclusively for the NSE. The value on the secondary market has assured us that, if you choose to sell your car, your membership is pretty much free! Our member magazine comes out 5 times a year and features articles ranging from the construction of unique models, through the history of N Scale manufacturers, the latest in manufacturer releases with photos of the actual products, to many more subjects of N Scale interest. As part of our mission of sharing N Scale knowledge, members who contribute articles that are published in the magazine also receive a very unique Author Car as recognition for their efforts.</p>
-                </div>
-            </div>
-            <div class="col-xl-11 col-lg-12">
-                <div class="row">
-                <div class="col-md-4 col-12">
-                    <div class="special-offer-text">
-                        <h1>Special Offerings:</h1>
-                        <p>The Special Run department of the NSE produces unique rolling stock, scenery items, and locomotives which are offered to everyone, but members get a discount. Our conventions are available to everyone, but members get a registration discount. Members are the only ones who can sell at Trovestar and participate in our Auctions. Additionally, there are unique N Scale items produced by the Special Run department that are both limited in quantity and only available to current members.</p>
-                        <div class="mission-btn">
-                            <a class="">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8 col-12">
-                    <div class="truck-img"><img src="assets/images/orginiz-img3.png"></div>
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <?php
 include './assets/componnets/newsletter.php';
 include './assets/componnets/footer.php';

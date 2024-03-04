@@ -86,9 +86,10 @@
                   <div class="dropdown">
                     <a href="./auction.php"><button class="dropbtn">Auctions & Events</button></a><i class="fa-solid fa-angle-down"></i>
                     <div class="dropdown-content">
-                      <a href="#">Auctions & Events 1</a>
-                      <a href="#">Auctions & Events 2</a>
-                      <a href="#">Auctions & Events 3</a>
+                      <a href="latest-auction.php">LATEST AUCTION</a>
+                      <a href="auction-rule-main.php">AUCTION RULES</a>
+                      <a href="previous-auction.php">PREVIOUS AUCTION</a>
+                      <a href="mtl-stock.php">MTL STOCK NUMBERS</a>
                     </div>
                   </div>
                   </a>
@@ -139,13 +140,13 @@
                     </div>
                     <button type="button" class="remove-search"><i class="fa-solid fa-xmark"></i></button>
                   </div> -->
-                  <!-- <div class="search-input-field">
+                  <div class="search-input-field">
                     <input type="text" placeholder="Search here..."> <button type="button" class="remove-search"><i class="fa-solid fa-xmark"></i></button>
-                  </div> -->
+                  </div>
                 </form>
               </div>
               <button type="button" class="user-btn">
-                <a href="./signin.php" class="text-white"><i class="fa-solid fa-user"></i></a>
+                <a href="./signup.php" class="text-white"><i class="fa-solid fa-user"></i></a>
               </button>
               <button type="button" class="user-btn">
                 <a href="./cart.php" class="text-white position-relative"><i class="fa-solid fa-cart-shopping"></i> <span class="counter">01</span></a>
