@@ -34,21 +34,17 @@ $(".pro-gallery-slider").slick({
   ],
 });
 
-
 var slider = tns({
-	arrowKeys: true,
-	container: ".js-sliderImageViewer",
-	controls: false,
-	loop: false,
-	mouseDrag: true,
-	navContainer: ".js-imageViewerNav",
+  arrowKeys: true,
+  container: ".js-sliderImageViewer",
+  controls: false,
+  loop: false,
+  mouseDrag: true,
+  navContainer: ".js-imageViewerNav",
 });
 
-
-    $(document).ready(function() {
-        $(".o-slider-image-viewer__slide a").fancybox({
-            // Options here
-            loop: true, // To loop through images
-            // Any other options you want to set
-        });
-    });
+$(document).ready(function () {
+  $(".o-slider-image-viewer__slide a").fancybox({
+    loop: true, 
+  });
+});
