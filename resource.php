@@ -51,9 +51,18 @@ include './assets/componnets/header.php';
                         <label class="w-100 mb-2"> List of Staff
                             </label>
                             <select class="select w-100">
-                                <option value="value1">List of staff</option>
-                                <option value="value1">List of staff</option>
-                                <option value="value2">List of staf</option>
+                                <option value="value1">List Of Staff</option>
+                                <option value="value1">George Johnsen</option>
+                                <option value="value2">Paul Graf</option>
+                                <option value="value3">Fred Hoxsie</option>
+                                <option value="value4">Doug Hickman</option>
+                                <option value="value5">Dick Ollendorf</option>
+                                <option value="value6">Eleanor Armstrong</option>
+                                <option value="value7">Collin Reinhart</option>
+                                <option value="value8">Eric Smith</option>
+                                <option value="value9">Jon Monsein</option>
+                                <option value="value10">David Kaplan</option>
+                                <option value="value11">Skip Hayes</option>
                             </select>
                         </div>
                     </div>

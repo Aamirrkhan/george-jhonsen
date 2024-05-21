@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="assets/css/slick.css" />
   <link rel="stylesheet" href="assets/css/reponsive.css" />
+  <link rel="stylesheet" href="assets/css/splide.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -86,9 +87,10 @@
                   <div class="dropdown">
                     <a href="./auction.php"><button class="dropbtn">Auctions & Events</button></a><i class="fa-solid fa-angle-down"></i>
                     <div class="dropdown-content">
-                      <a href="#">Auctions & Events 1</a>
-                      <a href="#">Auctions & Events 2</a>
-                      <a href="#">Auctions & Events 3</a>
+                      <a href="latest-auction.php">LATEST AUCTION</a>
+                      <a href="auction-rule-main.php">AUCTION RULES</a>
+                      <a href="previous-auction.php">PREVIOUS AUCTION</a>
+                      <a href="mtl-stock.php">MTL STOCK NUMBERS</a>
                     </div>
                   </div>
                   </a>
@@ -139,13 +141,13 @@
                     </div>
                     <button type="button" class="remove-search"><i class="fa-solid fa-xmark"></i></button>
                   </div> -->
-                  <!-- <div class="search-input-field">
+                  <div class="search-input-field">
                     <input type="text" placeholder="Search here..."> <button type="button" class="remove-search"><i class="fa-solid fa-xmark"></i></button>
-                  </div> -->
+                  </div>
                 </form>
               </div>
               <button type="button" class="user-btn">
-                <a href="./signin.php" class="text-white"><i class="fa-solid fa-user"></i></a>
+                <a href="./signup.php" class="text-white"><i class="fa-solid fa-user"></i></a>
               </button>
               <button type="button" class="user-btn">
                 <a href="./cart.php" class="text-white position-relative"><i class="fa-solid fa-cart-shopping"></i> <span class="counter">01</span></a>

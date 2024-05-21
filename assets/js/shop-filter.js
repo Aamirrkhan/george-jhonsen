@@ -70,4 +70,3 @@ checkboxes.forEach(function(checkbox) {
         });
     });
 });
-

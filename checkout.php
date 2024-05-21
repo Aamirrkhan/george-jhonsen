@@ -216,7 +216,7 @@
                                     <div class="border-0">
                                         <div class="row align-items-center">
                                             <div class="checkout-btn">
-                                                <a href="">Place Order</a>
+                                                <a href="./thankyou.php">Place Order</a>
                                             </div>
                                         </div>
                                     </div>

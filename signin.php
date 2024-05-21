@@ -41,47 +41,11 @@ include 'assets/componnets/header.php';
                         </div>
                     </div>
                     <div class="col-12">
-                        <div class="logoform-input">
-                            <select class="select w-100">
-                                <option value="value1">Member</option>
-                                <option value="value1">Returning Non - Member</option>
-                                <option value="value2">Guest</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="logoform-input">
-                            <label for="Member Name" class="w-100"> Member Name
-                                <input type="text" placeholder="" class="w-100 login-fields">
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="logoform-input">
-                            <label for="Password" class="w-100"> Password
-                                <input type="password" placeholder="" class="w-100 login-fields">
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="logoform-input">
-                            <label for="Non - Member Name" class="w-100"> Non- Member Name
-                                <input type="text" placeholder="" class="w-100 login-fields">
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="logoform-input">
-                            <label for="Password" class="w-100"> Password
-                                <input type="password" placeholder="" class="w-100 login-fields">
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="login-button text-center">
+                        <div class="login-button mb-3">
                             <button type="submit">Sign In</button>
-                            <a href="./forget-password.php">Forget Password</a>
+                              <a href="./signup.php" class=""><button type="submit">Sign up</button></a>
                         </div>
+                           <a href="./forget-password.php">Forget Password</a>
                     </div>
                 </div>
             </div>
