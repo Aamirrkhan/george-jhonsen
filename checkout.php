@@ -1,161 +1,117 @@
-<div class="cart-page-change">
     <?php
     include 'assets/componnets/header.php';
     ?>
-    <!-- <section class="organiz-banner" style="background: url(assets/images/banner3.png);">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="banner-inner-dev">
-                    <h1 class="banner-text">
-                        SHOPPING <span class="primary-color">CART</span>
-                    </h1>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
+    <section class="organiz-banner auction-banner" style="background: url(assets/images/banner-product-page.png); padding: 60px !important;"></section>
 
     <section class="cart-sec">
         <div class="container">
             <form action="">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center ">
                     <div class="col-10">
                         <div class="cart-head mb-4">
-                            <h1 class="cart-text">
-                                Checkout
-                            </h1>
+                            <h1 class="cart-text">Checkout</h1>
+                            
                         </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <h3 class="billing-head">Billing Details</h3>
-                            </div>
-                            <div class="col-lg-8 col-md-6 col-12 mb-3">
+                        <div class="cart-head mb-4">
+                            <p>Returning customer? <a href="signin.php">Click here to login</a></p>
+                        </div>
+                        <div class="row justify-content-between">
+                            <div class="col-lg-3 col-md-6 col-12 mb-3">
                                 <div class="billing-detail">
                                     <div class="row">
-                                        <div class="col-md-6 col-12 mb-3">
-                                            <div class="input-fields-billing">
-                                                <label for="">Full Name</label>
-                                                <input type="text" placeholder="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-12 mb-3">
-                                            <div class="input-fields-billing">
-                                                <label for="">Last Name</label>
-                                                <input type="text" placeholder="">
-                                            </div>
+                                        <div class="col-12 mb-3">
+                                            <h4 class="checkout-head">SHIPPING DETAILS</h4>
+                                            <p class="checout-required"><span class="start-required">*</span> required fields</p>
                                         </div>
                                         <div class="col-12 mb-3">
-                                            <div class="input-fields-billing">
-                                                <label for="">Country / Region</label>
-                                                <select>
-                                                    <option value="0">Select car</option>
-                                                    <option value="1">Audi</option>
-                                                    <option value="2">BMW</option>
-                                                </select>
-                                            </div>
+                                            <label class="checkout-label">Full Name <span class="start-required">*</span></label>
+                                            <input type="text" placeholder="" required class="checkout-fields">
                                         </div>
                                         <div class="col-12 mb-3">
-                                            <div class="input-fields-billing">
-                                                <label for="">State</label>
-                                                <select>
-                                                    <option value="0">State</option>
-                                                    <option value="1">State</option>
-                                                    <option value="2">State</option>
-                                                </select>
-                                            </div>
+                                            <label class="checkout-label">Country <span class="start-required">*</span></label>
+                                            <select name="Country" id="Country" class="checkout-fields">
+                                                <option value="Country">Country</option>
+                                                <option value="Country">Country</option>
+                                                <option value="Country">Country</option>
+                                                <option value="Country">Country</option>
+                                            </select>
                                         </div>
+                                        <div class="col-12 mb-3 clone-dive">
+                                            <label class="checkout-label">Street Address <span class="start-required">*</span></label>
+                                            <input type="text" id="index-1" placeholder="" required class="checkout-fields mb-3">
+                                            <input type="text" id="index-2" placeholder="" required class="checkout-fields">
+                                        </div>
+                                        <button type="button" class="addition-address mb-4" onclick="cloneAndModify()">+ Add another address field (optional)</button>
                                         <div class="col-12 mb-3">
-                                            <div class="input-fields-billing">
-                                                <label for="">Street Address </label>
-                                                <input type="text" placeholder="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-12 mb-3">
-                                            <div class="input-fields-billing">
-                                                <label for="">Postcode </label>
-                                                <input type="text" placeholder="">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-12 mb-3">
-                                            <div class="input-fields-billing">
-                                                <label for="">Phone </label>
-                                                <input type="tel" placeholder="">
-                                            </div>
-                                        </div>
-                                        <div class="col-12 mb-3">
-                                            <div class="input-fields-billing">
-                                                <label for="">Email </label>
-                                                <input type="email" placeholder="">
-                                            </div>
-                                        </div>
-                                        <div class="col-12 mb-3">
-                                            <div class="input-fields-billing">
-                                                <label for="">Order Notes </label>
-                                                <textarea name="" id="" rows="5"></textarea>
+                                            <label class="checkout-label">Postcode / ZIP <span class="start-required">*</span></label>
+                                            <div class="d-flex align-items-center gap-3">
+                                                <input type="text" placeholder="" required class="checkout-fields w-50">
+                                                <p class="zipcode-text">Enter ZIP for City & State</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-
+                            <div class="col-lg-3 col-md-6 col-12 mb-3">
+                                <div class="billing-detail">
+                                    <div class="row">
+                                        <div class="col-12 mb-3">
+                                            <h4 class="checkout-head">CONTACT INFORMATION</h4>
+                                            <p class="checout-required"><span class="start-required">*</span> required fields</p>
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label class="checkout-label">Email <span class="start-required">*</span></label>
+                                            <input type="email" placeholder="" required class="checkout-fields">
+                                        </div>
+                                        <div class="col-12 mb-3">
+                                            <label class="checkout-label">Phone <span class="start-required">*</span></label>
+                                            <input type="tel" placeholder="" required class="checkout-fields">
+                                        </div>
+                                        <div class="col-12 mb-5">
+                                            <h4 class="checkout-head">BILLING DETAILS</h4>
+                                            <input type="checkbox" id="Same" name="Same" value="Same">
+                                            <label for="Same" class="checkout-label" style="cursor: pointer;">Same as shipping address</label><br>
+                                        </div>
+                                        <div class="col-12 mb-5">
+                                            <h4 class="checkout-head">ADDITIONAL OPTIONS</h4>
+                                            <button type="button" class="addition-address mb-4 p-0">+ Add a note to this order</button>
+                                            <button type="button" class="addition-address mb-4 p-0">+ Apply a coupon code</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                             <div class="col-lg-4 col-md-6 col-12">
+                                <h4 class="checkout-head">YOUR ORDER</h4>
                                 <div class="total total-area billing-total">
-                                    <div class="totalarea-line">
-                                        <div class="row align-items-center">
-                                            <div class="col-12">
-                                                <table class="table">
-                                                    <thead>
-                                                        <tr>
-                                                            <th scope="col">Name</th>
-                                                            <th scope="col">Quantity</th>
-                                                            <th scope="col">Price</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody id="tbody">
-                                                        <tr>
-                                                            <td class="pro-name-tb">Music City Express</td>
-                                                            <td>1</td>
-                                                            <td>$60</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="pro-name-tb">City Express</td>
-                                                            <td>10</td>
-                                                            <td>$60</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
+                                    <div class="totalarea-linez">
                                         <div class="totalarea-line">
                                             <div class="row align-items-center">
                                                 <div class="col-6">
-                                                    <h4>Subtotal</h4>
+                                                    <h4>PRODUCT</h4>
                                                 </div>
                                                 <div class="col-6">
-                                                    <p class="float-end">$1,400</p>
+                                                    <p class="float-end">TOTAL</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="totalarea-line">
                                             <div class="row align-items-center">
                                                 <div class="col-6">
-                                                    <h4>10% off any purchase over $500</h4>
+                                                    <h4>Basic × 1</h4>
                                                 </div>
                                                 <div class="col-6">
-                                                    <p class="float-end">$140</p>
+                                                    <p class="float-end">$23.88</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="totalarea-line">
                                             <div class="row align-items-center">
                                                 <div class="col-6">
-                                                    <h4>Shipping</h4>
+                                                    <h4>SHIPPING</h4>
                                                 </div>
                                                 <div class="col-6">
-                                                    <p class="float-end">Free</p>
+                                                    <p class="float-end">FREE SHIPPING</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -169,10 +125,10 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="totalarea-line">
+                                        <div class="totalarea-line border-bottom-none">
                                             <div class="row align-items-center">
                                                 <div class="col-6 mb-3">
-                                                    <h4>Payment method</h4>
+                                                    <h4 class="checkout-head">Payment method</h4>
                                                 </div>
                                                 <div class="col-12 mb-3">
                                                     <div class="payment-lable">
@@ -192,7 +148,7 @@
                                                             <div class="col-12">
                                                                 <div class="input-fields-billing">
                                                                     <label for="">Card Number </label>
-                                                                    <input type="" placeholder="">
+                                                                    <input class="card-number-validation" type="" placeholder="">
                                                                 </div>
                                                             </div>
                                                             <div class="col-lg-6 col-12">
@@ -209,6 +165,19 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button class="paypal-btn">
+                                                        <div class="d-flex align-items-center justify-content-between mb-2 paypal-icon">
+                                                            <p><i class="fa-regular fa-circle"></i> Paypal</p>
+                                                            <img src="assets/images/paypal.png" alt="" srcset="">
+                                                        </div>
+                                                        <p class="paypal-prara">You can pay with your credit card if you don’t have a PayPal account.</p>
+                                                    </button>
+                                                </div>
+                                                <div class="col-12 mt-3">
+                                                    <input type="checkbox" id="website" name="website" value="website">
+                                                    <label for="website" class="checkout-label terms-checkout-checkbox" style="cursor: pointer;">I have read and agree to the website terms and conditions</label><br>
                                                 </div>
                                             </div>
                                         </div>
@@ -234,4 +203,20 @@
     include 'assets/componnets/footer.php';
     ?>
     <script src="assets/js/cart.js"></script>
-</div>
+    <script>
+        function cloneAndModify() {
+            var originalDiv = document.querySelector('.clone-dive');
+            var cloneDiv = originalDiv.cloneNode(true);
+
+            var inputs = cloneDiv.querySelectorAll('input');
+            inputs.forEach(function(input, index) {
+                var originalId = input.id;
+                var parts = originalId.split('-');
+                var newIndex = parseInt(parts[1]) + 1;
+                input.id = parts[0] + '-' + newIndex;
+                input.value = '';
+            });
+
+            originalDiv.parentNode.insertBefore(cloneDiv, document.querySelector('.addition-address'));
+        }
+    </script>

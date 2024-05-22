@@ -43,6 +43,42 @@ include 'assets/componnets/header.php';
                                     </div>
                                 </td>
                             </tr>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img src="assets/images/resource3.png" class="cart-img">
+                                        <div class="text-left">
+                                            <p class="span-text">Lorem Ipsum</p>
+                                            <p class="product-title">Lorem Ipsum Dummy</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>$48.50</td>
+                                <td><input type="number" placeholder="1" min="0"></td>
+                                <td>
+                                    <div class="d-flex align-items-center justify-content-evenly">
+                                        <button class="trash-tbn action-btn"><i class="fa-regular fa-circle-xmark"></i></button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <img src="assets/images/resource3.png" class="cart-img">
+                                        <div class="text-left">
+                                            <p class="span-text">Lorem Ipsum</p>
+                                            <p class="product-title">Lorem Ipsum Dummy</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>$48.50</td>
+                                <td><input type="number" placeholder="1" min="0"></td>
+                                <td>
+                                    <div class="d-flex align-items-center justify-content-evenly">
+                                        <button class="trash-tbn action-btn"><i class="fa-regular fa-circle-xmark"></i></button>
+                                    </div>
+                                </td>
+                            </tr>
 
                         </tbody>
                     </table>
@@ -55,30 +91,50 @@ include 'assets/componnets/header.php';
                                 <div class="totalarea-line">
                                     <div class="row align-items-center">
                                         <div class="col-6">
-                                            <h4>Subtotal</h4>
+                                            <h4>SUB TOTAL</h4>
                                         </div>
                                         <div class="col-6">
-                                            <p class="float-end">$20.00</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="totalarea-line">
-                                    <div class="row align-items-center">
-                                        <div class="col-6">
-                                            <h4>Shipping</h4>
-                                        </div>
-                                        <div class="col-6">
-                                            <p class="float-end">$102.00</p>
+                                            <p class="float-end">$599.99</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="totalarea-line">
                                     <div class="row align-items-center">
                                         <div class="col-6">
-                                            <h4>Total</h4>
+                                            <h4>Basic × 1</h4>
                                         </div>
                                         <div class="col-6">
-                                            <p class="float-end">$122.00</p>
+                                            <p class="float-end">$599.99</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="totalarea-line">
+                                    <div class="row align-items-center">
+                                        <div class="col-6">
+                                            <h4>SHIPPING</h4>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="float-end">FREE SHIPPING</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="totalarea-line">
+                                    <div class="row align-items-center">
+                                        <div class="col-6">
+                                            <h4>SALES</h4>
+                                        </div>
+                                        <div class="col-6">
+                                            <h4 class="float-end">$23</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="totalarea-line border-none">
+                                    <div class="row align-items-center">
+                                        <div class="col-6">
+                                            <h4>COUPON</h4>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="float-end">ADD</p>
                                         </div>
                                     </div>
                                 </div>
