@@ -113,10 +113,10 @@ include './assets/componnets/header.php';
                                     <button type="button" class="custom-bid">Custom Bid</button>
                                 </div>
                                 <div class="buynow-btn">
-                                    <a href="cart.php" class="custom-bid">Buy Now</a>
+                                    <a href="checkout.php" class="custom-bid">Buy Now</a>
                                 </div>
                             </div>
-                            <h6 class="auc-primary"><span>(Enter more than or equal to :<span>$600.00</span>)</span></h6>
+                            <h6 class="auc-primary"><span>(Enter more than or equal to:<span> $600.00</span>)</span></h6>
                         </div>
                     </div>
                 </div>
