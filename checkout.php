@@ -16,7 +16,7 @@
                             <p>Returning customer? <a href="signin.php">Click here to login</a></p>
                         </div>
                         <div class="row justify-content-between">
-                            <div class="col-lg-3 col-md-6 col-12 mb-3">
+                            <!-- <div class="col-lg-3 col-md-6 col-12 mb-3">
                                 <div class="billing-detail">
                                     <div class="row">
                                         <div class="col-12 mb-3">
@@ -79,9 +79,9 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
-                            <div class="col-lg-4 col-md-6 col-12">
+                            <div class="col-12">
                                 <h4 class="checkout-head">YOUR ORDER</h4>
                                 <div class="total total-area billing-total">
                                     <div class="totalarea-linez">
