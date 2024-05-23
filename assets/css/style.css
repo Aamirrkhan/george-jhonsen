@@ -765,6 +765,7 @@ section.organiz-banner:before {
 
 .banner-inner-dev {
   position: relative;
+  text-align: center;
 }
 
 h1.banner-text {
@@ -1450,15 +1451,10 @@ body .auction-banner {
   padding: 300px 0 290px !important;
   background-position: bottom center !important;
 }
-img.bid-icon-set {
-  position: absolute;
-  right: 5px;
-  top: 10px;
-}
 .startbidding-head {
   font-size: 22px;
   line-height: 1.5;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   color: black;
 }
 
@@ -1535,10 +1531,8 @@ img.bid-icon-set {
   transition: 0.5s;
   border: 1px solid var(--primary-color);
 }
-.acutionplace-bid-btn {
-  margin: 40px 0 0 0;
-}
-.acutionplace-bid-btn a {
+
+/* .acutionplace-bid-btn a {
   background: transparent;
   padding: 13px 40px;
   font-size: 20px;
@@ -1554,6 +1548,39 @@ img.bid-icon-set {
   background: var(--primary-color);
   border: 1px solid var(--primary-color);
   color: white;
+} */
+.acutionplace-bid-btn a {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  border-radius: 11px;
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+  height: 55px;
+  text-align: center;
+}
+.bg-gray {
+  background-color: #707070 !important;
+}
+.acutionplace-bid-btn {
+  display: flex;
+  align-items: center;
+}
+
+.acutionplace-bid-btn span {
+  background: #ffffff;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  border-radius: 80px;
+  position: relative;
+  width: 59px;
+  display: flex;
+  z-index: 9999;
+  margin: 0 -24px;
 }
 .aution-img {
   margin-bottom: -3px;
@@ -1717,21 +1744,25 @@ ul.pro-unorderlist {
 
 .product-list {
   background: #fff;
-  margin: 0 10px;
-  box-shadow: 0px 5px 24px 0 #00000029;
-  margin-bottom: 30px;
+  margin: 0 0;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 20px 20px;
+  border: 1px solid #707070;
 }
 
 .pro-imge {
   text-align: center;
-  margin-bottom: 20px;
   background: #efefef;
   position: relative;
   padding: 80px 0 50px;
+  width: 100%;
 }
 .content-pro {
-  padding: 0 19px 50px;
-  text-align: center;
+  padding: 0 20px 0;
+  text-align: left;
+  width: 100%;
 }
 
 .product-list h6 {
@@ -1741,12 +1772,12 @@ ul.pro-unorderlist {
 }
 
 .product-list p {
-  font-size: 25px;
-  font-family: "Poppins";
+  font-size: 40px;
+  font-family: var(--Rubik);
   color: #000;
   font-weight: 600;
-  line-height: 24px;
-  margin-bottom: 8px;
+  margin-bottom: 11px;
+  line-height: 1.5;
 }
 
 .product-list p span {
@@ -2362,6 +2393,8 @@ section.nfs-member-sec::after {
 .counter-flex {
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 26px;
 }
 
 .aution-scal-text p {
@@ -2391,7 +2424,7 @@ section.nfs-member-sec::after {
 }
 
 .auction-product-list {
-  column-count: 4 !important;
+  column-count: 1 !important;
 }
 
 .conventions-div {
@@ -3720,6 +3753,12 @@ button.submit-message {
 
 div#Bids .d-flex {
   padding-right: 150px;
+}
+p.product-para {
+  font-size: 16px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  color: #5A5A5A;
 }
 p.span-text {
   font-size: 17px;

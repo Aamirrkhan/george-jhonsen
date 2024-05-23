@@ -12,6 +12,15 @@ include './assets/componnets/header.php';
                         
                         </span> -->
                     </h1>
+
+                    <div class="clock-area">
+                                <ul id="timecounter" class="counter-flex">
+                                    <li class="circle"><span class="days"></span>DAYS</li>
+                                    <li class="circle"><span class="hours"></span>HOURS</li>
+                                    <li class="circle"><span class="minutes"></span>MINS</li>
+                                    <li class="circle"><span class="seconds"></span>SECS</li>
+                                </ul>
+                            </div>
                 </div>
             </div>
         </div>
@@ -20,74 +29,25 @@ include './assets/componnets/header.php';
 <section class="micro-trainslines-sec">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12">
+            <div class="col-10">
                 <div class="product-listarea">
                     <ul class="pro-unorderlist auction-product-list">
                         <li class="list-pro">
                             <div class="product-list">
                                 <div class="pro-imge">
-                                    <img src="assets/images/bid-icon.png" class="bid-icon-set">
-                                    <img src="assets/images/auction-pro-1.png" class="img-fluid">
-                                </div>
-                                <div class="content-pro">
-                                    <p>Lorem Ipsum Dummy Text</p>
-                                    <h4 class="startbidding-head">Start Bidding: <span>$600.00</span></h4>
-                                    <div class="clock-area">
-                                        <ul id="timecounter" class="counter-flex">
-                                            <li class="circle"><span class="days"></span>DAYS</li>
-                                            <li class="circle"><span class="hours"></span>HOURS</li>
-                                            <li class="circle"><span class="minutes"></span>MINS</li>
-                                            <li class="circle"><span class="seconds"></span>SECS</li>
-                                        </ul>
-                                    </div>
-                                    <div class="acutionplace-bid-btn">
-                                        <a href="auction-product-detail.php">Place Bid</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-pro">
-                            <div class="product-list">
-                                <div class="pro-imge">
-                                    <img src="assets/images/bid-icon.png" class="bid-icon-set">
-                                    <img src="assets/images/auction-pro-2.png" class="img-fluid">
-                                </div>
-                                <div class="content-pro">
-                                    <p>Lorem Ipsum Dummy Text</p>
-                                    <h4 class="startbidding-head">Start Bidding: <span>$600.00</span></h4>
-                                    <div class="clock-area">
-                                        <ul id="timecounter" class="counter-flex">
-                                            <li class="circle"><span class="days"></span>DAYS</li>
-                                            <li class="circle"><span class="hours"></span>HOURS</li>
-                                            <li class="circle"><span class="minutes"></span>MINS</li>
-                                            <li class="circle"><span class="seconds"></span>SECS</li>
-                                        </ul>
-                                    </div>
-                                    <div class="acutionplace-bid-btn">
-                                        <a href="auction-product-detail.php">Place Bid</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-pro">
-                            <div class="product-list">
-                                <div class="pro-imge">
-                                    <img src="assets/images/bid-icon.png" class="bid-icon-set">
                                     <img src="assets/images/auction-pro-3.png" class="img-fluid">
                                 </div>
                                 <div class="content-pro">
-                                    <p>Lorem Ipsum Dummy Text</p>
-                                    <h4 class="startbidding-head">Start Bidding: <span>$600.00</span></h4>
-                                    <div class="clock-area">
-                                        <ul id="timecounter" class="counter-flex">
-                                            <li class="circle"><span class="days"></span>DAYS</li>
-                                            <li class="circle"><span class="hours"></span>HOURS</li>
-                                            <li class="circle"><span class="minutes"></span>MINS</li>
-                                            <li class="circle"><span class="seconds"></span>SECS</li>
-                                        </ul>
-                                    </div>
+                                    <p>Lorem Ipsum</p>
+                                    <p class="product-para">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
+                                    </p>
+                                    <h4 class="startbidding-head">Current Bidding: <span>$600.00</span></h4>
+                                    
                                     <div class="acutionplace-bid-btn">
-                                        <a href="auction-product-detail.php">Place Bid</a>
+                                        <a href="#!">Place Bid</a>
+                                        <span>Or</span>
+                                        <a href="#!" class="bg-gray">Order Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -95,91 +55,19 @@ include './assets/componnets/header.php';
                         <li class="list-pro">
                             <div class="product-list">
                                 <div class="pro-imge">
-                                    <img src="assets/images/bid-icon.png" class="bid-icon-set">
-                                    <img src="assets/images/auction-pro-4.png" class="img-fluid">
-                                </div>
-                                <div class="content-pro">
-                                    <p>Lorem Ipsum Dummy Text</p>
-                                    <h4 class="startbidding-head">Start Bidding: <span>$600.00</span></h4>
-                                    <div class="clock-area">
-                                        <ul id="timecounter" class="counter-flex">
-                                            <li class="circle"><span class="days"></span>DAYS</li>
-                                            <li class="circle"><span class="hours"></span>HOURS</li>
-                                            <li class="circle"><span class="minutes"></span>MINS</li>
-                                            <li class="circle"><span class="seconds"></span>SECS</li>
-                                        </ul>
-                                    </div>
-                                    <div class="acutionplace-bid-btn">
-                                        <a href="auction-product-detail.php">Place Bid</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-pro">
-                            <div class="product-list">
-                                <div class="pro-imge">
-                                    <img src="assets/images/bid-icon.png" class="bid-icon-set">
-                                    <img src="assets/images/auction-pro-1.png" class="img-fluid">
-                                </div>
-                                <div class="content-pro">
-                                    <p>Lorem Ipsum Dummy Text</p>
-                                    <h4 class="startbidding-head">Start Bidding: <span>$600.00</span></h4>
-                                    <div class="clock-area">
-                                        <ul id="timecounter" class="counter-flex">
-                                            <li class="circle"><span class="days"></span>DAYS</li>
-                                            <li class="circle"><span class="hours"></span>HOURS</li>
-                                            <li class="circle"><span class="minutes"></span>MINS</li>
-                                            <li class="circle"><span class="seconds"></span>SECS</li>
-                                        </ul>
-                                    </div>
-                                    <div class="acutionplace-bid-btn">
-                                        <a href="auction-product-detail.php">Place Bid</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-pro">
-                            <div class="product-list">
-                                <div class="pro-imge">
-                                    <img src="assets/images/bid-icon.png" class="bid-icon-set">
-                                    <img src="assets/images/auction-pro-2.png" class="img-fluid">
-                                </div>
-                                <div class="content-pro">
-                                    <p>Lorem Ipsum Dummy Text</p>
-                                    <h4 class="startbidding-head">Start Bidding: <span>$600.00</span></h4>
-                                    <div class="clock-area">
-                                        <ul id="timecounter" class="counter-flex">
-                                            <li class="circle"><span class="days"></span>DAYS</li>
-                                            <li class="circle"><span class="hours"></span>HOURS</li>
-                                            <li class="circle"><span class="minutes"></span>MINS</li>
-                                            <li class="circle"><span class="seconds"></span>SECS</li>
-                                        </ul>
-                                    </div>
-                                    <div class="acutionplace-bid-btn">
-                                        <a href="auction-product-detail.php">Place Bid</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-pro">
-                            <div class="product-list">
-                                <div class="pro-imge">
-                                    <img src="assets/images/bid-icon.png" class="bid-icon-set">
                                     <img src="assets/images/auction-pro-3.png" class="img-fluid">
                                 </div>
                                 <div class="content-pro">
-                                    <p>Lorem Ipsum Dummy Text</p>
-                                    <h4 class="startbidding-head">Start Bidding: <span>$600.00</span></h4>
-                                    <div class="clock-area">
-                                        <ul id="timecounter" class="counter-flex">
-                                            <li class="circle"><span class="days"></span>DAYS</li>
-                                            <li class="circle"><span class="hours"></span>HOURS</li>
-                                            <li class="circle"><span class="minutes"></span>MINS</li>
-                                            <li class="circle"><span class="seconds"></span>SECS</li>
-                                        </ul>
-                                    </div>
+                                    <p>Lorem Ipsum</p>
+                                    <p class="product-para">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
+                                    </p>
+                                    <h4 class="startbidding-head">Current Bidding: <span>$600.00</span></h4>
+                                    
                                     <div class="acutionplace-bid-btn">
-                                        <a href="auction-product-detail.php">Place Bid</a>
+                                        <a href="#!">Place Bid</a>
+                                        <span>Or</span>
+                                        <a href="#!" class="bg-gray">Order Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -187,29 +75,87 @@ include './assets/componnets/header.php';
                         <li class="list-pro">
                             <div class="product-list">
                                 <div class="pro-imge">
-                                    <img src="assets/images/bid-icon.png" class="bid-icon-set">
-                                    <img src="assets/images/auction-pro-4.png" class="img-fluid">
+                                    <img src="assets/images/auction-pro-3.png" class="img-fluid">
                                 </div>
                                 <div class="content-pro">
-                                    <p>Lorem Ipsum Dummy Text</p>
-                                    <h4 class="startbidding-head">Start Bidding: <span>$600.00</span></h4>
-                                    <div class="clock-area">
-                                        <ul id="timecounter" class="counter-flex">
-                                            <li class="circle"><span class="days"></span>DAYS</li>
-                                            <li class="circle"><span class="hours"></span>HOURS</li>
-                                            <li class="circle"><span class="minutes"></span>MINS</li>
-                                            <li class="circle"><span class="seconds"></span>SECS</li>
-                                        </ul>
-                                    </div>
+                                    <p>Lorem Ipsum</p>
+                                    <p class="product-para">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
+                                    </p>
+                                    <h4 class="startbidding-head">Current Bidding: <span>$600.00</span></h4>
+                                    
                                     <div class="acutionplace-bid-btn">
-                                        <a href="auction-product-detail.php">Place Bid</a>
+                                        <a href="#!">Place Bid</a>
+                                        <span>Or</span>
+                                        <a href="#!" class="bg-gray">Order Now</a>
                                     </div>
                                 </div>
                             </div>
                         </li>
+                        <li class="list-pro">
+                            <div class="product-list">
+                                <div class="pro-imge">
+                                    <img src="assets/images/auction-pro-3.png" class="img-fluid">
+                                </div>
+                                <div class="content-pro">
+                                    <p>Lorem Ipsum</p>
+                                    <p class="product-para">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
+                                    </p>
+                                    <h4 class="startbidding-head">Current Bidding: <span>$600.00</span></h4>
+                                    
+                                    <div class="acutionplace-bid-btn">
+                                        <a href="#!">Place Bid</a>
+                                        <span>Or</span>
+                                        <a href="#!" class="bg-gray">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-pro">
+                            <div class="product-list">
+                                <div class="pro-imge">
+                                    <img src="assets/images/auction-pro-3.png" class="img-fluid">
+                                </div>
+                                <div class="content-pro">
+                                    <p>Lorem Ipsum</p>
+                                    <p class="product-para">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
+                                    </p>
+                                    <h4 class="startbidding-head">Current Bidding: <span>$600.00</span></h4>
+                                    
+                                    <div class="acutionplace-bid-btn">
+                                        <a href="#!">Place Bid</a>
+                                        <span>Or</span>
+                                        <a href="#!" class="bg-gray">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-pro">
+                            <div class="product-list">
+                                <div class="pro-imge">
+                                    <img src="assets/images/auction-pro-3.png" class="img-fluid">
+                                </div>
+                                <div class="content-pro">
+                                    <p>Lorem Ipsum</p>
+                                    <p class="product-para">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
+                                    </p>
+                                    <h4 class="startbidding-head">Current Bidding: <span>$600.00</span></h4>
+                                    
+                                    <div class="acutionplace-bid-btn">
+                                        <a href="#!">Place Bid</a>
+                                        <span>Or</span>
+                                        <a href="#!" class="bg-gray">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                       
                     </ul>
                     <div class="place-bid-btn mircro-btn">
-                        <a href="#!">Load More</a>
+                        <a href="#!">Login to Load More</a>
                     </div>
                 </div>
             </div>
