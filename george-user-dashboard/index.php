@@ -230,9 +230,6 @@ include "headerr.php"
     </div>
   </div>
 </div>
-<!--**********************************
-            Content body end
-        ***********************************-->
 <?php
 include "footerr.php"
 ?>

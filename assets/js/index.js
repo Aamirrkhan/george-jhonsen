@@ -12,6 +12,15 @@ $(".navbar-btn").click(function () {
   $(".menubar").addClass("active");
 });
 
+// Column count 2
+$(".grid-btn").click(function () {
+  $('.product-list').addClass("active");
+  $('.auction-product-list').css("column-count", "2");
+});
+$(".list-btn-show").click(function () {
+  $('.product-list').removeClass("active");
+  $('.auction-product-list').css("column-count", "1");
+});
 // Banner Slider
 
 $(".banner-slider").slick({

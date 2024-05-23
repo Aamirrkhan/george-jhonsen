@@ -1,6 +1,3 @@
- <!--**********************************
-            Footer start
-        ***********************************-->
  <div class="footer">
    <div class="container-fluid">
      <div class="col-12">
@@ -13,18 +10,7 @@
      </div>
    </div>
  </div>
- <!--**********************************
-            Footer end
-        ***********************************-->
  </div>
- <!--**********************************
-        Main wrapper end
-    ***********************************-->
-
- <!--**********************************
-        Scripts
-    ***********************************-->
- <!-- Required vendors -->
  <script src="public/vendor/global/global.min.js" type="text/javascript"></script>
  <script src="public/vendor/bootstrap-select/dist/js/bootstrap-select.min.js" type="text/javascript"></script>
  <script src="public/vendor/chart.js/Chart.bundle.min.js" type="text/javascript"></script>
@@ -38,7 +24,6 @@
 
  <script>
    function carouselReview() {
-     /*  testimonial one function by = owl.carousel.js */
      function checkDirection() {
        var phpClassName = document
          .getElementsByTagName("php")[0]
@@ -113,6 +98,4 @@
    });
  </script>
  </body>
-
- <!-- Mirrored from jobie.dexignzone.com/laravel/demo/index by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 May 2024 23:11:51 GMT -->
  </php>

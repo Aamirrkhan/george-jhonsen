@@ -1,42 +1,15 @@
 <!DOCTYPE php>
 <php lang="en">
-
-
-    <!-- Mirrored from jobie.dexignzone.com/laravel/demo/table-bootstrap-basic by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 May 2024 23:13:21 GMT -->
-    <!-- Added by HTTrack -->
-    <meta http-equiv="content-type" content="text/php;charset=UTF-8" /><!-- /Added by HTTrack -->
-
+    <meta http-equiv="content-type" content="text/php;charset=UTF-8" />
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="csrf-token" content="4huQ2eOK7PXFupDVMOXcdd6SlwrUZxFcpTKUcDkU">
-        <meta name="keywords" content="" />
-        <meta name="author" content="" />
-        <meta name="robots" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Some description for the page">
-        <meta property="og:title" content="Jobie : jobie Job Portal Admin Laravel Bootstrap 5 Template" />
-        <meta property="og:description" content="Laravel | Table Basic">
-        <meta property="og:image" content="https://jobie.dexignzone.com/xphp/page-error-404.php" />
-        <meta name="format-detection" content="telephone=no">
         <title>Laravel | Table Basic</title>
-        <!-- Favicon icon -->
         <link rel="icon" type="image/png" sizes="16x16" href="public/images/favicon.png">
-
-
-
-
         <link href="public/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
         <link href="public/css/style.css" rel="stylesheet" type="text/css" />
-
-
     </head>
-
     <body>
-
-        <!--*******************
-        Preloader start
-    ********************-->
         <div id="preloader">
             <div class="sk-three-bounce">
                 <div class="sk-child sk-bounce1"></div>
@@ -44,21 +17,9 @@
                 <div class="sk-child sk-bounce3"></div>
             </div>
         </div>
-        <!--*******************
-        Preloader end
-    ********************-->
-
-        <!--**********************************
-        Main wrapper start
-    ***********************************-->
         <div id="main-wrapper">
-
-            <!--**********************************
-            Nav header start
-        ***********************************-->
             <div class="nav-header">
                 <a href="index.php" class="brand-logo">
-
                 </a>
                 <div class="nav-control">
                     <div class="hamburger">
@@ -66,13 +27,6 @@
                     </div>
                 </div>
             </div>
-            <!--**********************************
-            Nav header end
-        ***********************************-->
-
-            <!--**********************************
-            Chat box start
-        ***********************************-->
             <div class="chatbox">
                 <div class="chatbox-close"></div>
                 <div class="custom-tab-1">
@@ -617,13 +571,6 @@
                     </div>
                 </div>
             </div>
-            <!--**********************************
-    Chat box End
-***********************************-->
-
-            <!--**********************************
-    Header start
-***********************************-->
             <div class="header">
                 <div class="header-content">
                     <nav class="navbar navbar-expand">
@@ -925,12 +872,7 @@
                         <p>by DexignZone</p>
                     </div>
                 </div>
-            </div> <!--**********************************
-            Sidebar end
-        ***********************************-->
-            <!--**********************************
-            Content body start
-        ***********************************-->
+            </div>
             <div class="content-body ">
                 <div class="container-fluid">
                     <div class="page-titles">
@@ -1871,39 +1813,17 @@
                     </div>
                 </div>
             </div>
-            <!--**********************************
-            Content body end
-        ***********************************-->
-            <!--**********************************
-            Footer start
-        ***********************************-->
             <div class="footer">
                 <div class="copyright">
                     <p>Copyright © Designed &amp; Developed by <a href="http://dexignzone.com/" target="_blank">DexignZone</a> 2023</p>
                 </div>
-            </div> <!--**********************************
-            Footer end
-        ***********************************-->
-
-
+            </div>
         </div>
-        <!--**********************************
-        Main wrapper end
-    ***********************************-->
-
-        <!--**********************************
-        Scripts
-    ***********************************-->
-        <!-- Required vendors -->
         <script src="public/vendor/global/global.min.js" type="text/javascript"></script>
         <script src="public/vendor/bootstrap-select/dist/js/bootstrap-select.min.js" type="text/javascript"></script>
         <script src="public/js/custom.min.js" type="text/javascript"></script>
         <script src="public/js/deznav-init.js" type="text/javascript"></script>
         <script src="public/js/demo.js" type="text/javascript"></script>
         <script src="public/js/styleSwitcher.js" type="text/javascript"></script>
-
-
     </body>
-
-    <!-- Mirrored from jobie.dexignzone.com/laravel/demo/table-bootstrap-basic by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 May 2024 23:13:21 GMT -->
 </php>

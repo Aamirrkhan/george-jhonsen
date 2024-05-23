@@ -83,9 +83,6 @@ include "headerr.php";
     </div>
   </div>
 </div>
-<!--**********************************
-            Content body end
-        ***********************************-->
-        <?php
+<?php
 include "footerr.php";
 ?>

@@ -8934,14 +8934,15 @@ textarea.form-control {
     display: flex;
     height: 100%;
     width: 100%;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     font-size: 1.125rem;
     color: #fff;
     text-decoration: none;
     padding-left: 15px;
     padding-right: 15px;
-    font-weight: 700; }
+    font-weight: 700;
+    }
     @media only screen and (max-width: 1400px) {
       .nav-header .brand-logo {
         padding-left: 25px;
@@ -14925,7 +14926,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     background: #001337; }
   [data-sidebarbg="color_3"][data-theme-version="dark"][data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .deznav .metismenu > li.mm-active > a,
   [data-sidebarbg="color_3"][data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .deznav .metismenu > li.mm-active > a {
-    background-color: #001337; }
+    background-color: #343434; }
   [data-sidebarbg="color_3"][data-theme-version="dark"][data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .deznav .metismenu li > ul,
   [data-sidebarbg="color_3"][data-sidebar-style="full"][data-layout="vertical"] .menu-toggle .deznav .metismenu li > ul {
     background: #001337; }
@@ -24411,8 +24412,8 @@ code {
   padding-bottom: 15px;
   margin-bottom: 15px; }
   .widget-media .timeline .timeline-panel .media {
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 90px;
     background: #eee;
     border-radius: 12px;
     overflow: hidden;
@@ -24422,7 +24423,8 @@ code {
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    align-self: start; }
+    align-self: start;
+    }
     .widget-media .timeline .timeline-panel .media-primary {
       background: var(--rgba-primary-1);
       color: var(--primary); }
@@ -29396,6 +29398,18 @@ p.copyright-color strong {
 }
 
 p.copyright-color strong a {
-  color: white;
+  color: #a91125;
   text-decoration: none;
+}
+.startbidding-head {
+  font-size: 17px;
+  line-height: 1.5;
+  color: black;
+  font-family: 'Poppins';
+}
+.product-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: #a91125;
 }

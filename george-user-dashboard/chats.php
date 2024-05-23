@@ -410,6 +410,6 @@ include "headerr.php";
 <!--**********************************
             Content body end
         ***********************************-->
-        <?php
+<?php
 include "footerr.php";
 ?>
