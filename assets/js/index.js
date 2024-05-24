@@ -21,6 +21,15 @@ $(".list-btn-show").click(function () {
   $('.product-list').removeClass("active");
   $('.auction-product-list').css("column-count", "1");
 });
+
+
+$(".loadmore-btns").click(function () {
+  $('.auction-member-login').addClass("active");
+});
+$("a.bg-gray, a.custom-bid.bg-gray").click(function () {
+  $('.auction-member-login').addClass("active");
+});
+
 // Banner Slider
 
 $(".banner-slider").slick({

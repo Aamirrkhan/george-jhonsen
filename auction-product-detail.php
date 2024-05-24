@@ -113,7 +113,7 @@ include './assets/componnets/header.php';
                                     <button type="button" class="custom-bid">Custom Bid</button>
                                 </div>
                                 <div class="buynow-btn">
-                                    <a href="checkout.php" class="custom-bid">Buy Now</a>
+                                    <a href="#!" class="custom-bid bg-gray">Buy Now</a>
                                 </div>
                             </div>
                             <h6 class="auc-primary"><span>(Enter more than or equal to:<span> $600.00</span>)</span></h6>
@@ -333,6 +333,7 @@ include './assets/componnets/header.php';
 <?php
 include './assets/componnets/newsletter.php';
 include './assets/componnets/footer.php';
+include './assets/componnets/auction-login.php';
 ?>
 <script src="assets/js/time-counter.js"></script>
 <script src="assets/js/splide.min.js"></script>
