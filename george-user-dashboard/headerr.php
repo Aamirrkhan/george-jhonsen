@@ -12,6 +12,8 @@
     <link href="../../../cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet" type="text/css" />
     <link href="public/vendor/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
     <link href="public/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
+    <link href="public/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+    <link href="public/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
     <link href="public/css/style.css" rel="stylesheet" type="text/css" />
   </head>
 
@@ -65,9 +67,7 @@
                       <ul class="timeline">
                         <li>
                           <div class="timeline-panel">
-                            <div class="media me-2">
-                              <img alt="image" width="50" src="public/images/avatar/1.jpg" />
-                            </div>
+                            
                             <div class="media-body">
                               <h6 class="mb-1">Dr sultads Send you Photo</h6>
                               <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -76,7 +76,6 @@
                         </li>
                         <li>
                           <div class="timeline-panel">
-                            <div class="media me-2 media-info">KG</div>
                             <div class="media-body">
                               <h6 class="mb-1">Resport created successfully</h6>
                               <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -85,9 +84,7 @@
                         </li>
                         <li>
                           <div class="timeline-panel">
-                            <div class="media me-2 media-success">
-                              <i class="fa fa-home"></i>
-                            </div>
+                            
                             <div class="media-body">
                               <h6 class="mb-1">Reminder : Treatment Time!</h6>
                               <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -96,9 +93,7 @@
                         </li>
                         <li>
                           <div class="timeline-panel">
-                            <div class="media me-2">
-                              <img alt="image" width="50" src="public/images/avatar/1.jpg" />
-                            </div>
+                            
                             <div class="media-body">
                               <h6 class="mb-1">Dr sultads Send you Photo</h6>
                               <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -107,7 +102,6 @@
                         </li>
                         <li>
                           <div class="timeline-panel">
-                            <div class="media me-2 media-danger">KG</div>
                             <div class="media-body">
                               <h6 class="mb-1">Resport created successfully</h6>
                               <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -116,9 +110,7 @@
                         </li>
                         <li>
                           <div class="timeline-panel">
-                            <div class="media me-2 media-primary">
-                              <i class="fa fa-home"></i>
-                            </div>
+                          
                             <div class="media-body">
                               <h6 class="mb-1">Reminder : Treatment Time!</h6>
                               <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -172,15 +164,15 @@
               </a>
             </li>
             <li class="has-menu">
-              <a class="has-arrow ai-icon" href="search-job.php" aria-expanded="false">
+              <a class="has-arrow ai-icon" href="./product-lists.php" aria-expanded="false">
                 <i class="flaticon-381-networking"></i>
-                <span class="nav-text">Proucts List</span>
+                <span class="nav-text">Products</span>
               </a>
             </li>
             <li class="has-menu">
-              <a class="has-arrow ai-icon" href="chats.php" aria-expanded="false">
+              <a class="has-arrow ai-icon" href="app-profile.php" aria-expanded="false">
                 <i class="flaticon-381-networking"></i>
-                <span class="nav-text">Chats</span>
+                <span class="nav-text">Profile</span>
               </a>
             </li>
             <li class="has-menu">

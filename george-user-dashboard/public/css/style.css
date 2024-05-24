@@ -21855,12 +21855,15 @@ button {
   height: 2.5rem;
   min-height: 2.5rem; }
 
-.sharp.btn-xs {
-  padding: 0.1875rem;
-  width: 1.625rem;
-  height: 1.625rem;
-  min-width: 1.625rem;
-  min-height: 1.625rem; }
+  .sharp.btn-xs {
+    padding: 0.1875rem;
+    width: 22px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
 
 .btn-block {
   display: block;
@@ -24798,16 +24801,17 @@ table.dataTable thead .sorting {
     color: #fff;
     background: transparent !important; }
 
-.dataTables_wrapper .dataTables_paginate .paginate_button {
-  border: 0 !important;
-  padding: 15px 25px;
-  border: 0px solid var(--primary) !important;
-  background: var(--rgba-primary-3) !important;
-  border-radius: 5rem;
-  color: var(--primary) !important;
-  font-size: 16px;
-  margin: 0 2px;
-  display: inline-block; }
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+      border: 0 !important;
+      padding: 8px 17px !important;
+      border: 0px solid var(--primary) !important;
+      background: var(--rgba-primary-3) !important;
+      border-radius: 5rem;
+      color: var(--primary) !important;
+      font-size: 16px;
+      margin: 0 2px;
+      display: inline-block;
+  }
   @media only screen and (max-width: 1400px) {
     .dataTables_wrapper .dataTables_paginate .paginate_button {
       padding: 8px 15px;
@@ -29412,4 +29416,65 @@ p.copyright-color strong a {
   margin-bottom: 10px;
   line-height: 1.5;
   color: #a91125;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #a91125;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #a91125;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }

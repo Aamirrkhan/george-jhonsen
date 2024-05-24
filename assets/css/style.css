@@ -294,12 +294,12 @@ span.counter {
 }
 
 h1.banner-hd {
-  font-size: 102.74px;
-  font-family: var(--alovethunder);
-  color: var(--primary-color);
-  margin-bottom: 64px;
-  text-shadow: 1px 1px 17px #000000d4;
-  line-height: 111px;
+  font-size: 87px;
+  color: black;
+  line-height: 97px;
+  font-family: "Poppins";
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
 a.banner-anchor {
@@ -1530,6 +1530,18 @@ body .auction-banner {
   transition: 0.5s;
   border: 1px solid var(--primary-color);
 }
+.place-bid-btn button {
+  background: var(--primary-color);
+  padding: 13px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: "Poppins";
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.5s;
+  border: 1px solid var(--primary-color);
+}
 
 /* .acutionplace-bid-btn a {
   background: transparent;
@@ -1672,7 +1684,7 @@ ol.auction-list li:hover a {
 }
 
 .auction-rules-sec {
-  padding: 90px 0 150px 0;
+  padding: 30px 0 150px 0;
 }
 
 ol.auction-list {
@@ -3707,7 +3719,8 @@ section.products-tabs-reviews {
   font-weight: 600;
   color: #5a5a5a;
   line-height: 1.5;
-  margin-bottom: 4px;
+  text-align: left;
+  margin-bottom: 15px;
 }
 
 .layer-birds p {
@@ -3715,6 +3728,7 @@ section.products-tabs-reviews {
   font-family: "Poppins";
   font-weight: 400;
   color: #5a5a5a;
+  margin-bottom: 14px;
 }
 .flex-private-msg {
   display: flex;
@@ -3739,7 +3753,6 @@ section.products-tabs-reviews {
   max-width: 500px;
   width: 100%;
 }
-
 .input-form input {
   width: 100%;
   padding: 10px;
@@ -3758,7 +3771,6 @@ button.submit-message {
   color: white;
   border: none;
 }
-
 div#Bids .d-flex {
   padding-right: 150px;
 }
@@ -3817,7 +3829,6 @@ p.tags-color {
   transition: 0.5s;
   font-weight: bold;
 }
-
 p.tags-color:after {
   content: "";
   position: absolute;
@@ -3839,7 +3850,6 @@ p.tags-color:after {
   margin: 48px 0;
   flex-wrap: wrap;
 }
-
 .stardate-enddate p {
   font-size: 25px;
   font-family: var(--Rubik);
@@ -3857,11 +3867,9 @@ p.tags-color:after {
   line-height: 1.5;
   margin-bottom: 20px;
 }
-
 .banner-counter li {
   font-size: 19px;
 }
-
 .banner-counter li.circle {
   width: 110px;
   height: 111px;
@@ -3872,4 +3880,117 @@ p.tags-color:after {
 .payment-lable label {
   width: 98%;
   cursor: pointer;
+}
+.bids-list-thanks {
+  background: #f1f2f2;
+  padding: 40px 70px 30px 40px;
+  border-radius: 30px;
+}
+.bids-list-thanks h3 {
+  text-align: left;
+  color: #5a5a5a;
+  font-weight: bold;
+  font-family: "Poppins";
+  margin-bottom: 24px;
+}
+
+/* Member Login Form */
+
+
+.auction-member-login {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 99999;
+  display: none;
+}
+.auction-member-login.active {
+  display: block;
+}
+.blur-background{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255 255 255 / 36%);
+  box-shadow: 0 8px 32px 0 rgb(255 255 255 / 37%);
+  backdrop-filter: blur( 66px );
+  -webkit-backdrop-filter: blur( 16px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.flex-area-fields {
+  display: flex;
+  margin-bottom: 18px;
+}
+.form-floating {
+  width: 100%;
+}
+.red-bg {
+  display: flex;
+  width: 85px;
+  background: red;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+  color: white;
+  height: 58px;
+}
+.member-login {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 490px;
+}
+.border-focusnone {
+  border-radius: unset;
+  border-color: white;
+}
+.border-focusnone:focus{
+  box-shadow: unset;
+  border-color: white;
+}
+.form-floating label {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Poppins';
+  color: #707070;
+}
+.member-login h1 {
+  font-size: 51px;
+  font-weight: bold;
+  color: black;
+  font-family: 'Poppins';
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+.flex-area-btns {
+  display: grid;
+  gap: 30px;
+  font-size: 15px;
+  margin-top: 60px;
+}
+.flex-area-btns a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Poppins';
+}
+button.login-btnsz {
+  width: fit-content;
+  border: none;
+  background: transparent;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Poppins';
 }

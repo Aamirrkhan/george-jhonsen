@@ -66,7 +66,7 @@ include './assets/componnets/header.php';
                                     <div class="acutionplace-bid-btn">
                                         <a href="auction-product-detail.php">Place Bid</a>
                                         <span>Or</span>
-                                        <a href="auction-product-detail.php" class="bg-gray">Order Now</a>
+                                        <a href="#!" class="bg-gray">Order Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -86,14 +86,14 @@ include './assets/componnets/header.php';
                                     <div class="acutionplace-bid-btn">
                                         <a href="auction-product-detail.php">Place Bid</a>
                                         <span>Or</span>
-                                        <a href="auction-product-detail.php" class="bg-gray">Order Now</a>
+                                        <a href="#!" class="bg-gray">Order Now</a>
                                     </div>
                                 </div>
                             </div>
                         </li>
                     </ul>
                     <div class="place-bid-btn mircro-btn">
-                        <a href="#!">Login to Load More</a>
+                        <button type="button" class="loadmore-btns">Login to Load More</button>
                     </div>
                 </div>
             </div>
@@ -158,9 +158,9 @@ include './assets/componnets/header.php';
     </div>
 </div>
 
-
 <?php
 include './assets/componnets/newsletter.php';
 include './assets/componnets/footer.php';
+include './assets/componnets/auction-login.php';
 ?>
 <script src="assets/js/time-counter.js"></script>
