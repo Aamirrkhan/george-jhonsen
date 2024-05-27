@@ -124,6 +124,7 @@ include './assets/componnets/header.php';
 <div class="auction-rules-sec">
     <div class="container">
         <div class="row">
+            <div class="col-12 col-lg-1"></div>
             <div class="col-12 col-lg-6">
                 <div class="auction-rules-textarea ">
                     <h1>Auction Rules</h1>
@@ -141,7 +142,7 @@ include './assets/componnets/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 p-0">
+            <div class="col-12 col-lg-5 p-0">
                 <div class="position-relative">
                     <div class="rules-img">
                         <img src="assets/images/auction-img2.png" class="img-fluid">

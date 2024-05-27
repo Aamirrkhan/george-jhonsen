@@ -18,95 +18,68 @@ include 'assets/componnets/header.php';
 <section class="sign-in-sec">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-12">
-                <!-- <div class="product-image-area">
-                    <div class="pro-large-image">
-                        <img src="assets/images/shop1.png" class="largeImg">
-                    </div>
-                    <div class="gallery-slider-areabox">
-                        <div class="pro-gallery-slider position-relative">
-                            <div class="gallery-layer">
-                                <img src="assets/images/shop1.png">
-                            </div>
-                            <div class="gallery-layer">
-                                <img src="assets/images/mission1.png">
-                            </div>
-                            <div class="gallery-layer">
-                                <img src="assets/images/trovestar.png">
-                            </div>
-                            <div class="gallery-layer">
-                                <img src="assets/images/vault.png">
-                            </div>
-                            <div class="gallery-layer">
-                                <img src="assets/images/resource3.png">
-                            </div>
-                            <div class="gallery-layer">
-                                <img src="assets/images/g2.png">
-                            </div>
-                        </div>
-                        <div class="sliders-btn-pro">
-                            <button type="button" class="prod-glry-btn left-btn"><i class="fa-solid fa-angle-left"></i></button>
-                            <button type="button" class="prod-glry-btn right-btn"><i class="fa-solid fa-angle-right"></i></button>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="o-wrapper">
-                    <div class="c-product-container">
-                        <div class="c-product-container__element c-product-container__element--images">
-                            <div class="c-product-image-viewer">
-                                <div class="c-product-image-viewer__carousel">
-                                    <div class="o-slider-image-viewer">
-                                        <ul class="o-slider-image-viewer__inner js-sliderImageViewer">
-                                            <li class="o-slider-image-viewer__slide">
-                                                <a data-fancybox="gallery" href="assets/images/g4.png">
-                                                    <img class="c-product-image-viewer__image" src="assets/images/g4.png">
-                                                </a>
-                                            </li>
-                                            <li class="o-slider-image-viewer__slide">
-                                                <a data-fancybox="gallery" href="assets/images/mission1.png">
-                                                    <img class="c-product-image-viewer__image" src="assets/images/mission1.png">
-                                                </a>
-                                            </li>
-
-                                            <li class="o-slider-image-viewer__slide">
-                                                <a data-fancybox="gallery" href="assets/images/resource3.png">
-                                                    <img class="c-product-image-viewer__image" src="assets/images/resource3.png">
-                                                </a>
-                                            </li>
-                                            <li class="o-slider-image-viewer__slide">
-                                                <a data-fancybox="gallery" href="assets/images/conventions2.png">
-                                                    <img class="c-product-image-viewer__image" src="assets/images/conventions2.png">
-                                                </a>
-                                            </li>
-                                            <li class="o-slider-image-viewer__slide">
-                                                <a data-fancybox="gallery" href="assets/images/banner1.png">
-                                                    <img class="c-product-image-viewer__image" src="assets/images/banner1.png">
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <div class="o-slider-image-viewer__nav js-imageViewerNav">
-                                            <span class="o-slider-image-viewer__dot">
-                                                <img class="o-slider-image-viewer__dot-image" src="assets/images/g4.png">
-                                            </span>
-                                            <span class="o-slider-image-viewer__dot">
-                                                <img class="o-slider-image-viewer__dot-image" src="assets/images/mission1.png">
-                                            </span>
-                                            <span class="o-slider-image-viewer__dot">
-                                                <img class="o-slider-image-viewer__dot-image" src="assets/images/resource3.png">
-                                            </span>
-                                            <span class="o-slider-image-viewer__dot">
-                                                <img class="o-slider-image-viewer__dot-image" src="assets/images/conventions2.png">
-                                            </span>
-                                            <span class="o-slider-image-viewer__dot">
-                                                <img class="o-slider-image-viewer__dot-image" src="assets/images/banner1.png">
-                                            </span>
-                                        </div>
-                                    </div>
+            <div class="col-md-1 col-12"></div>
+            <div class="col-md-5 col-12">
+                <div class="thumbnail_slider">
+                            <!-- Primary Slider Start-->
+                            <div id="primary_slider">
+                                <div class="splide__track">
+                                    <ul class="splide__list">
+                                        <li class="splide__slide">
+                                            <img src="assets/images/auction-pro-2.png" class="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="assets/images/auction-pro-2.png" class="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="assets/images/auction-pro-2.png" class="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="assets/images/auction-pro-2.png" class="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="assets/images/auction-pro-2.png" class="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="assets/images/auction-pro-2.png" class="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="assets/images/auction-pro-2.png" class="">
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
+                            <!-- Primary Slider End-->
+                            <!-- Thumbnal Slider Start-->
+                            <div id="thumbnail_slider">
+                                <div class="splide__track">
+                                    <ul class="splide__list">
+                                        <li class="splide__slide">
+                                            <img src="assets/images/auction-pro-2.png" class="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="assets/images/auction-pro-2.png" class="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="assets/images/auction-pro-2.png" class="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="assets/images/auction-pro-2.png" class="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="assets/images/auction-pro-2.png" class="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="assets/images/auction-pro-2.png" class="">
+                                        </li>
+                                        <li class="splide__slide">
+                                            <img src="assets/images/auction-pro-2.png" class="">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Thumbnal Slider End-->
                         </div>
-                    </div>
-                </div>
             </div>
             <div class="col-md-6 col-12">
                 <div class="pro-detail-content">
@@ -158,4 +131,54 @@ include 'assets/componnets/header.php';
 <?php
 include 'assets/componnets/footer.php';
 ?>
-<script src="./assets/js/product-detail.js"></script>
+<!-- <script src="./assets/js/product-detail.js"></script> -->
+<script src="assets/js/splide.min.js"></script>
+<script>
+    var primarySlider = new Splide('#primary_slider', {
+        type: 'fade',
+        heightRatio: 0.5,
+        pagination: false,
+        arrows: false,
+        cover: true,
+    });
+    var thumbnailSlider = new Splide('#thumbnail_slider', {
+        rewind: true,
+        fixedWidth: 100,
+        fixedHeight: 64,
+        isNavigation: true,
+        gap: 10,
+        focus: 'center',
+        pagination: false,
+        cover: true,
+        breakpoints: {
+            '600': {
+                fixedWidth: 66,
+                fixedHeight: 40,
+            }
+        }
+    }).mount();
+
+    primarySlider.sync(thumbnailSlider).mount();
+
+
+
+    // Tabs 
+
+
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>

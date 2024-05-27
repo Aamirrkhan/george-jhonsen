@@ -25,6 +25,7 @@ include 'assets/componnets/header.php';
                 <div class="thnk-div">
                     <div class="thankyou">
                         <h1 class="banner-hd">thank you</h1>
+                        <p class="para-thanks">Your Bid has been submitted. Reserve price has been met.</p>
                         <!-- <img src="assets/images/thankyuou.png" class="img-fluid"> -->
                         <div class="bids-list-thanks">
                             <h3>Total Bids Placed:</h3>
@@ -64,7 +65,77 @@ include 'assets/componnets/header.php';
         </div>
     </div>
 </section>
+<section class="related-product pt-5 pb-5">
+    <div class="auction-rules-textarea text-center">
+        <h1>Related Products</h1>
+    </div>
+    <div class="container">
+        <div class="product-listarea">
+            <ul class="auction-product-list">
+                <li class="list-pro">
+                    <div class="product-list">
+                        <div class="pro-imge">
+                            <img src="assets/images/auction-pro-3.png" class="img-fluid">
+                        </div>
+                        <div class="content-pro">
+                            <p>Lorem Ipsum</p>
+                            <p class="product-para">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
+                            </p>
+                            <h4 class="startbidding-head">Current Bidding: <span>$600.00</span></h4>
 
+                            <div class="acutionplace-bid-btn">
+                                <a href="auction-product-detail.php">Place Bid</a>
+                                <span>Or</span>
+                                <a href="auction-product-detail.php" class="bg-gray">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-pro">
+                    <div class="product-list">
+                        <div class="pro-imge">
+                            <img src="assets/images/auction-pro-3.png" class="img-fluid">
+                        </div>
+                        <div class="content-pro">
+                            <p>Lorem Ipsum</p>
+                            <p class="product-para">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
+                            </p>
+                            <h4 class="startbidding-head">Current Bidding: <span>$600.00</span></h4>
+
+                            <div class="acutionplace-bid-btn">
+                                <a href="auction-product-detail.php">Place Bid</a>
+                                <span>Or</span>
+                                <a href="auction-product-detail.php" class="bg-gray">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-pro">
+                    <div class="product-list">
+                        <div class="pro-imge">
+                            <img src="assets/images/auction-pro-1.png" class="img-fluid">
+                        </div>
+                        <div class="content-pro">
+                            <p>Lorem Ipsum</p>
+                            <p class="product-para">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy.
+                            </p>
+                            <h4 class="startbidding-head">Current Bidding: <span>$600.00</span></h4>
+
+                            <div class="acutionplace-bid-btn">
+                                <a href="auction-product-detail.php">Place Bid</a>
+                                <span>Or</span>
+                                <a href="auction-product-detail.php" class="bg-gray">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 
 
 <?php

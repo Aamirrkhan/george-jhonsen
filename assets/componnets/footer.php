@@ -36,7 +36,7 @@
             <div class="col-12">
                 <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 set-justify">
                     <p class="copyright-color">© Copyright <script>document.write(new Date().getFullYear())</script> <strong>1993-2023 N Sale Enthusiast.</strong> All rights Reserved</p>
-                    <p class="copyright-color">Designed & Developed by <strong><a href="https://webdesignglory.com/">Web Design Glory.</a></strong></p>
+                    <p class="copyright-color">Designed & Developed by <strong><a href="https://webdesignglory.com/" target="_blank">Web Design Glory.</a></strong></p>
                 </div>
             </div>
         </div>

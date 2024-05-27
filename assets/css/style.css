@@ -237,6 +237,7 @@ span.counter {
   width: 100%;
   transform: translate(-50%, -50%);
   text-align: center;
+  gap: 62px;
 }
 
 .banner-imgas {
@@ -295,7 +296,7 @@ span.counter {
 
 h1.banner-hd {
   font-size: 87px;
-  color: black;
+  color: white;
   line-height: 97px;
   font-family: "Poppins";
   font-weight: 600;
@@ -3583,8 +3584,13 @@ button.custom-bid {
   background: #a91125;
 }
 a.custom-bid {
-  background: #707070;
+  background: var(--primary-color);
+  color: white !important;
 }
+.login-btn {
+  width: fit-content;
+  padding: 0 20px;
+} 
 .input-price {
   display: flex;
   align-items: center;
@@ -3896,36 +3902,35 @@ p.tags-color:after {
 
 /* Member Login Form */
 
-
 .auction-member-login {
   position: fixed;
   width: 100%;
   height: 100%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   z-index: 99999;
   display: none;
 }
 .auction-member-login.active {
   display: block;
 }
-.blur-background{
+.blur-background {
   position: fixed;
   width: 100%;
   height: 100%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
   justify-content: center;
   background: rgb(255 255 255 / 36%);
   box-shadow: 0 8px 32px 0 rgb(255 255 255 / 37%);
-  backdrop-filter: blur( 66px );
-  -webkit-backdrop-filter: blur( 16px );
+  backdrop-filter: blur(66px);
+  -webkit-backdrop-filter: blur(16px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .flex-area-fields {
   display: flex;
@@ -3937,7 +3942,7 @@ p.tags-color:after {
 .red-bg {
   display: flex;
   width: 85px;
-  background: red;
+  background: var(--primary-color);
   align-items: center;
   justify-content: center;
   font-size: 23px;
@@ -3956,21 +3961,21 @@ p.tags-color:after {
   border-radius: unset;
   border-color: white;
 }
-.border-focusnone:focus{
+.border-focusnone:focus {
   box-shadow: unset;
   border-color: white;
 }
 .form-floating label {
   font-size: 14px;
   font-weight: bold;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   color: #707070;
 }
 .member-login h1 {
   font-size: 51px;
   font-weight: bold;
   color: black;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   margin-bottom: 35px;
   text-transform: uppercase;
 }
@@ -3984,7 +3989,7 @@ p.tags-color:after {
   font-size: 18px;
   color: black;
   text-decoration: none;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 button.login-btnsz {
   width: fit-content;
@@ -3992,5 +3997,18 @@ button.login-btnsz {
   background: transparent;
   font-size: 28px;
   font-weight: bold;
-  font-family: 'Poppins';
+  font-family: "Poppins";
+}
+.thankyou h1 {
+  color: black;
+}
+p.para-thanks {
+  font-size: 28px;
+  font-family: 'Rubik';
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.flex-area-btns a strong {
+  font-weight: 800;
 }
