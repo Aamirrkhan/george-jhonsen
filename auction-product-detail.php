@@ -110,7 +110,7 @@ include './assets/componnets/header.php';
                                     <i class="fa-solid fa-dollar-sign"></i> <input type="number" class="placeyou-bid" placeholder="Place Your Bid here">
                                 </div>
                                 <div class="custom-bid-btn">
-                                    <button type="button" class="custom-bid">Custom Bid</button>
+                                    <a href="./auction-bid.php" class="custom-bid">Custom Bid</a>
                                 </div>
                                 <div class="buynow-btn">
                                     <a href="#!" class="custom-bid bg-gray">Buy Now</a>
@@ -216,7 +216,7 @@ include './assets/componnets/header.php';
     </div>
 </section>
 
-<section class="related-product pt-5">
+<section class="related-product pt-5 pb-5">
     <div class="auction-rules-textarea text-center">
         <h1>Related Products</h1>
     </div>
@@ -288,46 +288,7 @@ include './assets/componnets/header.php';
     </div>
 </section>
 
-<div class="auction-rules-sec">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-10">
-                <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <div class="auction-rules-textarea ">
-                            <h1>Auction Rules</h1>
-                            <h4 class="primary-color">NSE Auctions and Sales: <br>
-                                Rules and Procedures for Buyers and Sellers</h4>
-                            <ol class="auction-list">
-                                <li><a href="auction-rule-1.php">1. When do we publish the Auction Rules...</a></li>
-                                <li><a href="auction-rule-2.php">2. Here’s how the NSE auction process works…and how you understand our lists...</a></li>
-                                <li><a href="auction-rule-3.php">3. So you want to bid on our NSE auctions. Here’s how you do it…</a></li>
-                                <li><a href="auction-rule-4.php">4. Now that you know how to bid, what about selling on our NSE auctions…</a></li>
-                                <li><a href="auction-rule-5.php">5. FAQ’s of our NSE Certified Collector-Quality® auctions…</a></li>
-                            </ol>
-                            <div class="place-bid-btn download-btn">
-                                <a href="aution-download.php">Download PDF</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 p-0">
-                        <div class="position-relative">
-                            <div class="rules-img">
-                                <img src="assets/images/auction-img2.png" class="img-fluid">
-                            </div>
-                            <div class="rules-imgstar">
-                                <p>To see what
-                                    a car could
-                                    look like try</p>
-                                <img src="assets/images/trovestar.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 
 <?php

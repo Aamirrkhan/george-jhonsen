@@ -30,6 +30,8 @@ $("a.bg-gray, a.custom-bid.bg-gray").click(function () {
   $('.auction-member-login').addClass("active");
 });
 
+
+
 // Banner Slider
 
 $(".banner-slider").slick({
@@ -217,3 +219,5 @@ document.addEventListener('DOMContentLoaded', function () {
 //   e.preventDefault();
 //   popupCheck.classList.remove('active');
 // })
+
+

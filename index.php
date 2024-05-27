@@ -11,7 +11,7 @@ include './assets/componnets/header.php';
                             <img src="assets/images/banner1.png" class="banner-imgas img-fluid">
                         </div>
                         <div class="banner-text-div">
-                            <h1 class="banner-hd"><span class="white">Welcome TO The</span> <br>
+                            <h1 class="banner-text"><span class="white">Welcome TO The</span>
                                 N Scale Enthusiast</h1>
                             <div class="banner-link">
                                 <a href="special-run-sales.php" class="banner-anchor">Special Run Sales</a>
@@ -23,7 +23,7 @@ include './assets/componnets/header.php';
                             <img src="assets/images/banner2.png" class="banner-imgas img-fluid">
                         </div>
                         <div class="banner-text-div">
-                            <h1 class="banner-hd"><span class="white">Welcome TO The</span> <br>
+                            <h1 class="banner-text"><span class="white">Welcome TO The</span>
                                 N Scale Enthusiast</h1>
                             <div class="banner-link">
                                 <a href="organizational.php" class="banner-anchor">Special Run Sales</a>
@@ -35,7 +35,7 @@ include './assets/componnets/header.php';
                             <img src="assets/images/banner3.png" class="banner-imgas img-fluid">
                         </div>
                         <div class="banner-text-div">
-                            <h1 class="banner-hd"><span class="white">Welcome TO The</span> <br>
+                            <h1 class="banner-text"><span class="white">Welcome TO The</span>
                                 N Scale Enthusiast</h1>
                             <div class="banner-link">
                                 <a href="vault.php" class="banner-anchor">Special Run Sales</a>
@@ -47,7 +47,7 @@ include './assets/componnets/header.php';
                             <img src="assets/images/banner4.png" class="banner-imgas img-fluid">
                         </div>
                         <div class="banner-text-div">
-                            <h1 class="banner-hd"><span class="white">Welcome TO The</span> <br>
+                            <h1 class="banner-text"><span class="white">Welcome TO The</span>
                                 N Scale Enthusiast</h1>
                             <div class="banner-link">
                                 <a href="conventions.php" class="banner-anchor">Special Run Sales</a>
@@ -59,7 +59,7 @@ include './assets/componnets/header.php';
                             <img src="assets/images/banner5.png" class="banner-imgas img-fluid">
                         </div>
                         <div class="banner-text-div">
-                            <h1 class="banner-hd"><span class="white">Welcome TO The</span> <br>
+                            <h1 class="banner-text"><span class="white">Welcome TO The</span>
                                 N Scale Enthusiast</h1>
                             <div class="banner-link">
                                 <a href="auction.php" class="banner-anchor">Special Run Sales</a>
@@ -71,7 +71,7 @@ include './assets/componnets/header.php';
                             <img src="assets/images/banner6.png" class="banner-imgas img-fluid">
                         </div>
                         <div class="banner-text-div">
-                            <h1 class="banner-hd"><span class="white">Welcome TO The</span> <br>
+                            <h1 class="banner-text"><span class="white">Welcome TO The</span>
                                 N Scale Enthusiast</h1>
                             <div class="banner-link">
                                 <a href="magazine.php" class="banner-anchor">Special Run Sales</a>

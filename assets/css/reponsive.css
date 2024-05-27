@@ -1,1712 +1,1719 @@
 @media (max-width: 1600px) {
-  .col-lg-6.col-12.bg-gray-light {
-    padding: 22px 0 60px;
-  }
-  .col-lg-1.col-12.dispaynone {
-    display: none;
-  }
-  .col-lg-10.col-12.secndclm-width {
-    width: 90%;
-  }
-  body {
-    overflow-x: hidden;
-  }
-  html {
-    overflow-x: hidden !important;
-  }
-  h1.upcoming-hd {
-    font-size: 90px;
-    margin-bottom: 90px;
-  }
-  .primary-sec-rotate {
-    padding-top: 40px;
-    display: grid;
-    height: 100%;
-    text-align: center;
-  }
-  a.viewall-btn {
-    padding: 13px 39px;
-  }
-  .bg-white-con {
-    padding: 30px 20px 63px;
-    display: grid;
-    height: 100%;
-  }
-  .header .dropbtn,
-  li.nav-list a {
-    font-size: 12px;
-  }
-  .float-end-btn button {
-    font-size: 12px;
-  }
-  .secndclm-width .d-flex {
-    justify-content: space-around !important;
-  }
-  .header .container .row {
-    justify-content: flex-start !important;
-  }
-  .mission-para {
-    width: 85%;
-  }
-  .logo-footer img {
-    width: 360px;
-  }
-  .team-img img {
-    width: 200px;
-    height: 250px;
-  }
-  h1.rotate-ourteam {
-    font-size: 77px;
-  }
-  .special-offer-text h1 {
-    font-size: 45px;
-  }
-  .special-offer-text {
-    padding-top: 45px;
-    padding-bottom: 95px;
-  }
-  section.mission-orginiz {
-    padding: 50px 60px;
-  }
-  .mission-orginiz-text {
-    padding-top: 40px;
-  }
-  .logos-text-magazine .border-set {
-    width: 134px;
-  }
-  section.histry-orginiz {
-    padding: 90px 0 60px;
-  }
-  .mission-orginiz-text.mission-right-pd {
-    padding-top: 0;
-    padding-right: 130px;
-  }
-  .mission-orginiz-text h1 {
-    font-size: 45px;
-    line-height: 65px;
-  }
-  section.organiz-banner.auction-banner {
-    padding: 170px 0 !important;
-  }
-  section.organiz-banner.resource-banner {
-    padding: 290px 0;
-  }
-  .service-box h4 {
-    font-size: 14px;
-    line-height: 30px;
-  }
-  .service-btn a {
-    padding: 10px 30px;
-    font-size: 16px;
-  }
-  .ba-img {
-    position: absolute;
-    left: -14.9%;
-    top: 6%;
-  }
-  .welcome-txt-posi h1 {
-    font-size: 75px;
-    line-height: 85px;
-    padding-left: 15px;
-  }
-  h2.convention-hd {
-    font-size: 40px;
-    line-height: 50px;
-  }
-  .conventions-para {
-    width: 97%;
-  }
-  .primary-sec-rotate p {
-    font-size: 18px;
-    line-height: 28px;
-    margin-bottom: -60px;
-    width: 67%;
-    margin-left: 97px;
-    margin-top: 75px;
-  }
-  h1.upcoming-hd {
-    font-size: 66px;
-    margin-bottom: 45px;
-  }
-  .cookies-area {
-    bottom: 36px;
-    max-width: 346px;
-    padding: 20px 15px;
-  }
+  .auction-rules-sec .row {
+ justify-content: center;
+}
+.auction-rules-sec .col-12.col-lg-1 {
+ display: none;
+}
+.col-lg-6.col-12.bg-gray-light {
+ padding: 22px 0 60px;
+}
+.col-lg-1.col-12.dispaynone {
+ display: none;
+}
+.col-lg-10.col-12.secndclm-width {
+ width: 90%;
+}
+body {
+ overflow-x: hidden;
+}
+html {
+ overflow-x: hidden !important;
+}
+h1.upcoming-hd {
+ font-size: 90px;
+ margin-bottom: 90px;
+}
+.primary-sec-rotate {
+ padding-top: 40px;
+ display: grid;
+ height: 100%;
+ text-align: center;
+}
+a.viewall-btn {
+ padding: 13px 39px;
+}
+.bg-white-con {
+ padding: 30px 20px 63px;
+ display: grid;
+ height: 100%;
+}
+.header .dropbtn,
+li.nav-list a {
+ font-size: 12px;
+}
+.float-end-btn button {
+ font-size: 12px;
+}
+.secndclm-width .d-flex {
+ justify-content: space-around !important;
+}
+.header .container .row {
+ justify-content: flex-start !important;
+}
+.mission-para {
+ width: 85%;
+}
+.logo-footer img {
+ width: 360px;
+}
+.team-img img {
+ width: 200px;
+ height: 250px;
+}
+h1.rotate-ourteam {
+ font-size: 77px;
+}
+.special-offer-text h1 {
+ font-size: 45px;
+}
+.special-offer-text {
+ padding-top: 45px;
+ padding-bottom: 95px;
+}
+section.mission-orginiz {
+ padding: 50px 60px;
+}
+.mission-orginiz-text {
+ padding-top: 40px;
+}
+.logos-text-magazine .border-set {
+ width: 134px;
+}
+section.histry-orginiz {
+ padding: 90px 0 60px;
+}
+.mission-orginiz-text.mission-right-pd {
+ padding-top: 0;
+ padding-right: 130px;
+}
+.mission-orginiz-text h1 {
+ font-size: 45px;
+ line-height: 65px;
+}
+section.organiz-banner.auction-banner {
+ padding: 170px 0 !important;
+}
+section.organiz-banner.resource-banner {
+ padding: 290px 0;
+}
+.service-box h4 {
+ font-size: 14px;
+ line-height: 30px;
+}
+.service-btn a {
+ padding: 10px 30px;
+ font-size: 16px;
+}
+.ba-img {
+ position: absolute;
+ left: -14.9%;
+ top: 6%;
+}
+.welcome-txt-posi h1 {
+ font-size: 75px;
+ line-height: 85px;
+ padding-left: 15px;
+}
+h2.convention-hd {
+ font-size: 40px;
+ line-height: 50px;
+}
+.conventions-para {
+ width: 97%;
+}
+.primary-sec-rotate p {
+ font-size: 18px;
+ line-height: 28px;
+ margin-bottom: -60px;
+ width: 67%;
+ margin-left: 97px;
+ margin-top: 75px;
+}
+h1.upcoming-hd {
+ font-size: 66px;
+ margin-bottom: 45px;
+}
+.cookies-area {
+ bottom: 36px;
+ max-width: 346px;
+ padding: 20px 15px;
+}
 }
 @media (max-width: 1540px) {
-  h1.rotate-ourteam {
-    font-size: 65px;
-  }
-  section.team-sec::after {
-    top: 83px;
-  }
-  .dropbtn {
-    font-size: 15px;
-  }
-  li.nav-list a {
-    font-size: 15px;
-  }
-  .logo-footer img {
-    width: 340px;
-  }
-  .logos-text-magazine .border-set {
-    width: 129px;
-  }
-  .ba-img {
-    position: absolute;
-    left: -16.9%;
-    top: 4%;
-  }
-  section.galery-convention {
-    padding: 30px 0;
-  }
+h1.rotate-ourteam {
+ font-size: 65px;
+}
+section.team-sec::after {
+ top: 83px;
+}
+.dropbtn {
+ font-size: 15px;
+}
+li.nav-list a {
+ font-size: 15px;
+}
+.logo-footer img {
+ width: 340px;
+}
+.logos-text-magazine .border-set {
+ width: 129px;
+}
+.ba-img {
+ position: absolute;
+ left: -16.9%;
+ top: 4%;
+}
+section.galery-convention {
+ padding: 30px 0;
+}
 }
 @media (max-width: 1500px) {
-  .dropbtn {
-    font-size: 14px;
-  }
-  li.nav-list a {
-    font-size: 14px;
-  }
-  .logo-footer img {
-    width: 320px;
-  }
-  .logos-text-magazine .border-set {
-    width: 127px;
-  }
+.dropbtn {
+ font-size: 14px;
+}
+li.nav-list a {
+ font-size: 14px;
+}
+.logo-footer img {
+ width: 320px;
+}
+.logos-text-magazine .border-set {
+ width: 127px;
+}
 }
 @media (max-width: 1440px) {
-  .logos-text-magazine .border-set {
-    width: 120px;
-  }
-  .team-text h4 {
-    font-size: 20px;
-  }
-  .header .dropbtn {
-    font-size: 15px;
-  }
-  li.nav-list i {
-    font-size: 13px;
-  }
-  .dropbtn {
-    font-size: 13px;
-  }
-  li.nav-list a {
-    font-size: 13px;
-  }
-  .mission-para {
-    width: 100%;
-    margin-bottom: 8px;
-  }
-  .special-offer-text h1 {
-    font-size: 40px;
-  }
-  .service-box {
-    padding: 50px 12px;
-  }
-  .service-box h4 {
-    font-size: 14px;
-    line-height: 18px;
-    margin-top: 20px;
-  }
+.logos-text-magazine .border-set {
+ width: 120px;
+}
+.team-text h4 {
+ font-size: 20px;
+}
+.header .dropbtn {
+ font-size: 15px;
+}
+li.nav-list i {
+ font-size: 13px;
+}
+.dropbtn {
+ font-size: 13px;
+}
+li.nav-list a {
+ font-size: 13px;
+}
+.mission-para {
+ width: 100%;
+ margin-bottom: 8px;
+}
+.special-offer-text h1 {
+ font-size: 40px;
+}
+.service-box {
+ padding: 50px 12px;
+}
+.service-box h4 {
+ font-size: 14px;
+ line-height: 18px;
+ margin-top: 20px;
+}
 }
 @media (max-width: 1400px) {
-  h1.rotate-ourteam {
-    font-size: 68px;
-  }
-  .team-img img {
-    width: 200px;
-    height: 180px;
-  }
-  section.team-sec::after {
-    top: 28px;
-  }
-  .department-bg-gray {
-    padding-top: 127px;
-    padding-bottom: 0;
-  }
-  .department-hd {
-    font-size: 37px;
-    line-height: 45px;
-  }
-  .special-offer-text p {
-    margin-bottom: 18px;
-  }
-  .member-text {
-    margin-bottom: 35px;
-  }
-  .logos-text-magazine .border-set {
-    width: 117px;
-  }
-  .service-box h4 {
-    font-size: 13px;
-  }
-  .ba-img {
-    position: absolute;
-    left: -18.9%;
-    top: -1%;
-  }
-  h1.upcoming-hd {
-    font-size: 46px;
-    margin-bottom: 30px;
-  }
-  .primary-sec-rotate p {
-    margin-bottom: -120px;
-    margin-top: 55px;
-  }
-  h2.convention-hd {
-    font-size: 35px;
-    line-height: 50px;
-  }
+
+h1.rotate-ourteam {
+ font-size: 68px;
+}
+.team-img img {
+ width: 200px;
+ height: 180px;
+}
+section.team-sec::after {
+ top: 28px;
+}
+.department-bg-gray {
+ padding-top: 127px;
+ padding-bottom: 0;
+}
+.department-hd {
+ font-size: 37px;
+ line-height: 45px;
+}
+.special-offer-text p {
+ margin-bottom: 18px;
+}
+.member-text {
+ margin-bottom: 35px;
+}
+.logos-text-magazine .border-set {
+ width: 117px;
+}
+.service-box h4 {
+ font-size: 13px;
+}
+.ba-img {
+ position: absolute;
+ left: -18.9%;
+ top: -1%;
+}
+h1.upcoming-hd {
+ font-size: 46px;
+ margin-bottom: 30px;
+}
+.primary-sec-rotate p {
+ margin-bottom: -120px;
+ margin-top: 55px;
+}
+h2.convention-hd {
+ font-size: 35px;
+ line-height: 50px;
+}
 }
 @media (max-width: 1366px) {
-  h1.rotate-ourteam {
-    font-size: 66px;
-  }
-  .department-hd {
-    font-size: 36px;
-    line-height: 42px;
-  }
-  .header .dropbtn {
-    font-size: 12px;
-  }
-  .dispaynone {
-    display: none;
-  }
-  .secndclm-width {
-    width: 91.66666667%;
-  }
-  .secndclm-width .d-flex.align-items-center.justify-content-between {
-    justify-content: space-evenly !important;
-  }
-  section.organiz-banner {
-    padding: 170px 0 80px;
-  }
-  .mission-orginiz-text h1 {
-    font-size: 48px;
-    line-height: 65px;
-  }
-  .logos-text-magazine {
-    gap: 11px;
-  }
-  .primary-sec-rotate p {
-    margin-bottom: -70px;
-    margin-top: 89px;
-  }
+h1.rotate-ourteam {
+ font-size: 66px;
+}
+.department-hd {
+ font-size: 36px;
+ line-height: 42px;
+}
+.header .dropbtn {
+ font-size: 12px;
+}
+.dispaynone {
+ display: none;
+}
+.secndclm-width {
+ width: 91.66666667%;
+}
+.secndclm-width .d-flex.align-items-center.justify-content-between {
+ justify-content: space-evenly !important;
+}
+section.organiz-banner {
+ padding: 170px 0 80px;
+}
+.mission-orginiz-text h1 {
+ font-size: 48px;
+ line-height: 65px;
+}
+.logos-text-magazine {
+ gap: 11px;
+}
+.primary-sec-rotate p {
+ margin-bottom: -70px;
+ margin-top: 89px;
+}
 }
 @media (max-width: 1280px) {
-  .col-lg-6.col-12.bg-gray-light {
-    padding-bottom: 50px;
-  }
-  .bg-gray-light {
-    background-color: #f3f3f3;
-    padding-bottom: 40px;
-  }
-  section.organiz-banner {
-    padding: 150px 0;
-  }
-  .department-hd {
-    font-size: 34px;
-    line-height: 42px;
-  }
-  h1.rotate-ourteam {
-    font-size: 62px;
-  }
-  .special-offer-text h1 {
-    font-size: 37px;
-  }
-  .truck-img img {
-    transform: translate(10px, 20px) scale(0.9);
-  }
-  .member-text {
-    margin-bottom: 0;
-  }
-  .mission-para {
-    width: 100%;
-    margin-bottom: 6px;
-    font-size: 12px;
-  }
-  .mission-text {
-    margin-top: -32px;
-  }
-  li.footerlist {
-    margin: 0 0px;
-  }
-  li.footerlist a {
-    font-size: 12px;
-  }
-  .logos-text-magazine .border-set {
-    width: 108px;
-  }
-  .service-box {
-    padding: 50px 2px;
-  }
-  .aution-scal-text h1 {
-    font-size: 27px;
-    line-height: 40px;
-    margin-bottom: 10px;
-  }
-  .aution-scal-text {
-    height: 100%;
-    padding-left: 25px;
-    padding-top: 20px;
-    justify-content: flex-start;
-  }
-  .aution-scal-text p {
-    width: 93%;
-    margin-bottom: 32px;
-  }
-  .resource-img img {
-    width: 70%;
-    float: right;
-  }
-  .logo-area li {
-    text-align: center;
-  }
-  .logo-area li img {
-    width: auto !important;
-    margin: 0 auto;
-  }
-  .ba-img img {
-    width: 83%;
-  }
-  h2.convention-hd {
-    font-size: 32px;
-    line-height: 51px;
-  }
+.col-lg-6.col-12.bg-gray-light {
+ padding-bottom: 50px;
+}
+.bg-gray-light {
+ background-color: #f3f3f3;
+ padding-bottom: 40px;
+}
+section.organiz-banner {
+ padding: 150px 0;
+}
+.department-hd {
+ font-size: 34px;
+ line-height: 42px;
+}
+h1.rotate-ourteam {
+ font-size: 62px;
+}
+.special-offer-text h1 {
+ font-size: 37px;
+}
+.truck-img img {
+ transform: translate(10px, 20px) scale(0.9);
+}
+.member-text {
+ margin-bottom: 0;
+}
+.mission-para {
+ width: 100%;
+ margin-bottom: 6px;
+ font-size: 12px;
+}
+.mission-text {
+ margin-top: -32px;
+}
+li.footerlist {
+ margin: 0 0px;
+}
+li.footerlist a {
+ font-size: 12px;
+}
+.logos-text-magazine .border-set {
+ width: 108px;
+}
+.service-box {
+ padding: 50px 2px;
+}
+.aution-scal-text h1 {
+ font-size: 27px;
+ line-height: 40px;
+ margin-bottom: 10px;
+}
+.aution-scal-text {
+ height: 100%;
+ padding-left: 25px;
+ padding-top: 20px;
+ justify-content: flex-start;
+}
+.aution-scal-text p {
+ width: 93%;
+ margin-bottom: 32px;
+}
+.resource-img img {
+ width: 70%;
+ float: right;
+}
+.logo-area li {
+ text-align: center;
+}
+.logo-area li img {
+ width: auto !important;
+ margin: 0 auto;
+}
+.ba-img img {
+ width: 83%;
+}
+h2.convention-hd {
+ font-size: 32px;
+ line-height: 51px;
+}
 }
 @media (max-width: 1202px) {
-  .mail-auct {
-    font-size: 23px;
-  }
-  .auc-email-area h2 {
-    font-size: 20px;
-  }
-  .overflow-table {
-    overflow-x: auto;
-    min-width: 1500px;
-  }
-  .auction-pdf-table {
-    overflow-x: auto;
-  }
-  .bg-gray-light {
-    background-color: #f3f3f3;
-    padding-bottom: 0;
-  }
-  .viewall-btn {
-    margin-bottom: 42px;
-  }
-  .convention p {
-    width: 77% !important;
-  }
-  .secondary-hd {
-    font-size: 40px;
-    line-height: 50px;
-    margin-bottom: 15px;
-  }
-  a.mission-btn {
-    font-size: 14px;
-  }
-  h1.newsletter-hd {
-    font-size: 51.59px;
-  }
-  .mission-orginiz-text h1 {
-    font-size: 42px;
-    line-height: 65px;
-  }
-  h1.rotate-ourteam {
-    font-size: 58px;
-  }
-  .team-text h4 {
-    font-size: 17px;
-  }
-  .team-text h6 {
-    font-size: 14px;
-    line-height: 24px;
-  }
-  .team-img img {
-    width: 200px;
-    height: 160px;
-  }
-  .department-hd {
-    font-size: 32px;
-    line-height: 35px;
-  }
-  .department-bg-gray {
-    padding-top: 87px;
-    padding-bottom: 0;
-  }
-  section.team-sec::after {
-    top: 28px;
-    height: 50.2%;
-  }
-  .special-offer-text h1 {
-    font-size: 35px;
-  }
-  .special-offer-text p {
-    margin-bottom: 18px;
-    font-size: 13px;
-  }
-  .dropbtn {
-    font-size: 11px;
-  }
-  li.nav-list a {
-    font-size: 12px;
-  }
-  li.nav-list i {
-    font-size: 12px;
-  }
-  .header .dropbtn {
-    font-size: 11px;
-  }
-  h1.banner-hd {
-    font-size: 82.74px;
-  }
-  a.banner-anchor {
-    padding: 20px 30px;
-    font-size: 22.42px;
-  }
-  .logos-text-magazine .border-set h5 {
-    font-size: 22px;
-  }
-  .logos-text-magazine .border-set {
-    width: 100px;
-    height: 110px;
-  }
-  .mission-orginiz-text.mission-right-pd {
-    padding-top: 0;
-    padding-right: 40px;
-  }
-  section.histry-orginiz {
-    padding: 70px 0 50px;
-  }
-  section.organiz-banner.auction-banner {
-    padding: 170px 0 90px !important;
-  }
-  .aution-scal-text h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
-  }
-  .aution-scal-text p {
-    width: 100%;
-    padding-right: 20px;
-    margin-bottom: 40px;
-  }
-  .aution-scal-text {
-    padding-bottom: 50px;
-    padding-top: 30px;
-  }
-  .counter-flex .circle span {
-    font-size: 30px;
-    line-height: 42px;
-  }
-  .rules-imgstar {
-    left: 100px;
-  }
-  .product-list p {
-    font-size: 15px;
-  }
-  .filteractive.active .list-filter {
-    width: 32%;
-  }
-  section.organiz-banner.resource-banner {
-    padding: 220px 0 140px;
-  }
-  .aution-scal-text h1 {
-    font-size: 26px;
-    margin-bottom: 10px;
-  }
-  .service-box h4 {
-    font-size: 12px;
-  }
-  .resource-img img {
-    width: 65%;
-  }
-  h2.convention-hd {
-    font-size: 30px;
-    line-height: 51px;
-  }
+.mail-auct {
+ font-size: 23px;
+}
+.auc-email-area h2 {
+ font-size: 20px;
+}
+.overflow-table {
+ overflow-x: auto;
+ min-width: 1500px;
+}
+.auction-pdf-table {
+ overflow-x: auto;
+}
+.bg-gray-light {
+ background-color: #f3f3f3;
+ padding-bottom: 0;
+}
+.viewall-btn {
+ margin-bottom: 42px;
+}
+.convention p {
+ width: 77% !important;
+}
+.secondary-hd {
+ font-size: 40px;
+ line-height: 50px;
+ margin-bottom: 15px;
+}
+a.mission-btn {
+ font-size: 14px;
+}
+h1.newsletter-hd {
+ font-size: 51.59px;
+}
+.mission-orginiz-text h1 {
+ font-size: 42px;
+ line-height: 65px;
+}
+h1.rotate-ourteam {
+ font-size: 58px;
+}
+.team-text h4 {
+ font-size: 17px;
+}
+.team-text h6 {
+ font-size: 14px;
+ line-height: 24px;
+}
+.team-img img {
+ width: 200px;
+ height: 160px;
+}
+.department-hd {
+ font-size: 32px;
+ line-height: 35px;
+}
+.department-bg-gray {
+ padding-top: 87px;
+ padding-bottom: 0;
+}
+section.team-sec::after {
+ top: 28px;
+ height: 50.2%;
+}
+.special-offer-text h1 {
+ font-size: 35px;
+}
+.special-offer-text p {
+ margin-bottom: 18px;
+ font-size: 13px;
+}
+.dropbtn {
+ font-size: 11px;
+}
+li.nav-list a {
+ font-size: 12px;
+}
+li.nav-list i {
+ font-size: 12px;
+}
+.header .dropbtn {
+ font-size: 11px;
+}
+h1.banner-hd {
+ font-size: 82.74px;
+}
+a.banner-anchor {
+ padding: 20px 30px;
+ font-size: 22.42px;
+}
+.logos-text-magazine .border-set h5 {
+ font-size: 22px;
+}
+.logos-text-magazine .border-set {
+ width: 100px;
+ height: 110px;
+}
+.mission-orginiz-text.mission-right-pd {
+ padding-top: 0;
+ padding-right: 40px;
+}
+section.histry-orginiz {
+ padding: 70px 0 50px;
+}
+section.organiz-banner.auction-banner {
+ padding: 170px 0 90px !important;
+}
+.aution-scal-text h1 {
+ font-size: 40px;
+ margin-bottom: 10px;
+}
+.aution-scal-text p {
+ width: 100%;
+ padding-right: 20px;
+ margin-bottom: 40px;
+}
+.aution-scal-text {
+ padding-bottom: 50px;
+ padding-top: 30px;
+}
+.counter-flex .circle span {
+ font-size: 30px;
+ line-height: 42px;
+}
+.rules-imgstar {
+ left: 100px;
+}
+.product-list p {
+ font-size: 15px;
+}
+.filteractive.active .list-filter {
+ width: 32%;
+}
+section.organiz-banner.resource-banner {
+ padding: 220px 0 140px;
+}
+.aution-scal-text h1 {
+ font-size: 26px;
+ margin-bottom: 10px;
+}
+.service-box h4 {
+ font-size: 12px;
+}
+.resource-img img {
+ width: 65%;
+}
+h2.convention-hd {
+ font-size: 30px;
+ line-height: 51px;
+}
 }
 @media (max-width: 1024px) {
-  .date-auct-area {
-    width: 50%;
-    padding: 0px 0 40px 0;
-  }
-  .auc-email-area h2 {
-    padding: 20px 0 0 0px;
-  }
-  .auc-email-area {
-    display: block;
-  }
-  .mtl-auction-hd p {
-    font-size: 18px;
-  }
-  .mtl-auction-hd h3 {
-    font-size: 30px;
-  }
-  .auct-hd h2 {
-    font-size: 32px;
-    text-align: center;
-  }
-  .auct-para p {
-    font-size: 18px;
-    text-align: center;
-  }
-  .col-lg-6.col-12.bg-gray-light {
-    padding-bottom: unset;
-  }
-  .primary-sec-rotate.convention {
-    padding-top: 170px;
-  }
-  .convention h1.upcoming-hd {
-    margin-bottom: 70px;
-  }
-  section.mission-sec.convention-sec {
-    padding: 30px 0 100px 0;
-  }
-  .specialfeature {
-    padding-left: 50px;
-  }
-  section.mission-orginiz::after {
-    content: unset;
-  }
-  .team-img img {
-    width: 200px;
-    height: 120px;
-  }
-  .mission-orginiz-text.mission-left-pd {
-    padding-left: 60px;
-    padding-right: 0;
-    padding-top: 0;
-  }
-  .header .dropdown-content {
-    position: unset;
-  }
-  h1.rotate-ourteam {
-    font-size: 50px;
-  }
-  .department-hd {
-    font-size: 27px;
-    line-height: 35px;
-  }
-  .team-img img {
-    width: 200px !important;
-    height: 121px !important;
-  }
-  section.team-sec::after {
-    height: 45%;
-  }
-  .mission-orginiz-text p {
-    font-size: 12px;
-  }
-  .member-text p {
-    font-size: 13px;
-  }
-  .special-offer-text h1 {
-    font-size: 30px;
-  }
-  .special-offer-text {
-    padding-top: 0px;
-    padding-bottom: 55px;
-    transform: unset;
-  }
-  .member-text h1 {
-    font-size: 49px;
-  }
-  h1.newsletter-hd {
-    font-size: 43.59px;
-  }
-  header.header {
-    padding: 20px 43px;
-  }
-  .menu-bar {
-    display: block;
-    margin-left: 30px;
-  }
-  .secndclm-width .d-flex.align-items-center.justify-content-between {
-    justify-content: space-between !important;
-  }
-  button.close-menu {
-    display: block;
-  }
-  button.close-menu {
-    color: white;
-    position: absolute;
-    right: 40px;
-    top: 40px;
-    background: #000;
-    padding: 0;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    border: none;
-    font-size: 22px;
-  }
-  .search-input-field {
-    right: 30px;
-    top: -6px;
-  }
-  ul.menubar.active {
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: block !important;
-    background: var(--primary-color);
-    width: 100%;
-    height: 100%;
-    z-index: 99999999999 !important;
-    padding-top: 90px;
-  }
-  ul.menubar.active li.nav-list {
-    margin-bottom: 20px;
-    width: 20%;
-  }
-  h1.banner-hd {
-    font-size: 80px;
-  }
-  ul.menubar {
-    display: none !important;
-  }
-  .mission-text {
-    margin-top: -25px;
-  }
-  .mission-para {
-    width: 98%;
-    margin-bottom: 15px;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 17px;
-  }
-  a.banner-anchor {
-    padding: 20px 30px;
-    color: white;
-    font-size: 19.42px;
-  }
-  a.mission-btn {
-    font-size: 17px;
-  }
-  h1.upcoming-hd {
-    font-size: 34px;
-    margin-bottom: 0;
-  }
-  .primary-sec-rotate {
-    padding-top: 100px;
-  }
-  a.viewall-btn {
-    padding: 13px 29px;
-    font-size: 16px;
-  }
-  li.nav-list a {
-    font-size: 18px;
-  }
-  .dropbtn {
-    font-size: 17px;
-  }
-  ul.menubar.active li.nav-list {
-    margin-bottom: 20px;
-    width: 60%;
-  }
-  h1.banner-text {
-    font-size: 87.74px;
-  }
-  .current-issue-textarea h1 {
-    font-size: 37px;
-  }
-  .logos-text-magazine .border-set {
-    width: 85px;
-    height: 100px;
-  }
-  .member-text h1 {
-    font-size: 39px;
-  }
-  .logos-text-magazine {
-    gap: 9px;
-  }
-  .mission-orginiz-text h1 {
-    font-size: 32px;
-  }
-  .filteractive.active .list-filter {
-    width: 100%;
-  }
-  ul.list-products-columns {
-    column-count: 1;
-  }
-  .order-list {
-    flex-wrap: wrap !important;
-    gap: 15px;
-  }
-  section.live-auction-sec.resource-sec-intro .row {
-    align-items: center;
-  }
-  .service-box {
-    padding: 50px 10px;
-    height: 300px;
-  }
-  .resource-img img {
-    width: 57%;
-  }
-  .secondary-hd {
-    font-size: 25px;
-    line-height: 30px;
-  }
-  .ba-img img {
-    width: 68%;
-  }
-  .primary-sec-rotate p {
-    margin-bottom: -177px;
-    margin-top: -12px;
-  }
-  .primary-sec-rotate {
-    padding-top: 0;
-  }
-  h2.convention-hd {
-    font-size: 26px;
-    line-height: 42px;
-  }
-  .primary-sec-rotate p {
-    margin-bottom: -40px;
-    margin-top: 110px;
-    font-size: 14px;
-    line-height: 16px;
-  }
-  .float-end-btn {
-    float: right;
-  }
+.date-auct-area {
+ width: 50%;
+ padding: 0px 0 40px 0;
+}
+.auc-email-area h2 {
+ padding: 20px 0 0 0px;
+}
+.auc-email-area {
+ display: block;
+}
+.mtl-auction-hd p {
+ font-size: 18px;
+}
+.mtl-auction-hd h3 {
+ font-size: 30px;
+}
+.auct-hd h2 {
+ font-size: 32px;
+ text-align: center;
+}
+.auct-para p {
+ font-size: 18px;
+ text-align: center;
+}
+.col-lg-6.col-12.bg-gray-light {
+ padding-bottom: unset;
+}
+.primary-sec-rotate.convention {
+ padding-top: 170px;
+}
+.convention h1.upcoming-hd {
+ margin-bottom: 70px;
+}
+section.mission-sec.convention-sec {
+ padding: 30px 0 100px 0;
+}
+.specialfeature {
+ padding-left: 50px;
+}
+section.mission-orginiz::after {
+ content: unset;
+}
+.team-img img {
+ width: 200px;
+ height: 120px;
+}
+.mission-orginiz-text.mission-left-pd {
+ padding-left: 60px;
+ padding-right: 0;
+ padding-top: 0;
+}
+.header .dropdown-content {
+ position: unset;
+}
+h1.rotate-ourteam {
+ font-size: 50px;
+}
+.department-hd {
+ font-size: 27px;
+ line-height: 35px;
+}
+.team-img img {
+ width: 200px !important;
+ height: 121px !important;
+}
+section.team-sec::after {
+ height: 45%;
+}
+.mission-orginiz-text p {
+ font-size: 12px;
+}
+.member-text p {
+ font-size: 13px;
+}
+.special-offer-text h1 {
+ font-size: 30px;
+}
+.special-offer-text {
+ padding-top: 0px;
+ padding-bottom: 55px;
+ transform: unset;
+}
+.member-text h1 {
+ font-size: 49px;
+}
+h1.newsletter-hd {
+ font-size: 43.59px;
+}
+header.header {
+ padding: 20px 43px;
+}
+.menu-bar {
+ display: block;
+ margin-left: 30px;
+}
+.secndclm-width .d-flex.align-items-center.justify-content-between {
+ justify-content: space-between !important;
+}
+button.close-menu {
+ display: block;
+}
+button.close-menu {
+ color: white;
+ position: absolute;
+ right: 40px;
+ top: 40px;
+ background: #000;
+ padding: 0;
+ width: 40px;
+ height: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 50px;
+ border: none;
+ font-size: 22px;
+}
+.search-input-field {
+ right: 30px;
+ top: -6px;
+}
+ul.menubar.active {
+ position: fixed;
+ top: 0;
+ left: 0;
+ display: block !important;
+ background: var(--primary-color);
+ width: 100%;
+ height: 100%;
+ z-index: 99999999999 !important;
+ padding-top: 90px;
+}
+ul.menubar.active li.nav-list {
+ margin-bottom: 20px;
+ width: 20%;
+}
+h1.banner-hd {
+ font-size: 80px;
+}
+ul.menubar {
+ display: none !important;
+}
+.mission-text {
+ margin-top: -25px;
+}
+.mission-para {
+ width: 98%;
+ margin-bottom: 15px;
+ font-size: 12px;
+ font-weight: 400;
+ line-height: 17px;
+}
+a.banner-anchor {
+ padding: 20px 30px;
+ color: white;
+ font-size: 19.42px;
+}
+a.mission-btn {
+ font-size: 17px;
+}
+h1.upcoming-hd {
+ font-size: 34px;
+ margin-bottom: 0;
+}
+.primary-sec-rotate {
+ padding-top: 100px;
+}
+a.viewall-btn {
+ padding: 13px 29px;
+ font-size: 16px;
+}
+li.nav-list a {
+ font-size: 18px;
+}
+.dropbtn {
+ font-size: 17px;
+}
+ul.menubar.active li.nav-list {
+ margin-bottom: 20px;
+ width: 60%;
+}
+h1.banner-text {
+ font-size: 87.74px;
+}
+.current-issue-textarea h1 {
+ font-size: 37px;
+}
+.logos-text-magazine .border-set {
+ width: 85px;
+ height: 100px;
+}
+.member-text h1 {
+ font-size: 39px;
+}
+.logos-text-magazine {
+ gap: 9px;
+}
+.mission-orginiz-text h1 {
+ font-size: 32px;
+}
+.filteractive.active .list-filter {
+ width: 100%;
+}
+ul.list-products-columns {
+ column-count: 1;
+}
+.order-list {
+ flex-wrap: wrap !important;
+ gap: 15px;
+}
+section.live-auction-sec.resource-sec-intro .row {
+ align-items: center;
+}
+.service-box {
+ padding: 50px 10px;
+ height: 300px;
+}
+.resource-img img {
+ width: 57%;
+}
+.secondary-hd {
+ font-size: 25px;
+ line-height: 30px;
+}
+.ba-img img {
+ width: 68%;
+}
+.primary-sec-rotate p {
+ margin-bottom: -177px;
+ margin-top: -12px;
+}
+.primary-sec-rotate {
+ padding-top: 0;
+}
+h2.convention-hd {
+ font-size: 26px;
+ line-height: 42px;
+}
+.primary-sec-rotate p {
+ margin-bottom: -40px;
+ margin-top: 110px;
+ font-size: 14px;
+ line-height: 16px;
+}
+.float-end-btn {
+ float: right;
+}
 }
 @media (max-width: 768px) {
-  .current-auct p {
-    font-size: 20px;
-  }
-  .current-auct a {
-    font-size: 15px;
-  }
-  .latest-auction-hds p {
-    font-size: 16px;
-  }
-  .latest-auct-thnk-field strong {
-    font-size: 20px;
-  }
-  .latest-auction-hds h2 {
-    font-size: 22px;
-  }
-  section.thnks-sec {
-    padding: 133px 0;
-  }
-  .primary-sec-rotate.convention {
-    padding: 50px 50px 0 !important;
-  }
-  .convention h1.upcoming-hd {
-    transform: unset;
-    text-align: center;
-    margin-bottom: 0;
-  }
-  .primary-sec-rotate p {
-    width: 100% !important;
-  }
-  .mission-text.mt-set-mb {
-    padding-top: 0;
-  }
-  .primary-sec-rotate.convention {
-    padding-top: 60px;
-  }
-  section.mission-sec.convention-sec.convention-loca {
-    padding-top: 0 !important;
-  }
-  .team-img img {
-    width: 200px !important;
-    height: 180px !important;
-  }
-  section.organiz-banner.resource-banner {
-    padding: 200px 0 120px;
-  }
-  h1.banner-text {
-    font-size: 55.74px;
-  }
-  section.mission-orginiz::after {
-    display: none;
-  }
-  h1.banner-text span {
-    font-size: 45px;
-    line-height: 81px;
-  }
-  section.organiz-banner {
-    padding: 150px 0 80px;
-  }
-  .search-input-field.active input {
-    width: 250px !important;
-    padding-left: 4px;
-  }
-  h1.banner-hd {
-    font-size: 55px;
-    line-height: 65px;
-    margin-bottom: 40px;
-  }
-  a.banner-anchor {
-    padding: 16px 24px;
-    color: white;
-    font-size: 16px;
-  }
-  .mission-text {
-    margin-top: 0;
-    padding: 40px;
-    text-align: center;
-  }
-  h2.convention-hd {
-    font-size: 40px;
-  }
-  .conventions-para {
-    width: 100%;
-  }
-  .primary-sec-rotate {
-    padding-top: 180px;
-  }
-  h1.upcoming-hd {
-    margin-bottom: 120px;
-  }
-  h1.vault-hd.white {
-    font-size: 59px;
-  }
-  p.para-vault {
-    width: 85%;
-  }
-  .counter-vault {
-    margin-top: 30px;
-  }
-  .counter-vault-content h3 {
-    font-size: 45px;
-  }
-  h1.newsletter-hd {
-    font-size: 43px;
-  }
-  p.newspara {
-    font-size: 18px;
-  }
-  .logo-footer img {
-    width: 270px;
-  }
-  .set-justify {
-    justify-content: center !important;
-  }
-  .button-sec {
-    margin: 0 auto;
-  }
-  .conventions-div .button-sec {
-    margin: 0;
-  }
-  .vault-sec:after {
-    height: 26%;
-  }
-  ul.current-issue-list li p {
-    font-size: 12px;
-    line-height: 19px;
-  }
-  .current-issue-textarea h1 {
-    font-size: 26px;
-    margin-bottom: 20px;
-    line-height: 38px;
-  }
-  .place-bid-btn a {
-    font-size: 15px;
-  }
-  .mission-orginiz-text.mission-left-pd .mission-btn {
-    margin: 0 auto;
-  }
-  .mission-orginiz-text.mission-left-pd {
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 60px;
-    padding-top: 0;
-    text-align: center;
-  }
-  section.histry-orginiz {
-    padding: 50px 0 70px;
-    text-align: center;
-  }
-  .mission-orginiz-text.mission-right-pd .mission-btn {
-    margin: 0 auto;
-  }
-  .counter-flex {
-    justify-content: center;
-    gap: 10px;
-    padding: 13px 0;
-  }
-  .counter-flex .circle {
-    margin: 0;
-  }
-  .train-imgarea {
-    padding-right: 0;
-  }
-  .place-bid-btn.download-btn {
-    margin-bottom: 60px;
-  }
-  .rules-img img {
-    width: 100%;
-  }
-  .product-list p span {
-    font-size: 15px;
-  }
-  .product-list p {
-    font-size: 13px;
-  }
-  section.micro-trainslines-sec {
-    padding: 80px 0 70px;
-  }
-  .filteractive.active .list-products {
-    width: 100%;
-  }
-  .flex-columns {
-    flex-wrap: wrap;
-  }
-  .button-sec.shopfilter-shop-btn {
-    margin: 30px auto 0;
-  }
-  .service-box {
-    margin-bottom: 10px;
-  }
-  .resource-img img {
-    width: 100%;
-    float: unset;
-  }
-  .resource-img {
-    position: unset;
-    right: 0;
-    top: 50%;
-    transform: unset;
-    text-align: center;
-    margin-top: 40px;
-  }
-  section.nfs-member-sec.resource-member {
-    padding-bottom: 53px;
-    padding-top: 56px;
-  }
-  .place-bid-btn.scalebtn {
-    margin: 0 auto;
-    padding-top: 20px;
-  }
-  .resource-member .member-text {
-    text-align: center;
-  }
-  section.mission-sec.convention-sec {
-    background: white;
-    padding: 50px 0;
-  }
-  .convention-sec .mission-text {
-    margin-top: 20px;
-  }
-  .secondary-hd {
-    font-size: 25px;
-    line-height: 30px;
-    margin-top: 20px;
-  }
-  h1.upcoming-hd {
-    transform: unset;
-    text-align: center;
-  }
-  h1.upcoming-hd {
-    margin-bottom: 0;
-    font-size: 38px;
-  }
-  .primary-sec-rotate p {
-    margin: 21px 0 31px !important;
-    width: 100%;
-    font-size: 17px;
-  }
-  .viewall-btn {
-    margin-bottom: 50px;
-  }
-  .ba-img {
-    position: absolute;
-    left: 0;
-    top: 9%;
-  }
-  h2.convention-hd {
-    font-size: 34px;
-  }
-  .convention-sec .mission-text {
-    margin-top: 0;
-    padding: 50px 0 0;
-  }
-  section.mission-sec.convention-sec.convention-loca .button-sec {
-    margin-bottom: 50px;
-  }
-  .convention-sec .para.mission-para {
-    width: 100%;
-    padding: 0 21px;
-  }
+.current-auct p {
+ font-size: 20px;
+}
+.current-auct a {
+ font-size: 15px;
+}
+.latest-auction-hds p {
+ font-size: 16px;
+}
+.latest-auct-thnk-field strong {
+ font-size: 20px;
+}
+.latest-auction-hds h2 {
+ font-size: 22px;
+}
+section.thnks-sec {
+ padding: 133px 0;
+}
+.primary-sec-rotate.convention {
+ padding: 50px 50px 0 !important;
+}
+.convention h1.upcoming-hd {
+ transform: unset;
+ text-align: center;
+ margin-bottom: 0;
+}
+.primary-sec-rotate p {
+ width: 100% !important;
+}
+.mission-text.mt-set-mb {
+ padding-top: 0;
+}
+.primary-sec-rotate.convention {
+ padding-top: 60px;
+}
+section.mission-sec.convention-sec.convention-loca {
+ padding-top: 0 !important;
+}
+.team-img img {
+ width: 200px !important;
+ height: 180px !important;
+}
+section.organiz-banner.resource-banner {
+ padding: 200px 0 120px;
+}
+h1.banner-text {
+ font-size: 55.74px;
+}
+section.mission-orginiz::after {
+ display: none;
+}
+h1.banner-text span {
+ font-size: 45px;
+ line-height: 81px;
+}
+section.organiz-banner {
+ padding: 150px 0 80px;
+}
+.search-input-field.active input {
+ width: 250px !important;
+ padding-left: 4px;
+}
+h1.banner-hd {
+ font-size: 55px;
+ line-height: 65px;
+ margin-bottom: 40px;
+}
+a.banner-anchor {
+ padding: 16px 24px;
+ color: white;
+ font-size: 16px;
+}
+.mission-text {
+ margin-top: 0;
+ padding: 40px;
+ text-align: center;
+}
+h2.convention-hd {
+ font-size: 40px;
+}
+.conventions-para {
+ width: 100%;
+}
+.primary-sec-rotate {
+ padding-top: 180px;
+}
+h1.upcoming-hd {
+ margin-bottom: 120px;
+}
+h1.vault-hd.white {
+ font-size: 59px;
+}
+p.para-vault {
+ width: 85%;
+}
+.counter-vault {
+ margin-top: 30px;
+}
+.counter-vault-content h3 {
+ font-size: 45px;
+}
+h1.newsletter-hd {
+ font-size: 43px;
+}
+p.newspara {
+ font-size: 18px;
+}
+.logo-footer img {
+ width: 270px;
+}
+.set-justify {
+ justify-content: center !important;
+}
+.button-sec {
+ margin: 0 auto;
+}
+.conventions-div .button-sec {
+ margin: 0;
+}
+.vault-sec:after {
+ height: 26%;
+}
+ul.current-issue-list li p {
+ font-size: 12px;
+ line-height: 19px;
+}
+.current-issue-textarea h1 {
+ font-size: 26px;
+ margin-bottom: 20px;
+ line-height: 38px;
+}
+.place-bid-btn a {
+ font-size: 15px;
+}
+.mission-orginiz-text.mission-left-pd .mission-btn {
+ margin: 0 auto;
+}
+.mission-orginiz-text.mission-left-pd {
+ padding-left: 0;
+ padding-right: 0;
+ padding-bottom: 60px;
+ padding-top: 0;
+ text-align: center;
+}
+section.histry-orginiz {
+ padding: 50px 0 70px;
+ text-align: center;
+}
+.mission-orginiz-text.mission-right-pd .mission-btn {
+ margin: 0 auto;
+}
+.counter-flex {
+ justify-content: center;
+ gap: 10px;
+ padding: 13px 0;
+}
+.counter-flex .circle {
+ margin: 0;
+}
+.train-imgarea {
+ padding-right: 0;
+}
+.place-bid-btn.download-btn {
+ margin-bottom: 60px;
+}
+.rules-img img {
+ width: 100%;
+}
+.product-list p span {
+ font-size: 15px;
+}
+.product-list p {
+ font-size: 13px;
+}
+section.micro-trainslines-sec {
+ padding: 80px 0 70px;
+}
+.filteractive.active .list-products {
+ width: 100%;
+}
+.flex-columns {
+ flex-wrap: wrap;
+}
+.button-sec.shopfilter-shop-btn {
+ margin: 30px auto 0;
+}
+.service-box {
+ margin-bottom: 10px;
+}
+.resource-img img {
+ width: 100%;
+ float: unset;
+}
+.resource-img {
+ position: unset;
+ right: 0;
+ top: 50%;
+ transform: unset;
+ text-align: center;
+ margin-top: 40px;
+}
+section.nfs-member-sec.resource-member {
+ padding-bottom: 53px;
+ padding-top: 56px;
+}
+.place-bid-btn.scalebtn {
+ margin: 0 auto;
+ padding-top: 20px;
+}
+.resource-member .member-text {
+ text-align: center;
+}
+section.mission-sec.convention-sec {
+ background: white;
+ padding: 50px 0;
+}
+.convention-sec .mission-text {
+ margin-top: 20px;
+}
+.secondary-hd {
+ font-size: 25px;
+ line-height: 30px;
+ margin-top: 20px;
+}
+h1.upcoming-hd {
+ transform: unset;
+ text-align: center;
+}
+h1.upcoming-hd {
+ margin-bottom: 0;
+ font-size: 38px;
+}
+.primary-sec-rotate p {
+ margin: 21px 0 31px !important;
+ width: 100%;
+ font-size: 17px;
+}
+.viewall-btn {
+ margin-bottom: 50px;
+}
+.ba-img {
+ position: absolute;
+ left: 0;
+ top: 9%;
+}
+h2.convention-hd {
+ font-size: 34px;
+}
+.convention-sec .mission-text {
+ margin-top: 0;
+ padding: 50px 0 0;
+}
+section.mission-sec.convention-sec.convention-loca .button-sec {
+ margin-bottom: 50px;
+}
+.convention-sec .para.mission-para {
+ width: 100%;
+ padding: 0 21px;
+}
 }
 @media (max-width: 767px) {
-  .mail-auct {
-    font-size: 20px;
-  }
-  .latest-auction-hds {
-    padding: 20px 0 0 0;
-  }
-  .team-box {
-    width: fit-content;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .team-text h6 {
-    font-size: 14px;
-    line-height: 24px;
-    width: 48%;
-    margin: 0 auto;
-  }
-  h1.banner-text span {
-    font-size: 36px;
-    line-height: 60px;
-  }
-  h1.banner-text {
-    font-size: 34.74px;
-  }
-  .team-img {
-    margin: 0 auto 16px;
-  }
-  .welcom-text h1 span {
-    font-size: 40px;
-    line-height: 60px;
-  }
-  .welcom-text h1 {
-    font-size: 31px;
-    line-height: 40px;
-  }
-  .welcom-text h1 span {
-    font-size: 31px;
-    line-height: 40px;
-  }
-  .convention-sec .mission-text {
-    margin-top: 70px;
-    padding: 0;
-  }
-  h1.upcoming-hd br {
-    display: none;
-  }
-  h1.upcoming-hd {
-    margin-bottom: 0 !important;
-  }
-  .primary-sec-rotate {
-    padding: 50px 20px 50px !important;
-  }
-  h1.rotate-ourteam {
-    transform: unset;
-    left: 0;
-  }
-  .team-rotate-box {
-    min-height: 42vh;
-  }
-  .mission-text.mt-set-mb {
-    margin-top: 0 !important;
-  }
-  .primary-sec-rotate {
-    padding: 50px 20px;
-  }
-  h1.upcoming-hd {
-    margin-bottom: 30px;
-    transform: unset;
-    text-align: center;
-  }
-  .bg-white-con {
-    text-align: center;
-  }
-  .vault-sec {
-    padding: 60px 0 86px;
-  }
-  h1.vault-hd.white {
-    font-size: 50px;
-  }
-  a.icons-link {
-    width: 40px;
-    height: 40px;
-  }
-  a.icons-link {
-    margin-left: 0;
-  }
-  a.viewall-btn {
-    padding: 13px 50px;
-  }
-  .conventions-div .button-sec {
-    margin: 0 auto;
-  }
-  .vault-sec:after {
-    height: 31%;
-  }
-  .banner-inner-image {
-    position: unset;
-  }
-  section.current-issue {
-    padding: 50px 0 0;
-  }
-  .current-issue-textarea {
-    padding: 40px 35px 65px;
-  }
+.mail-auct {
+ font-size: 20px;
+}
+.latest-auction-hds {
+ padding: 20px 0 0 0;
+}
+.team-box {
+ width: fit-content;
+ margin: 0 auto;
+ text-align: center;
+ margin-bottom: 30px;
+}
+.team-text h6 {
+ font-size: 14px;
+ line-height: 24px;
+ width: 48%;
+ margin: 0 auto;
+}
+h1.banner-text span {
+ font-size: 36px;
+ line-height: 60px;
+}
+h1.banner-text {
+ font-size: 34.74px;
+}
+.team-img {
+ margin: 0 auto 16px;
+}
+.welcom-text h1 span {
+ font-size: 40px;
+ line-height: 60px;
+}
+.welcom-text h1 {
+ font-size: 31px;
+ line-height: 40px;
+}
+.welcom-text h1 span {
+ font-size: 31px;
+ line-height: 40px;
+}
+.convention-sec .mission-text {
+ margin-top: 70px;
+ padding: 0;
+}
+h1.upcoming-hd br {
+ display: none;
+}
+h1.upcoming-hd {
+ margin-bottom: 0 !important;
+}
+.primary-sec-rotate {
+ padding: 50px 20px 50px !important;
+}
+h1.rotate-ourteam {
+ transform: unset;
+ left: 0;
+}
+.team-rotate-box {
+ min-height: 42vh;
+}
+.mission-text.mt-set-mb {
+ margin-top: 0 !important;
+}
+.primary-sec-rotate {
+ padding: 50px 20px;
+}
+h1.upcoming-hd {
+ margin-bottom: 30px;
+ transform: unset;
+ text-align: center;
+}
+.bg-white-con {
+ text-align: center;
+}
+.vault-sec {
+ padding: 60px 0 86px;
+}
+h1.vault-hd.white {
+ font-size: 50px;
+}
+a.icons-link {
+ width: 40px;
+ height: 40px;
+}
+a.icons-link {
+ margin-left: 0;
+}
+a.viewall-btn {
+ padding: 13px 50px;
+}
+.conventions-div .button-sec {
+ margin: 0 auto;
+}
+.vault-sec:after {
+ height: 31%;
+}
+.banner-inner-image {
+ position: unset;
+}
+section.current-issue {
+ padding: 50px 0 0;
+}
+.current-issue-textarea {
+ padding: 40px 35px 65px;
+}
 }
 @media (max-width: 620px) {
-  section.organiz-banner.valt-banner {
-    padding: 140px 0 62px !important;
-  }
-  section.organiz-banner.resource-banner {
-    padding: 140px 0 73px !important;
-  }
-  .search-input-field.active input {
-    width: 220px !important;
-  }
-  h1.banner-hd {
-    font-size: 45px;
-    line-height: 46px;
-    margin-bottom: 41px;
-    margin-top: 40px;
-  }
-  .banner-slider ul.slick-dots {
-    bottom: 0px;
-  }
-  .mission-text {
-    padding: 40px 40px 80px;
-  }
-  h1.vault-hd.white {
-    font-size: 40px;
-  }
-  p.para-vault {
-    width: 100%;
-    font-size: 16px;
-    line-height: 22px;
-  }
-  .counter-vault-content h3 {
-    font-size: 37px;
-  }
-  .newsletter {
-    padding: 60px 0 60px;
-  }
-  .footer-nav ul.d-flex.justify-content-between {
-    display: grid !important;
-    text-align: left;
-  }
-  ul.social-list {
-    width: fit-content;
-  }
-  .logo-footer img {
-    width: 200px;
-  }
-  .logo-footer.mb-5 {
-    width: fit-content;
-  }
-  li.footerlist a {
-    font-size: 18px;
-  }
-  li.footerlist {
-    margin: 0 0px 18px;
-  }
-  .footer-area {
-    padding: 50px 20px;
-  }
-  .footer-nav.mb-5 {
-    margin-bottom: 30px !important;
-  }
-  section.organiz-banner {
-    padding: 90px 0 52px !important;
-  }
-  section.nfs-member-sec {
-    padding: 80px 0 70px !important;
-  }
-  section.nfs-member-sec {
-    padding: 80px 0 60px !important;
-  }
+section.organiz-banner.valt-banner {
+ padding: 140px 0 62px !important;
+}
+section.organiz-banner.resource-banner {
+ padding: 140px 0 73px !important;
+}
+.search-input-field.active input {
+ width: 220px !important;
+}
+h1.banner-hd {
+ font-size: 45px;
+ line-height: 46px;
+ margin-bottom: 41px;
+ margin-top: 40px;
+}
+.banner-slider ul.slick-dots {
+ bottom: 0px;
+}
+.mission-text {
+ padding: 40px 40px 80px;
+}
+h1.vault-hd.white {
+ font-size: 40px;
+}
+p.para-vault {
+ width: 100%;
+ font-size: 16px;
+ line-height: 22px;
+}
+.counter-vault-content h3 {
+ font-size: 37px;
+}
+.newsletter {
+ padding: 60px 0 60px;
+}
+.footer-nav ul.d-flex.justify-content-between {
+ display: grid !important;
+ text-align: left;
+}
+ul.social-list {
+ width: fit-content;
+}
+.logo-footer img {
+ width: 200px;
+}
+.logo-footer.mb-5 {
+ width: fit-content;
+}
+li.footerlist a {
+ font-size: 18px;
+}
+li.footerlist {
+ margin: 0 0px 18px;
+}
+.footer-area {
+ padding: 50px 20px;
+}
+.footer-nav.mb-5 {
+ margin-bottom: 30px !important;
+}
+section.organiz-banner {
+ padding: 90px 0 52px !important;
+}
+section.nfs-member-sec {
+ padding: 80px 0 70px !important;
+}
+section.nfs-member-sec {
+ padding: 80px 0 60px !important;
+}
 }
 @media (max-width: 550px) {
-  header.header {
-    padding: 20px 0px 0 0;
-  }
-  .search-input-field.active input {
-    width: 200px !important;
-    font-size: 15px;
-  }
-  h1.banner-hd {
-    font-size: 37px;
-    line-height: 44px;
-    margin-bottom: 35px;
-    margin-top: 48px;
-  }
-  .banner-slider ul.slick-dots {
-    display: none !important;
-  }
-  .logo-header img {
-    width: 125px;
-  }
-  .mission-text {
-    padding: 40px 10px 80px;
-  }
-  .secondary-hd {
-    font-size: 45px;
-    line-height: 50px;
-  }
-  h1.upcoming-hd {
-    font-size: 50px;
-  }
-  h1.vault-hd {
-    font-size: 40px;
-  }
-  .counter-vault-content h3 {
-    font-size: 34px;
-  }
-  .counter-vault-content p {
-    font-size: 13px;
-  }
-  .counter-flex .circle span {
-    font-size: 26px;
-  }
-  .counter-flex .circle {
-    font-size: 10px;
-    width: 51px;
-  }
-  ul.pro-unorderlist {
-    column-count: 1;
-  }
-  .conventionbanner span.primary-color {
-    font-size: 34px;
-    line-height: 47px;
-    margin-top: 30px;
-  }
-  .conventionbanner h1.banner-text {
-    font-size: 48px;
-    padding-bottom: 10px;
-  }
-  .convention-sec .secondary-hd {
-    font-size: 34px;
-    line-height: 40px;
-  }
-  .welcome-txt-posi h1 {
-    font-size: 57px;
-    line-height: 85px;
-    padding-left: 15px;
-  }
-  .ba-img img {
-    width: 30%;
-  }
+header.header {
+ padding: 20px 0px 0 0;
+}
+.search-input-field.active input {
+ width: 200px !important;
+ font-size: 15px;
+}
+h1.banner-hd {
+ font-size: 37px;
+ line-height: 44px;
+ margin-bottom: 35px;
+ margin-top: 48px;
+}
+.banner-slider ul.slick-dots {
+ display: none !important;
+}
+.logo-header img {
+ width: 125px;
+}
+.mission-text {
+ padding: 40px 10px 80px;
+}
+.secondary-hd {
+ font-size: 45px;
+ line-height: 50px;
+}
+h1.upcoming-hd {
+ font-size: 50px;
+}
+h1.vault-hd {
+ font-size: 40px;
+}
+.counter-vault-content h3 {
+ font-size: 34px;
+}
+.counter-vault-content p {
+ font-size: 13px;
+}
+.counter-flex .circle span {
+ font-size: 26px;
+}
+.counter-flex .circle {
+ font-size: 10px;
+ width: 51px;
+}
+ul.pro-unorderlist {
+ column-count: 1;
+}
+.conventionbanner span.primary-color {
+ font-size: 34px;
+ line-height: 47px;
+ margin-top: 30px;
+}
+.conventionbanner h1.banner-text {
+ font-size: 48px;
+ padding-bottom: 10px;
+}
+.convention-sec .secondary-hd {
+ font-size: 34px;
+ line-height: 40px;
+}
+.welcome-txt-posi h1 {
+ font-size: 57px;
+ line-height: 85px;
+ padding-left: 15px;
+}
+.ba-img img {
+ width: 30%;
+}
 }
 @media (max-width: 520px) {
-  .counter-vault-content h3 {
-    font-size: 30px;
-  }
-  p.copyright-color {
-    font-size: 12px;
-  }
-  .news-letter-btn {
-    padding: 10.7px 40px;
-  }
-  .member-text h1 {
-    font-size: 30px;
-  }
-  .micro-textarea h1 {
-    font-size: 40px;
-  }
-  .member-text h1 {
-    font-size: 32px;
-  }
-  section.nfs-member-sec {
-    padding: 50px 0 60px !important;
-  }
+.counter-vault-content h3 {
+ font-size: 30px;
+}
+p.copyright-color {
+ font-size: 12px;
+}
+.news-letter-btn {
+ padding: 10.7px 40px;
+}
+.member-text h1 {
+ font-size: 30px;
+}
+.micro-textarea h1 {
+ font-size: 40px;
+}
+.member-text h1 {
+ font-size: 32px;
+}
+section.nfs-member-sec {
+ padding: 50px 0 60px !important;
+}
 }
 @media (max-width: 480px) {
-  .date-auct-area {
-    width: 100%;
-  }
-  .current-auct p {
-    font-size: 17px;
-  }
-  .auct-pdf-excel {
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-  }
-  .search-input-field {
-    right: 0px;
-    top: 30px;
-  }
-  .convention-welcome h1 {
-    font-size: 44px;
-  }
-  h2.convention-hd {
-    font-size: 20px;
-    line-height: 28px;
-  }
-  .shoplist-filter {
-    padding: 0px 0 90px;
-  }
-  .banner-text-div {
-    top: 60%;
-  }
-  .team-rotate-box {
-    min-height: 15vh;
-  }
-  section.mission-orginiz {
-    padding: 50px 14px;
-  }
-  .mission-text.mt-set-mb {
-    /* margin-top: -50px !important; */
-  }
-  section.nfs-member-sec {
-    padding: 60px 0 50px !important;
-  }
-  .member-text p {
-    font-size: 12px;
-    margin-bottom: 10px;
-    line-height: 19px;
-  }
-  section.nfs-member-sec.resource-member {
-    padding: 60px 0 50px !important;
-  }
-  .search-input-field.active input {
-    width: 180px !important;
-    font-size: 15px;
-  }
-  a.banner-anchor {
-    padding: 12px 17px;
-  }
-  h1.upcoming-hd {
-    font-size: 36px;
-  }
-  h1.upcoming-hd br {
-    display: none !important;
-  }
-  .primary-sec-rotate {
-    padding: 50px 10px 50px;
-  }
-  input.input-field {
-    font-size: 14px;
-  }
-  .news-letter-btn {
-    padding: 7px 40px;
-    font-size: 14px;
-  }
-  h1.newsletter-hd {
-    font-size: 38px;
-  }
-  p.newspara {
-    font-size: 17px;
-  }
-  .vault-line.gap-4 {
-    gap: 0 !important;
-  }
-  .vault-sec:after {
-    height: 30%;
-  }
-  .newsletter {
-    padding: 44px 0 47px;
-  }
-  h1.vault-hd.white {
-    font-size: 40px;
-    line-height: 50px;
-  }
-  h1.banner-text {
-    font-size: 42.74px;
-  }
-  .logos-text-magazine .border-set {
-    width: 140px;
-    height: 78px;
-  }
-  .member-text h1 {
-    font-size: 35px;
-  }
-  .member-text h4 {
-    font-size: 23px;
-  }
-  section.nfs-member-sec {
-    padding: 60px 0 70px !important;
-  }
-  .banner-inner-image {
-    display: none;
-  }
-  .mobile-justify-center {
-    justify-content: center !important;
-  }
-  .mission-orginiz-text.mission-right-pd {
-    padding: 0;
-  }
-  .welcome-txt-posi h1 {
-    font-size: 46px;
-    margin-top: 23px;
-  }
+.date-auct-area {
+ width: 100%;
+}
+.current-auct p {
+ font-size: 17px;
+}
+.auct-pdf-excel {
+ flex-direction: column;
+ gap: 10px;
+ justify-content: center;
+ align-items: center;
+}
+.search-input-field {
+ right: 0px;
+ top: 30px;
+}
+.convention-welcome h1 {
+ font-size: 44px;
+}
+h2.convention-hd {
+ font-size: 20px;
+ line-height: 28px;
+}
+.shoplist-filter {
+ padding: 0px 0 90px;
+}
+.banner-text-div {
+ top: 60%;
+}
+.team-rotate-box {
+ min-height: 15vh;
+}
+section.mission-orginiz {
+ padding: 50px 14px;
+}
+.mission-text.mt-set-mb {
+ /* margin-top: -50px !important; */
+}
+section.nfs-member-sec {
+ padding: 60px 0 50px !important;
+}
+.member-text p {
+ font-size: 12px;
+ margin-bottom: 10px;
+ line-height: 19px;
+}
+section.nfs-member-sec.resource-member {
+ padding: 60px 0 50px !important;
+}
+.search-input-field.active input {
+ width: 180px !important;
+ font-size: 15px;
+}
+a.banner-anchor {
+ padding: 12px 17px;
+}
+h1.upcoming-hd {
+ font-size: 36px;
+}
+h1.upcoming-hd br {
+ display: none !important;
+}
+.primary-sec-rotate {
+ padding: 50px 10px 50px;
+}
+input.input-field {
+ font-size: 14px;
+}
+.news-letter-btn {
+ padding: 7px 40px;
+ font-size: 14px;
+}
+h1.newsletter-hd {
+ font-size: 38px;
+}
+p.newspara {
+ font-size: 17px;
+}
+.vault-line.gap-4 {
+ gap: 0 !important;
+}
+.vault-sec:after {
+ height: 30%;
+}
+.newsletter {
+ padding: 44px 0 47px;
+}
+h1.vault-hd.white {
+ font-size: 40px;
+ line-height: 50px;
+}
+h1.banner-text {
+ font-size: 42.74px;
+}
+.logos-text-magazine .border-set {
+ width: 140px;
+ height: 78px;
+}
+.member-text h1 {
+ font-size: 35px;
+}
+.member-text h4 {
+ font-size: 23px;
+}
+section.nfs-member-sec {
+ padding: 60px 0 70px !important;
+}
+.banner-inner-image {
+ display: none;
+}
+.mobile-justify-center {
+ justify-content: center !important;
+}
+.mission-orginiz-text.mission-right-pd {
+ padding: 0;
+}
+.welcome-txt-posi h1 {
+ font-size: 46px;
+ margin-top: 23px;
+}
 }
 @media (max-width: 430px) {
-  .search-input-field.active input {
-    width: 210px !important;
-  }
-  h1.banner-hd {
-    font-size: 32px;
-    line-height: 40px;
-    margin-bottom: 24px;
-    margin-top: 16px;
-  }
-  .secondary-hd {
-    font-size: 35px;
-    line-height: 40px;
-  }
-  h1.upcoming-hd {
-    font-size: 36px;
-    line-height: 46px;
-  }
-  .counter-vault-content h3 {
-    font-size: 22px;
-  }
-  .counter-vault-content p {
-    margin-left: 0;
-  }
-  h1.newsletter-hd {
-    font-size: 32px;
-    line-height: 40px;
-  }
-  p.newspara {
-    font-size: 16px;
-    margin-top: 10px;
-  }
-  p.copyright-color {
-    font-size: 12px;
-    text-align: center;
-    line-height: 15px;
-  }
-  .search-input-field {
-    right: 0;
-    top: 51px;
-    background: #a91125;
-    padding: 0 0 0 0;
-    border-bottom: 3px solid #fff;
-  }
-  .search-input-field input {
-    border: none !important;
-  }
-  .mission-text {
-    padding: 40px 10px 70px;
-  }
-  h1.upcoming-hd {
-    font-size: 28px;
-    line-height: 38px;
-  }
-  .footer-area {
-    padding: 50px 0;
-  }
-  .news-letter-btn {
-    padding: 7px 20px;
-  }
-  .logos-text-magazine .border-set {
-    width: 187px;
-    height: 78px;
-  }
-  .member-text h1 br {
-    display: none;
-  }
-  .member-text h1 {
-    font-size: 28px;
-    margin-bottom: 2px;
-  }
-  .member-text h4 {
-    font-size: 20px;
-  }
-  .place-bid-btn.viewschedule {
-    width: fit-content;
-    margin: 65px auto 0;
-  }
+.search-input-field.active input {
+ width: 210px !important;
+}
+h1.banner-hd {
+ font-size: 32px;
+ line-height: 40px;
+ margin-bottom: 24px;
+ margin-top: 16px;
+}
+.secondary-hd {
+ font-size: 35px;
+ line-height: 40px;
+}
+h1.upcoming-hd {
+ font-size: 36px;
+ line-height: 46px;
+}
+.counter-vault-content h3 {
+ font-size: 22px;
+}
+.counter-vault-content p {
+ margin-left: 0;
+}
+h1.newsletter-hd {
+ font-size: 32px;
+ line-height: 40px;
+}
+p.newspara {
+ font-size: 16px;
+ margin-top: 10px;
+}
+p.copyright-color {
+ font-size: 12px;
+ text-align: center;
+ line-height: 15px;
+}
+.search-input-field {
+ right: 0;
+ top: 51px;
+ background: #a91125;
+ padding: 0 0 0 0;
+ border-bottom: 3px solid #fff;
+}
+.search-input-field input {
+ border: none !important;
+}
+.mission-text {
+ padding: 40px 10px 70px;
+}
+h1.upcoming-hd {
+ font-size: 28px;
+ line-height: 38px;
+}
+.footer-area {
+ padding: 50px 0;
+}
+.news-letter-btn {
+ padding: 7px 20px;
+}
+.logos-text-magazine .border-set {
+ width: 187px;
+ height: 78px;
+}
+.member-text h1 br {
+ display: none;
+}
+.member-text h1 {
+ font-size: 28px;
+ margin-bottom: 2px;
+}
+.member-text h4 {
+ font-size: 20px;
+}
+.place-bid-btn.viewschedule {
+ width: fit-content;
+ margin: 65px auto 0;
+}
 }
 @media (max-width: 390px) {
-  .pro-inner-img .d-flex {
-    display: block !important;
-  }
-  .aution-scal-text h1 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-  .auction-rules-textarea h1 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-  .logo-footer img {
-    width: 160px;
-  }
-  .logos-text-magazine .border-set {
-    width: 175px;
-    height: 78px;
-  }
-  .mission-orginiz-text h1 {
-    font-size: 32px;
-    line-height: 41px;
-  }
-  .member-text h1 {
-    font-size: 23px;
-    margin-bottom: 0;
-  }
-  h2.convention-hd {
-    font-size: 23px;
-    line-height: 34px;
-  }
-  .convention-sec .secondary-hd {
-    font-size: 31px;
-    line-height: 40px;
-  }
+.pro-inner-img .d-flex {
+ display: block !important;
+}
+.aution-scal-text h1 {
+ font-size: 30px;
+ line-height: 40px;
+}
+.auction-rules-textarea h1 {
+ font-size: 30px;
+ line-height: 40px;
+}
+.logo-footer img {
+ width: 160px;
+}
+.logos-text-magazine .border-set {
+ width: 175px;
+ height: 78px;
+}
+.mission-orginiz-text h1 {
+ font-size: 32px;
+ line-height: 41px;
+}
+.member-text h1 {
+ font-size: 23px;
+ margin-bottom: 0;
+}
+h2.convention-hd {
+ font-size: 23px;
+ line-height: 34px;
+}
+.convention-sec .secondary-hd {
+ font-size: 31px;
+ line-height: 40px;
+}
 }
 @media (max-width: 375px) {
-  .logos-text-magazine .border-set {
-    width: 165px;
-    height: 73px;
-  }
-  .place-bid-btn.viewschedule {
-    margin: 57px auto 0;
-  }
-  .secondary-hd {
-    font-size: 30px;
-    line-height: 40px;
-  }
-  .convention-sec .secondary-hd {
-    font-size: 25px;
-    line-height: 40px;
-  }
-  h2.convention-hd {
-    font-size: 22px;
-    line-height: 31px;
-  }
+.logos-text-magazine .border-set {
+ width: 165px;
+ height: 73px;
+}
+.place-bid-btn.viewschedule {
+ margin: 57px auto 0;
+}
+.secondary-hd {
+ font-size: 30px;
+ line-height: 40px;
+}
+.convention-sec .secondary-hd {
+ font-size: 25px;
+ line-height: 40px;
+}
+h2.convention-hd {
+ font-size: 22px;
+ line-height: 31px;
+}
 }
 @media (max-width: 360px) {
-  .convention h1.upcoming-hd {
-    font-size: 40px;
-  }
-  .ba-img {
-    position: absolute;
-    left: 0;
-    top: 30px;
-  }
-  h2.convention-hd {
-    font-size: 22px !important;
-    line-height: 37px;
-  }
-  .logo-header img {
-    width: 100px;
-  }
-  h1.banner-hd {
-    font-size: 28px;
-    line-height: 30px;
-  }
-  .primary-sec-rotate {
-    padding: 40px 10px 50px;
-  }
-  h2.convention-hd {
-    font-size: 19px !important;
-    line-height: 29px;
-  }
-  .counter-vault-content h3 {
-    font-size: 22px;
-    text-align: center;
-  }
-  .counter-vault-content p {
-    font-size: 12px;
-    text-align: center;
-  }
-  h1.vault-hd.white {
-    font-size: 30px;
-    line-height: 42px;
-  }
-  p.para-vault {
-    font-size: 13px;
-    line-height: 20px;
-  }
-  h1.newsletter-hd {
-    font-size: 26px;
-    line-height: 36px;
-  }
-  li.footerlist a {
-    font-size: 15px;
-  }
-  .logos-text-magazine .border-set {
-    width: 155px;
-    height: 70px;
-  }
-  .mission-orginiz-text h1 {
-    font-size: 34px;
-    line-height: 44px;
-  }
-  .micro-textarea h1 {
-    font-size: 30px;
-    line-height: 40px;
-  }
-  h1.banner-text {
-    font-size: 33.74px;
-  }
-  h1.banner-text span {
-    font-size: 35px;
-    line-height: 41px;
-  }
-  section.organiz-banner.auction-banner {
-    padding: 130px 0 90px !important;
-  }
-  .rules-imgstar {
-    left: 120px;
-  }
-  .cookies-area {
-    bottom: 36px;
-    width: 90%;
-    padding: 20px 15px;
-    left: 50%;
-    transform: translate(-50%, 0px);
-  }
+.convention h1.upcoming-hd {
+ font-size: 40px;
+}
+.ba-img {
+ position: absolute;
+ left: 0;
+ top: 30px;
+}
+h2.convention-hd {
+ font-size: 22px !important;
+ line-height: 37px;
+}
+.logo-header img {
+ width: 100px;
+}
+h1.banner-hd {
+ font-size: 28px;
+ line-height: 30px;
+}
+.primary-sec-rotate {
+ padding: 40px 10px 50px;
+}
+h2.convention-hd {
+ font-size: 19px !important;
+ line-height: 29px;
+}
+.counter-vault-content h3 {
+ font-size: 22px;
+ text-align: center;
+}
+.counter-vault-content p {
+ font-size: 12px;
+ text-align: center;
+}
+h1.vault-hd.white {
+ font-size: 30px;
+ line-height: 42px;
+}
+p.para-vault {
+ font-size: 13px;
+ line-height: 20px;
+}
+h1.newsletter-hd {
+ font-size: 26px;
+ line-height: 36px;
+}
+li.footerlist a {
+ font-size: 15px;
+}
+.logos-text-magazine .border-set {
+ width: 155px;
+ height: 70px;
+}
+.mission-orginiz-text h1 {
+ font-size: 34px;
+ line-height: 44px;
+}
+.micro-textarea h1 {
+ font-size: 30px;
+ line-height: 40px;
+}
+h1.banner-text {
+ font-size: 33.74px;
+}
+h1.banner-text span {
+ font-size: 35px;
+ line-height: 41px;
+}
+section.organiz-banner.auction-banner {
+ padding: 130px 0 90px !important;
+}
+.rules-imgstar {
+ left: 120px;
+}
+.cookies-area {
+ bottom: 36px;
+ width: 90%;
+ padding: 20px 15px;
+ left: 50%;
+ transform: translate(-50%, 0px);
+}
 }
 @media (max-width: 320px) {
-  .secndclm-width {
-    width: unset;
-  }
-  .banner-img-div {
-    position: relative;
-    padding: 26px 0;
-  }
-  .banner-img-div img {
-    transform: scale(1.5);
-  }
-  .vault-line {
-    border: none;
-  }
-  .vault-line.gap-4 {
-    gap: 30px !important;
-  }
-  .counter-vault-content {
-    height: unset !important;
-  }
-  .counter-vault-content h3:after {
-    bottom: 10px;
-  }
-  .counter-vault-content h3 {
-    text-align: left;
-  }
-  .counter-vault-content p {
-    text-align: left;
-  }
-  .vault-sec:after {
-    height: 38%;
-  }
-  .news-letter-btn {
-    padding: 7px 15px;
-    font-size: 12px;
-  }
-  p.newspara {
-    font-size: 13px;
-    margin-top: 10px;
-  }
-  .logos-text-magazine .border-set {
-    width: 135px;
-    height: 70px;
-  }
-  .mission-orginiz-text h1 {
-    font-size: 30px;
-    line-height: 44px;
-  }
-  .mission-btn a {
-    padding: 11px 30px;
-    font-size: 15px;
-  }
-  .filter-btn {
-    font-size: 14px;
-  }
-  button.grip-btn {
-    font-size: 27px;
-  }
+.secndclm-width {
+ width: unset;
+}
+.banner-img-div {
+ position: relative;
+ padding: 26px 0;
+}
+.banner-img-div img {
+ transform: scale(1.5);
+}
+.vault-line {
+ border: none;
+}
+.vault-line.gap-4 {
+ gap: 30px !important;
+}
+.counter-vault-content {
+ height: unset !important;
+}
+.counter-vault-content h3:after {
+ bottom: 10px;
+}
+.counter-vault-content h3 {
+ text-align: left;
+}
+.counter-vault-content p {
+ text-align: left;
+}
+.vault-sec:after {
+ height: 38%;
+}
+.news-letter-btn {
+ padding: 7px 15px;
+ font-size: 12px;
+}
+p.newspara {
+ font-size: 13px;
+ margin-top: 10px;
+}
+.logos-text-magazine .border-set {
+ width: 135px;
+ height: 70px;
+}
+.mission-orginiz-text h1 {
+ font-size: 30px;
+ line-height: 44px;
+}
+.mission-btn a {
+ padding: 11px 30px;
+ font-size: 15px;
+}
+.filter-btn {
+ font-size: 14px;
+}
+button.grip-btn {
+ font-size: 27px;
+}
 }
