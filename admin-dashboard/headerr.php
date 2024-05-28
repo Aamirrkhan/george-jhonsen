@@ -164,21 +164,9 @@
               </a>
             </li>
             <li class="has-menu">
-              <a class="has-arrow ai-icon" href="./add-product.php" aria-expanded="false">
-                <i class="flaticon-381-networking"></i>
-                <span class="nav-text">Add Product</span>
-              </a>
-            </li>
-            <li class="has-menu">
               <a class="has-arrow ai-icon" href="./product-lists.php" aria-expanded="false">
                 <i class="flaticon-381-networking"></i>
                 <span class="nav-text">Products Lists</span>
-              </a>
-            </li>
-            <li class="has-menu">
-              <a class="has-arrow ai-icon" href="notifications.php" aria-expanded="false">
-                <i class="flaticon-381-networking"></i>
-                <span class="nav-text">Notifications</span>
               </a>
             </li>
             <li class="has-menu">
