@@ -12,8 +12,7 @@ include "headerr.php";
                             <div class="card profile-card">
                                 <div class="card-header flex-wrap border-0 pb-0">
                                     <h3 class="fs-24 text-black font-w600 me-auto mb-2 pe-3">Add Product</h3>
-                                    <div class="d-sm-flex d-block">
-
+                                    <div class="d-sm-flex d-block gap-2">
                                         <a class="btn btn-primary btn-rounded mb-2" href="#">Publish</a>
                                     </div>
                                 </div>
@@ -35,9 +34,14 @@ include "headerr.php";
                                             </div>
                                             <div class="col-md-6 col-12">
                                                 <div class="form-group">
-                                                    <label>Current Bid</label>
+                                                    <label>Start Bid</label>
                                                     <input type="datetime-local" class="form-control" placeholder="Select date and time">
-
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 col-12">
+                                                <div class="form-group">
+                                                    <label>End Bid</label>
+                                                    <input type="datetime-local" class="form-control" placeholder="Select date and time">
                                                 </div>
                                             </div>
 

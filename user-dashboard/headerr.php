@@ -10,6 +10,7 @@
     <link href="public/vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet" type="text/css" />
     <link href="public/vendor/chartist/css/chartist.min.css" rel="stylesheet" type="text/css" />
     <link href="../../../cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="public/vendor/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
     <link href="public/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
     <link href="public/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
@@ -67,7 +68,6 @@
                       <ul class="timeline">
                         <li>
                           <div class="timeline-panel">
-                            
                             <div class="media-body">
                               <h6 class="mb-1">Dr sultads Send you Photo</h6>
                               <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -84,7 +84,6 @@
                         </li>
                         <li>
                           <div class="timeline-panel">
-                            
                             <div class="media-body">
                               <h6 class="mb-1">Reminder : Treatment Time!</h6>
                               <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -93,7 +92,6 @@
                         </li>
                         <li>
                           <div class="timeline-panel">
-                            
                             <div class="media-body">
                               <h6 class="mb-1">Dr sultads Send you Photo</h6>
                               <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -110,7 +108,6 @@
                         </li>
                         <li>
                           <div class="timeline-panel">
-                          
                             <div class="media-body">
                               <h6 class="mb-1">Reminder : Treatment Time!</h6>
                               <small class="d-block">29 July 2020 - 02:26 PM</small>
@@ -153,32 +150,106 @@
           </nav>
         </div>
       </div>
-
       <div class="deznav">
         <div class="deznav-scroll">
           <ul class="metismenu" id="menu">
+
             <li class="has-menu">
-              <a class="has-arrow ai-icon" href="index.php" aria-expanded="false">
+              <a class="has-arrow ai-icon" href="./index.php" aria-expanded="false">
                 <i class="flaticon-381-networking"></i>
                 <span class="nav-text">Dashboard</span>
               </a>
             </li>
-            <li class="has-menu">
-              <a class="has-arrow ai-icon" href="./product-lists.php" aria-expanded="false">
+            <li class="has-menu dropdown-list">
+              <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
                 <i class="flaticon-381-networking"></i>
-                <span class="nav-text">Products</span>
+                <span class="nav-text">Orders</span>
+                <ul class="metismenu" id="menu">
+                  <li class="has-menu first-list">
+                    <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                      <i class="flaticon-381-networking"></i>
+                      <span class="nav-text">Auction Bids</span>
+                    </a>
+                  </li>
+                  <li class="has-menu">
+                    <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                      <i class="flaticon-381-networking"></i>
+                      <span class="nav-text">Auction Bids</span>
+                    </a>
+                  </li>
+                  <li class="has-menu">
+                    <a class="has-arrow ai-icon" href="./auction-orders.php" aria-expanded="false">
+                      <i class="flaticon-381-networking"></i>
+                      <span class="nav-text">Auction Orders</span>
+                    </a>
+                  </li>
+                  <li class="has-menu">
+                    <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                      <i class="flaticon-381-networking"></i>
+                      <span class="nav-text">Special Run Orders
+                      </span>
+                    </a>
+                  </li>
+
+                  <li class="has-menu">
+                    <a class="has-arrow ai-icon" href="javascript:avoid()" aria-expanded="false">
+                      <i class="flaticon-381-networking"></i>
+                      <span class="nav-text">The Vault Orders</span>
+                    </a>
+                  </li>
+                  <li class="has-menu">
+                    <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                      <i class="flaticon-381-networking"></i>
+                      <span class="nav-text">Conventions Orders</span>
+                    </a>
+                  </li>
+                </ul>
               </a>
             </li>
-            <li class="has-menu">
-              <a class="has-arrow ai-icon" href="app-profile.php" aria-expanded="false">
+
+            <li class="has-menu dropdown-list">
+              <a class="has-arrow ai-icon" href="./profile.php" aria-expanded="false">
                 <i class="flaticon-381-networking"></i>
                 <span class="nav-text">Profile</span>
+                <ul class="metismenu" id="menu">
+                  <li class="has-menu  first-list">
+                    <a class="has-arrow ai-icon" href="javascript:avoid()" aria-expanded="false">
+                      <i class="flaticon-381-networking"></i>
+                      <span class="nav-text">Personal Information</span>
+                    </a>
+                  </li>
+                  <li class="has-menu ">
+                    <a class="has-arrow ai-icon" href="javascript:avoid()" aria-expanded="false">
+                      <i class="flaticon-381-networking"></i>
+                      <span class="nav-text">Personal Information</span>
+                    </a>
+                  </li>
+                  <li class="has-menu">
+                    <a class="has-arrow ai-icon" href="javascript:avoid()" aria-expanded="false">
+                      <i class="flaticon-381-networking"></i>
+                      <span class="nav-text">Billing Information
+                      </span>
+                    </a>
+                  </li>
+                  <li class="has-menu">
+                    <a class="has-arrow ai-icon" href="javascript:avoid()" aria-expanded="false">
+                      <i class="flaticon-381-networking"></i>
+                      <span class="nav-text">Shipping Information</span>
+                    </a>
+                  </li>
+                </ul>
               </a>
             </li>
             <li class="has-menu">
-              <a class="has-arrow ai-icon" href="notifications.php" aria-expanded="false">
+              <a class="has-arrow ai-icon" href="./membership.php" aria-expanded="false">
                 <i class="flaticon-381-networking"></i>
-                <span class="nav-text">Notifications</span>
+                <span class="nav-text">Membership Status</span>
+              </a>
+            </li>
+            <li class="has-menu">
+              <a class="has-arrow ai-icon" href="./support.php" aria-expanded="false">
+                <i class="flaticon-381-networking"></i>
+                <span class="nav-text">Support Option</span>
               </a>
             </li>
           </ul>

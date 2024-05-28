@@ -46,7 +46,7 @@ include './assets/componnets/header.php';
                                             <td>N</td>
                                             <td>2023 NSE CUSTOM CAR - ARTIST PROOF</td>
                                             <td>NSE 2023 "AREA 52"</td>
-                                            <td> ONLY 1 AVAILABLE</td>
+                                            <td>ONLY 1 AVAILABLE</td>
                                             <td>1</td>
                                             <td>$300.00</td>
                                             <td>$300.00</td>
@@ -58,7 +58,7 @@ include './assets/componnets/header.php';
                                             <td>N</td>
                                             <td>2023 NSE CUSTOM CAR - ARTIST PROOF</td>
                                             <td>NSE 2023 "AREA 52"</td>
-                                            <td> ONLY 1 AVAILABLE</td>
+                                            <td>ONLY 1 AVAILABLE</td>
                                             <td>1</td>
                                             <td>$300.00</td>
                                             <td>$300.00</td>
