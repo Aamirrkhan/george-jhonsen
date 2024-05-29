@@ -12,64 +12,55 @@ include "headerr.php";
         <div class="col-md-4 col-12">
             <div class="member-ship-payment-package text-center">
                 <div class="list-notification-box">
-                    <h4>Basic</h4>
-
-                    <h3 class="price">$50 / mo</h3>
-                    <small class="small-colored">Annually</small>
-                    <ul class="unlish-packages">
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                    </ul>
-                    <a href="#!" class="subscription-btns">Subcription</a>
+                    <div class="circle-box"><img src="public/images/house-car.png" class="subImg"></div>
+                    <small class="small-colored">GOLD</small>
+                    <h4>Free</h4>
+                    <div class="flex-div">
+                        <div>
+                            <p>No Security Deposit</p>
+                            
+                        </div>
+                        <div><p>Paycut of 20 % on <br> each sale.</p></div>
+                    </div>
+                    <a href="#!" class="subscription-btns">Cancel Plan</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-12">
-            <div class="member-ship-payment-package text-center premium-package">
+            <div class="member-ship-payment-package text-center">
                 <div class="list-notification-box">
-                    <h4>Premium</h4>
-                    <h3 class="price">$158 / year</h3>
-                    <small>Annually</small>
-                    <ul class="unlish-packages">
-                    <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                    </ul>
-                    <a href="#!" class="subscription-btns">Subcription</a>
+                    <div class="circle-box"><img src="public/images/house-car.png" class="subImg"></div>
+                    <small class="small-colored">PLATINUM</small>
+                    <h4>$ 50</h4>
+                    <div class="flex-div">
+                        <div>
+                            <p>Per Month (Non Refundable after 7 days of subscription date)</p>
+                            
+                        </div>
+                        <div><p>Paycut of 12.5 % on <br> each sale.</p></div>
+                    </div>
+                    <a href="#!" class="subscription-btns">Upgrade</a>
                 </div>
             </div>
-        </div>     
+        </div>
         <div class="col-md-4 col-12">
             <div class="member-ship-payment-package text-center">
                 <div class="list-notification-box">
-                    <h4>Standard</h4>
-                    <h3 class="price">$158 / 6mo</h3>
-                    <small class="small-colored">Best offer!</small>
-                    <ul class="unlish-packages">
-                    <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                        <li>Lorem Ipsum </li>
-                    </ul>
-                    <a href="#!" class="subscription-btns">Subcription</a>
+                    <div class="circle-box"><img src="public/images/house-car.png" class="subImg"></div>
+                    <small class="small-colored">TITANIUM</small>
+                    <h4>$ 75</h4>
+                    <div class="flex-div">
+                        <div>
+                            <p>Per Month (Non Refundable after 7 days of subscription date)</p>
+                            
+                        </div>
+                        <div><p>Paycut of 7.5 % on <br> each sale.</p></div>
+                    </div>
+                    <a href="#!" class="subscription-btns">Upgrade</a>
                 </div>
             </div>
-        </div>      
+        </div>
+           
     </div>
   </div>
 </div>

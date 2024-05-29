@@ -48,7 +48,7 @@ include "ticket-sidebar.php";
                 <div class="col-12 mt-4">
                     <div class="form-fields">
                         <label for="">Priority</label>
-                        <textarea id="myTextarea"></textarea>
+                        <div id="summernote"></div>
                     </div>
                 </div>
                 <div class="col-12 mt-4">
