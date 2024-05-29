@@ -50,26 +50,37 @@ $(function () {
 
 
 
-
 document.addEventListener("DOMContentLoaded", function() {
   const addMoreBtn = document.querySelector('.addmore-btn');
-  
-  addMoreBtn.addEventListener('click', function() {
+  let groupIndex = 1;
+  addMoreBtn?.addEventListener('click', function() {
       const cloneArea = document.querySelector('.clone-area');
       const clone = cloneArea.cloneNode(true);
-      const currentDataGroup = clone.getAttribute('clone-data');
-      const currentIndex = parseInt(currentDataGroup.split('=')[1]);
-      const newDataGroup = `data-group=${currentIndex + 1}`;
+      groupIndex++;
+      const newDataGroup = `data-group=${groupIndex}`;
       clone.setAttribute('clone-data', newDataGroup);
       const inputs = clone.querySelectorAll('input');
+
       inputs.forEach(function(input) {
           const currentId = input.getAttribute('id');
-          const newIndexId = currentId.replace(/\d+$/, match => parseInt(match) + 1);
+          const newIndexId = currentId.replace(/\d+$/, match => parseInt(match) + groupIndex);
           input.setAttribute('id', newIndexId);
-          input.setAttribute('name', newIndexId); 
+          input.setAttribute('name', 'attachments[]');
+          input.value = '';
       });
+
+      const deleteBtn = document.createElement('button');
+      deleteBtn.textContent = 'Delete';
+      deleteBtn.className = 'delete-btn';
+      deleteBtn.type = 'button';
+      clone.appendChild(deleteBtn);
+
+      deleteBtn.addEventListener('click', function() {
+          clone.remove();
+      });
+
       cloneArea.parentNode.parentNode.appendChild(clone);
-      clone.style.marginTop = '15px'; 
+      clone.style.marginTop = '15px';
   });
 });
 

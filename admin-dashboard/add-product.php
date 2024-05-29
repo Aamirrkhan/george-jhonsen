@@ -87,7 +87,7 @@ include "headerr.php";
                                         <div id="image-container"></div>
                                         <label>Upload Gallery Images</label>
                                         <div class="form-group">
-                                            <input type="file" class="form-control" id="multiimg-product">
+                                            <input type="file" class="form-control" id="multiimg-product" multiple>
                                         </div>
                                     </div>
                                 </div>

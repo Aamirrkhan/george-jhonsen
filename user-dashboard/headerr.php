@@ -16,6 +16,7 @@
     <link href="public/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
     <link href="public/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
     <link href="public/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tiny.cloud/1/dfpwqzta0shla64s4zi0rqjezy639oqfj9hnk8bwsqr8lu08/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
   </head>
 
   <body>

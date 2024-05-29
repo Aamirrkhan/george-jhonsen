@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css" />
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-lite.css">
     <title>Ticket Phillip</title>
 </head>
 
@@ -36,7 +37,11 @@
                                     <p><span>Last Updated</span> 1 second ago</p>
                                 </div>
                                 <div class="single-para">
-                                    <p><span>Status / Priority</span> <button class="origin-btn">Customer-Reply</button> <button class="grey-color">Closed </button> Medium</p>
+                                    <p><span>Status / Priority</span> <button class="origin-btn green-bg-color">Open</button> <button class="grey-color">Medium </button> </p>
+                                </div>
+                                <div class="single-para">
+                                    <p><span>Close ticket
+                                        </span> <button class="origin-btn">Closed</button> </p>
                                 </div>
                             </div>
                         </div>
@@ -48,8 +53,6 @@
                                         <li>
                                             <a href="./support-ticket.php"><i class="fas fa-ticket-alt fa-fw"></i>My Support Tickets</a>
                                         </li>
-                                        <li><a href="./announcements.php"><i class="fas fa-list fa-fw"></i>Announcements</a></li>
-                                        <li><a href="./download.php"><i class="fas fa-download fa-fw"></i>Downloads</a></li>
                                         <li class=""><a href="./support.php"><i class="fas fa-comments fa-fw"></i>Open Ticket</a></li>
                                     </ul>
                                 </div>

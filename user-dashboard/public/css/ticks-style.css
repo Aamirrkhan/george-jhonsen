@@ -3,7 +3,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .accordion {
-  background-color: black;
+  background-color: #a91125;
   color: white;
   cursor: pointer;
   padding: 14px 20px;
@@ -17,7 +17,7 @@ body {
 
 .active,
 .accordion:hover {
-  background-color: #ccc;
+  background-color: black;
 }
 .panel {
   display: block;
@@ -107,8 +107,7 @@ body .dataTables_wrapper .dataTables_paginate .paginate_button {
 }
 button.open-btn,
 button.closed-btn {
-  padding: 8px 17px;
-  background: rebeccapurple;
+  padding: 8px 9px;
   color: white;
   border: none;
   text-transform: capitalize;
@@ -117,7 +116,7 @@ button.open-btn {
   background: green;
 }
 button.closed-btn {
-  background: red;
+  background: var(--primary);
 }
 table.dataTable {
   margin-bottom: 20px;
@@ -181,7 +180,7 @@ button.browse-greybtn {
 }
 button.addmore-btn {
   background: #cdc7c7;
-  padding: 6px 25px;
+  padding: 6px 9px;
   border: none;
   border-radius: 0;
 }
@@ -245,6 +244,7 @@ button.accordion {
   display: flex;
   align-items: center;
   gap: 8px;
+  font-size: 20px;
 }
 
 .single-para {
@@ -258,7 +258,7 @@ button.accordion {
 }
 
 button.owner-btn {
-  background: #43bc43;
+  background: var(--primary);
   color: white;
   border: none;
   padding: 3px 8px;
@@ -274,12 +274,14 @@ button.origin-btn {
   border: navajowhite;
   background: #ff4107;
   border-radius: 5px;
+  padding: 0 10px;
 }
 
 button.grey-color {
   background: gray;
   border: none;
   border-radius: 4px;
+  padding: 0 10px;
 }
 table.dataTable tbody td a {
   text-decoration: none;
@@ -335,4 +337,15 @@ button.replay-btn {
 .hr-lien hr:not([size]) {
   height: 4px;
   margin-top: 33px;
+}
+button.delete-btn {
+  background: var(--primary);
+  padding: 12px 20px;
+  margin-left: 11px;
+  color: white;
+  font-size: 17px;
+  border: none;
+}
+.green-bg-color {
+  background-color: green !important;
 }
