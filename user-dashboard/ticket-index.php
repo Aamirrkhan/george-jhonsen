@@ -4,7 +4,10 @@ include "ticket-sidebar.php";
 <div class="content-area">
     <div class="row">
         <div class="col-12">
+            <div class="d-flex align-items-center justify-content-between">
             <h2 class="ticket-hd">Create new Support Request</h2>
+            <button class="submit-btn">Submit Ticket</button>
+            </div>
             <div class="row">
                 <div class="col-6">
                     <div class="form-fields">
