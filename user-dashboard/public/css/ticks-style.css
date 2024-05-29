@@ -349,3 +349,49 @@ button.delete-btn {
 .green-bg-color {
   background-color: green !important;
 }
+b {
+  font-weight: bold;
+}
+
+.note-editable ul li {
+  list-style: disc;
+  margin-bottom: 12px;
+}
+
+.note-editable ul {
+  padding: 0 18px;
+}
+.note-editable ol li {
+  list-style: auto;
+  margin-bottom: 12px;
+}
+
+.note-editable ol {
+  padding: 0 18px;
+}
+button.submit-btn {
+  background: var(--primary);
+  padding: 14px 14px;
+  color: white;
+  border: none;
+}
+.note-btn-group:first-child {
+  display: none;
+}
+.note-btn-group:nth-child(3) {
+  display: none;
+}
+
+.note-btn:nth-child(3) {
+  display: none;
+}
+.note-btn:nth-child(5) {
+  display: none !important;
+}
+.note-btn-group.note-insert {
+  display: none;
+}
+
+.note-btn-group.note-view {
+  display: none;
+}
