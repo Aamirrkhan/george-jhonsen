@@ -27,7 +27,7 @@ include './assets/componnets/header.php';
                         <strong></strong>
                         <p>WE HAVE LISTED 228 N, NN-3 & Z-SCALE “CERTIFIED COLLECTOR-QUALITY”™ ITEMS. ONLY NSE MEMBERS WHO ARE IN GOOD STANDING AND SELECTED GUESTS ARE ALLOWED TO PARTICIPATE IN THIS MID JANUARY COLLECTOR AUCTION.</p>
                     </div>
-                    <div class="latest-auction-hds">
+                    <div class="latest-auction-hds"> 
                         <h2>OUR MID JANUARY 2024 NSE COLLECTOR AUCTION CLOSES ON</h2>
                         <strong></strong>
                         <p>SATURDAY, JANUARY 27th, 2024 AT 6:00 PM (EST)!</p>
