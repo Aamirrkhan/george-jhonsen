@@ -21,65 +21,65 @@ include 'assets/componnets/header.php';
             <div class="col-md-1 col-12"></div>
             <div class="col-md-5 col-12">
                 <div class="thumbnail_slider">
-                            <!-- Primary Slider Start-->
-                            <div id="primary_slider">
-                                <div class="splide__track">
-                                    <ul class="splide__list">
-                                        <li class="splide__slide">
-                                            <img src="assets/images/auction-pro-2.png" class="">
-                                        </li>
-                                        <li class="splide__slide">
-                                            <img src="assets/images/auction-pro-2.png" class="">
-                                        </li>
-                                        <li class="splide__slide">
-                                            <img src="assets/images/auction-pro-2.png" class="">
-                                        </li>
-                                        <li class="splide__slide">
-                                            <img src="assets/images/auction-pro-2.png" class="">
-                                        </li>
-                                        <li class="splide__slide">
-                                            <img src="assets/images/auction-pro-2.png" class="">
-                                        </li>
-                                        <li class="splide__slide">
-                                            <img src="assets/images/auction-pro-2.png" class="">
-                                        </li>
-                                        <li class="splide__slide">
-                                            <img src="assets/images/auction-pro-2.png" class="">
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Primary Slider End-->
-                            <!-- Thumbnal Slider Start-->
-                            <div id="thumbnail_slider">
-                                <div class="splide__track">
-                                    <ul class="splide__list">
-                                        <li class="splide__slide">
-                                            <img src="assets/images/auction-pro-2.png" class="">
-                                        </li>
-                                        <li class="splide__slide">
-                                            <img src="assets/images/auction-pro-2.png" class="">
-                                        </li>
-                                        <li class="splide__slide">
-                                            <img src="assets/images/auction-pro-2.png" class="">
-                                        </li>
-                                        <li class="splide__slide">
-                                            <img src="assets/images/auction-pro-2.png" class="">
-                                        </li>
-                                        <li class="splide__slide">
-                                            <img src="assets/images/auction-pro-2.png" class="">
-                                        </li>
-                                        <li class="splide__slide">
-                                            <img src="assets/images/auction-pro-2.png" class="">
-                                        </li>
-                                        <li class="splide__slide">
-                                            <img src="assets/images/auction-pro-2.png" class="">
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- Thumbnal Slider End-->
+                    <!-- Primary Slider Start-->
+                    <div id="primary_slider">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <img src="assets/images/auction-pro-2.png" class="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="assets/images/auction-pro-2.png" class="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="assets/images/auction-pro-2.png" class="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="assets/images/auction-pro-2.png" class="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="assets/images/auction-pro-2.png" class="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="assets/images/auction-pro-2.png" class="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="assets/images/auction-pro-2.png" class="">
+                                </li>
+                            </ul>
                         </div>
+                    </div>
+                    <!-- Primary Slider End-->
+                    <!-- Thumbnal Slider Start-->
+                    <div id="thumbnail_slider">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <img src="assets/images/auction-pro-2.png" class="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="assets/images/auction-pro-2.png" class="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="assets/images/auction-pro-2.png" class="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="assets/images/auction-pro-2.png" class="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="assets/images/auction-pro-2.png" class="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="assets/images/auction-pro-2.png" class="">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="assets/images/auction-pro-2.png" class="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Thumbnal Slider End-->
+                </div>
             </div>
             <div class="col-md-6 col-12">
                 <div class="pro-detail-content">

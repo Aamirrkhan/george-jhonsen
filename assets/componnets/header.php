@@ -26,6 +26,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.6.0/tiny-slider.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/futura-font@1.0.0/styles.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <title>George Jhonsen</title>
 </head>
 
@@ -33,8 +36,8 @@
   <header class="header">
     <div class="container">
       <div class="row align-items-center justify-content-between">
-        <div class="col-lg-1 col-12 dispaynone"></div>
-        <div class="col-lg-10 col-12 secndclm-width">
+        <!-- <div class="col-lg-1 col-12 dispaynone"></div> -->
+        <div class="col-lg-11 col-12 secndclm-width">
           <div class="d-flex align-items-center justify-content-between">
             <div class="logo-header">
               <a href="."><img src="assets/images/logo.png" alt="" srcset="" /></a>
@@ -113,6 +116,14 @@
                       <a href="#">Resources 1</a>
                       <a href="#">Resources 2</a>
                       <a href="#">Resources 3</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-list">
+                  <div class="dropdown">
+                    <a href="membership.php"><button class="dropbtn">Membership</button></a> <i class="fa-solid fa-angle-down"></i>
+                    <div class="dropdown-content">
+                      <a href="why-be-a-member.php">Why Be a Member</a>
                     </div>
                   </div>
                 </li>
