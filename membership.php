@@ -99,6 +99,7 @@ include './assets/componnets/header.php';
                             </div>
                             <div class="col-md-6 col-12">
                                 <div class="radio-fields">
+                                <h5 class="radio-inp-hd">Member Location<span class="start-requird">*</span></h5>
                                     <div class="radio-input-fields">
                                         <input type="radio" id="usa" name="signup" value="U.S.A. ..........$60.00">
                                         <label for="usa">U.S.A. ..........$60.00</label>
@@ -144,6 +145,7 @@ include './assets/componnets/header.php';
                             </div>
                             <div class="col-md-6 col-12">
                                 <div class="radio-fields">
+                                    <h5 class="radio-inp-hd">Member Location<span class="start-requird">*</span></h5>
                                     <div class="radio-input-fields">
                                         <input type="radio" id="usa_renew" name="Renew" value="U.S.A. ..........$60.00">
                                         <label for="usa_renew">U.S.A. ..........$60.00</label>

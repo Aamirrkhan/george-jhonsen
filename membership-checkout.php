@@ -57,6 +57,10 @@ include './assets/componnets/header.php';
                                     <label>Email</label>
                                     <input type="email" required>
                                 </div>
+                                <div class="membercheckout-fields">
+                                    <label>Company</label>
+                                    <input type="text" required>
+                                </div>
                             </div>
                             <div class="border-form">
                                 <h4>BILLING INFORMATION</h4>
@@ -87,6 +91,10 @@ include './assets/componnets/header.php';
                                 <div class="membercheckout-fields">
                                     <label>Email</label>
                                     <input type="email" required>
+                                </div>
+                                <div class="membercheckout-fields">
+                                    <label>Company</label>
+                                    <input type="text" required>
                                 </div>
                             </div>
 

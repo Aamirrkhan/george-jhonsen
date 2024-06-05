@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
         steps.forEach(step => {
-            step.classList.remove('active');
+            // step.classList.remove('active');
             if (parseInt(step.getAttribute('data-step')) === stepNum) {
                 step.classList.add('active');
             }

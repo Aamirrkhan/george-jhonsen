@@ -10,7 +10,6 @@
                     <div class="col-10">
                         <div class="cart-head mb-4">
                             <h1 class="cart-text">Checkout</h1>
-
                         </div>
                         <div class="cart-head mb-4">
                             <p>Returning customer? <a href="signin.php">Click here to login</a></p>
@@ -95,7 +94,8 @@
                                                             <div class="col-lg-6 col-12">
                                                                 <div class="input-fields-billing">
                                                                     <label for="">Card CVV </label>
-                                                                    <input id="securitycode" type="text" pattern="[0-9]*" inputmode="numeric" placeholder="" required>
+                                                                    <input id="securitycode" type="text" pattern="[0-9]*" inputmode="numeric" pl
+                                                                    aceholder="" required>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -152,7 +152,6 @@
                 input.id = parts[0] + '-' + newIndex;
                 input.value = '';
             });
-
             originalDiv.parentNode.insertBefore(cloneDiv, document.querySelector('.addition-address'));
         }
     </script>
