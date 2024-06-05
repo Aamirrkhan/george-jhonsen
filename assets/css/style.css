@@ -3962,6 +3962,7 @@ section.membership-form-sec:before {
   font-size: 17px;
   color: #707070;
   font-weight: 400;
+  font-family: 'Roboto';
 }
 
 .form-member-signup h2 {
@@ -3984,6 +3985,7 @@ section.membership-form-sec:before {
   margin-bottom: 20px;
   border: 1px solid #d2d2d2;
   outline: none;
+  font-family: 'Roboto';
 }
 
 .submitBtn-sec button {
@@ -4003,6 +4005,7 @@ p.para-required-fields {
   color: #393e46;
   line-height: 1.5;
   margin-bottom: 21px;
+  font-family: 'Roboto';
 }
 
 span.start-requird {
@@ -4015,9 +4018,10 @@ span.start-requird {
 }
 
 .radio-input-fields label {
-  font-family: "Poppins";
-  font-size: 14px;
+  font-family: 'Roboto';
+  font-size: 17px;
   cursor: pointer;
+  color: #707070;
 }
 
 .work-btn {
@@ -4365,4 +4369,11 @@ button.closed-cartmem {
   color: #000000;
   text-transform: uppercase;
   margin-top: 20px;
+}
+h5.radio-inp-hd {
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #707070;
+  margin-bottom: 20px;
 }
