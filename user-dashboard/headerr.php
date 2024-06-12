@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>George User</title>
+    <title>User Dashboard</title>
     <link rel="shortcut icon" href="public/images/favicon.png" type="image/x-icon">
     <link href="public/vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet" type="text/css" />
     <link href="public/vendor/chartist/css/chartist.min.css" rel="stylesheet" type="text/css" />
@@ -186,7 +186,7 @@
                     </a>
                   </li>
                   <li class="has-menu">
-                    <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                    <a class="has-arrow ai-icon" href="./special-order.php" aria-expanded="false">
                       <i class="flaticon-381-networking"></i>
                       <span class="nav-text">Special Run Orders
                       </span>

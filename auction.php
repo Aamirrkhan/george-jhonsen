@@ -40,7 +40,7 @@ include './assets/componnets/header.php';
                         <li><i class="fa-solid fa-angle-right"></i></li>
                         <li><a href="auction.php">Auction</a></li>
                     </div>
-                    <div class="listbtns d-flex gap-3">
+                    <div class="listbtns d-flex gap-3">sm
                         <button type="button" class="btn-list list-btn-show"><img src="assets/images/list-icon.png">
                             <p class="tags-color">List View</p>
                         </button>
