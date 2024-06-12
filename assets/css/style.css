@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
   --primary-color: #a91125;
   --secondary-color: #000;
@@ -51,7 +52,7 @@ ul {
 
 .para {
   color: var(--para-color);
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
 }
 
 @font-face {
@@ -372,7 +373,7 @@ a.banner-anchor:hover {
 a.mission-btn {
   font-size: 20px;
   font-weight: bold;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   text-decoration: none;
   color: white;
   background: var(--primary-color);
@@ -432,7 +433,7 @@ a.viewall-btn {
   text-decoration: blink;
   padding: 15px 50px;
   background: #000;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   color: #fff;
   font-size: 20px;
   line-height: 30px;
@@ -503,7 +504,7 @@ h1.vault-hd.white {
 
 p.para-vault {
   color: white;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif !important;
   font-size: 20.27px;
   line-height: 31px;
   width: 68%;
@@ -604,7 +605,7 @@ ul.list-products-columns li a {
 a.vault-btn {
   font-size: 20px;
   font-weight: bold;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   text-decoration: none;
   color: white;
   background: var(--primary-color);
@@ -697,7 +698,7 @@ h1.newsletter-hd {
 input.input-field {
   width: 100%;
   font-size: 18.99px;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   outline: none;
   border: none;
@@ -709,19 +710,11 @@ input.input-field::placeholder {
 }
 
 .news-letter-btn {
-  padding: 10.6px 50px;
-  border: none;
-  background: black;
-  color: white;
-  font-family: var(--Poppins);
-  font-size: 21.99px;
-  line-height: 32px;
-  font-weight: bold;
   padding: 10.5px 50px;
   border: none;
   background: black;
   color: white;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   font-size: 21.99px;
   line-height: 32px;
   font-weight: bold;
@@ -729,7 +722,7 @@ input.input-field::placeholder {
 
 p.newspara {
   color: white;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   font-size: 18.99px;
   line-height: 29px;
   margin-top: 40px;
@@ -751,7 +744,7 @@ p.newspara {
 
 li.footerlist a {
   font-size: 15px;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   text-decoration: none;
   color: white;
@@ -784,7 +777,7 @@ a.icons-link:hover {
 
 p.copyright-color {
   font-size: 16px;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   color: white;
 }
 
@@ -969,7 +962,7 @@ h1.rotate-ourteam {
   font-size: 39px;
   line-height: 45px;
   font-weight: bold;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   color: #4b4c56;
   margin-bottom: 30px;
 }
@@ -1051,7 +1044,7 @@ section.nfs-member-sec {
   font-size: 15px;
   color: white;
   line-height: 25px;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   margin-bottom: 20px;
 }
 
@@ -1079,7 +1072,7 @@ section.nfs-member-sec {
 
 .special-offer-text p {
   font-size: 15px;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   line-height: 25px;
   color: white;
@@ -2259,7 +2252,7 @@ section.sign-in-sec {
   border: 1px solid;
   margin-top: 12px;
   font-size: 12px;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   font-weight: 500;
 }
 
@@ -2281,12 +2274,12 @@ section.sign-in-sec {
   padding: 10px 6px;
   outline: none;
   border: 1px solid;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
 }
 
 .login-button button {
   font-weight: bold;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   text-decoration: none;
   color: white;
   background: var(--primary-color);
@@ -2498,7 +2491,7 @@ h4.strong {
 .addto-btn {
   font-size: 20px;
   font-weight: bold;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   text-decoration: none;
   color: white;
   background: var(--primary-color);
@@ -3032,7 +3025,7 @@ section.thnks-sec {
 .auct-para p {
   padding: 20px;
   font-size: 18px;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   font-weight: 400;
   line-height: 35px;
   text-align: center;
@@ -3049,7 +3042,7 @@ section.thnks-sec {
 
 .auct-Q {
   font-size: 30px;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
 }
 
 .auct-para {
@@ -3073,7 +3066,7 @@ section.thnks-sec {
 
 .current-auct p {
   font-size: 25px;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
 }
 
 .current-auct a {
@@ -3112,7 +3105,7 @@ tbody.ord-pd-de td {
 
 .overflow-table {
   padding: 30px 0 0 0;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
 }
 
 .active-tr a {
@@ -3123,7 +3116,7 @@ tbody.ord-pd-de td {
   font-size: 20px;
   padding: 10px 0;
   text-align: center;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
 }
 
 .prvious-auction-data {
@@ -3157,7 +3150,7 @@ h1.date-auct-hd {
 
 .mtl-auction-hd p {
   font-size: 20px;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   line-height: 35px;
 }
 
@@ -3182,7 +3175,7 @@ h1.date-auct-hd {
 button.accordion-button {
   font-size: 18px;
   font-weight: 600;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   padding: 15px 30px;
 }
 
@@ -3190,7 +3183,7 @@ button.accordion-button {
   font-size: 16px;
   padding: 15px 30px;
   line-height: 28px;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
 }
 
 div#accordionExample {
@@ -3198,7 +3191,7 @@ div#accordionExample {
 }
 
 .auct-copyright {
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
 }
 
 .latest-auction-hds h2 {
@@ -3217,13 +3210,13 @@ div#accordionExample {
   text-align: center;
   padding: 20px 20px 0 20px;
   line-height: 30px;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   font-weight: 500;
 }
 
 .mail-auct {
   color: black;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   font-size: 25px;
   text-align: center;
   display: block;
@@ -3262,7 +3255,7 @@ div#accordionExample {
 
 .latest-auct-thnk-field strong {
   font-size: 30px;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   font-weight: bolder;
   text-align: center;
 }
@@ -3337,7 +3330,7 @@ section.product-section {
 
 .auc-primary {
   font-size: 20px;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   font-weight: 700;
   color: #5a5a5a;
   margin-bottom: 10px;
@@ -3348,7 +3341,7 @@ p.auc-discrip {
   font-size: 16px;
   font-weight: 400;
   color: #5a5a5a;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -4101,7 +4094,7 @@ section.membership-teams::after {
   font-weight: bold;
   color: black;
   line-height: 1.4;
-  font-family: var(--Poppins);
+  font-family: "Poppins", sans-serif !important;
 }
 .mybea-offer-sec {
   overflow: unset !important;
